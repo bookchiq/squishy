@@ -88,3 +88,62 @@ export function validateBlocklistConfig(cfg) {
   if (!cfg || !Array.isArray(cfg.videoIds)) throw new Error('config/blocklist.json: "videoIds" must be an array');
   return cfg;
 }
+
+/**
+ * Run all drift guardrails over the candidate list and bucket the survivors.
+ * Pure: no I/O, deterministic given `now`. First matching drop reason wins, so
+ * `candidates.length === videos.length + drops.length` always holds.
+ *
+ * Returns { videos, drops } where each drop is { id, reason, detail? }.
+ */
+export function filterAndBucket(candidates, { blocklist = [], keywords = [], maxAgeMonths, now = new Date(), durationCap = DURATION_CAP_SECONDS }) {
+  const blockset = new Set(blocklist);
+  const videos = [];
+  const drops = [];
+
+  for (const c of candidates) {
+    if (blockset.has(c.id)) {
+      drops.push({ id: c.id, reason: 'blocklist' });
+      continue;
+    }
+    const kw = matchesDenylist(c.title, c.description, keywords);
+    if (kw) {
+      drops.push({ id: c.id, reason: 'denylist', detail: kw });
+      continue;
+    }
+    if (c.privacyStatus && c.privacyStatus !== 'public') {
+      drops.push({ id: c.id, reason: 'unavailable', detail: c.privacyStatus });
+      continue;
+    }
+    if (c.durationSeconds == null) {
+      drops.push({ id: c.id, reason: 'no-duration' });
+      continue;
+    }
+    if (isTooOld(c.publishedAt, maxAgeMonths, now)) {
+      drops.push({ id: c.id, reason: 'age' });
+      continue;
+    }
+    if (exceedsDurationCap(c.durationSeconds, durationCap)) {
+      drops.push({ id: c.id, reason: 'duration-cap' });
+      continue;
+    }
+    videos.push({
+      id: c.id,
+      title: c.title,
+      channel: c.channelLabel,
+      durationSeconds: c.durationSeconds,
+      bucket: bucketFor(c.durationSeconds),
+      publishedAt: c.publishedAt,
+      thumbnail: c.thumbnail,
+    });
+  }
+
+  return { videos, drops };
+}
+
+/** Aggregate drops into a reason -> count map for the build report. */
+export function dropSummary(drops) {
+  const counts = {};
+  for (const d of drops) counts[d.reason] = (counts[d.reason] || 0) + 1;
+  return counts;
+}

@@ -7,7 +7,7 @@
 //
 // Secrets: reads YOUTUBE_API_KEY from the environment only. Never hardcode.
 
-import { readFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import {
@@ -15,6 +15,8 @@ import {
   validateDenylistConfig,
   validateBlocklistConfig,
   parseIso8601ToSeconds,
+  filterAndBucket,
+  dropSummary,
 } from './lib/filter.mjs';
 import {
   createYouTubeClient,
@@ -156,8 +158,56 @@ async function main() {
     verbose: args.verbose,
   });
 
-  console.log(`Fetched ${candidates.length} candidate video(s) from ${source} (≈${quotaUnits} quota units).`);
-  // Filter/bucket/write/report (U5) are wired in the next unit.
+  const { videos, drops } = filterAndBucket(candidates, {
+    blocklist: config.blocklist.videoIds,
+    keywords: config.denylist.keywords,
+    maxAgeMonths: config.channels.maxAgeMonths,
+  });
+
+  if (args.verbose) {
+    for (const d of drops) {
+      console.error(`[drop] ${d.id}: ${d.reason}${d.detail ? ` (${d.detail})` : ''}`);
+    }
+  }
+
+  // Freshest first.
+  videos.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
+
+  const output = {
+    generatedAt: new Date().toISOString(),
+    videos,
+  };
+
+  const buckets = { short: 0, medium: 0, long: 0 };
+  for (const v of videos) buckets[v.bucket] += 1;
+
+  printReport({ source, quotaUnits, inCount: candidates.length, videos, drops, buckets, dryRun: args.dryRun });
+
+  if (args.dryRun) {
+    console.log('\n[dry-run] Nothing written. Re-run without --dry-run to write public/videos.json.');
+    return;
+  }
+
+  const outPath = path.join(ROOT, 'public', 'videos.json');
+  await writeFile(outPath, JSON.stringify(output, null, 2) + '\n', 'utf8');
+  console.log(`\nWrote ${videos.length} video(s) to public/videos.json`);
+}
+
+function printReport({ source, quotaUnits, inCount, videos, drops, buckets, dryRun }) {
+  const summary = dropSummary(drops);
+  const lines = [];
+  lines.push('');
+  lines.push(`── Build report${dryRun ? ' (dry-run)' : ''} ──`);
+  lines.push(`source: ${source}   estimated quota: ≈${quotaUnits} unit(s)`);
+  lines.push(`in: ${inCount}   kept: ${videos.length}   dropped: ${drops.length}`);
+  lines.push(`buckets: short=${buckets.short} medium=${buckets.medium} long=${buckets.long}`);
+  if (drops.length) {
+    lines.push('dropped by reason:');
+    for (const [reason, count] of Object.entries(summary).sort((a, b) => b[1] - a[1])) {
+      lines.push(`  ${reason}: ${count}`);
+    }
+  }
+  console.log(lines.join('\n'));
 }
 
 // Only run when invoked directly (so tests can import the pure exports above).

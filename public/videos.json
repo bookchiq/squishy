@@ -1,0 +1,5 @@
+{
+  "_note": "Seed file. Empty until the build runs. Populate it locally with `YOUTUBE_API_KEY=... npm run build`, or let the scheduled GitHub Action generate and commit it. The front-end shows a warm fallback while this is empty.",
+  "generatedAt": "1970-01-01T00:00:00Z",
+  "videos": []
+}
