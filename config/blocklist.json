@@ -1,0 +1,4 @@
+{
+  "videoIds": [],
+  "notes": "Reactive, per-video overrides. One YouTube video ID per slip-through that the denylist did not catch. Rare hand-maintenance — add an ID here to permanently hide a specific video."
+}

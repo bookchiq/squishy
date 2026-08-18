@@ -1,0 +1,19 @@
+{
+  "keywords": [
+    "urgent",
+    "please help",
+    "gofundme",
+    "donate now",
+    "rainbow bridge",
+    "passed away",
+    "in memory of",
+    "rip ",
+    "breaking",
+    "politics",
+    "election",
+    "shooting",
+    "died",
+    "euthanized"
+  ],
+  "notes": "Case-insensitive substring match on title+description. Drop any video that matches. Keep this list conservative — over-filtering silently shrinks the feed. Every drop is logged by the build (run with --dry-run) so tuning is evidence-based."
+}
