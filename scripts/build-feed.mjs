@@ -14,7 +14,13 @@ import {
   validateChannelsConfig,
   validateDenylistConfig,
   validateBlocklistConfig,
+  parseIso8601ToSeconds,
 } from './lib/filter.mjs';
+import {
+  createYouTubeClient,
+  estimateMaxQuotaUnits,
+  QUOTA_CEILING,
+} from './lib/youtube.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -53,6 +59,77 @@ export async function loadConfig() {
   return { channels, denylist, blocklist };
 }
 
+/**
+ * Gather raw candidate videos, either from the live API or from an offline
+ * fixtures directory (`<dir>/candidates.json`). Returns a uniform candidate
+ * shape regardless of source so the filter pipeline is source-agnostic.
+ */
+export async function gatherCandidates(config, { apiKey, fixtures, verbose } = {}) {
+  const { channels } = config;
+  const labelById = new Map(channels.channels.map((c) => [c.id, c.label]));
+
+  if (fixtures) {
+    const raw = await loadJsonAbsolute(path.join(fixtures, 'candidates.json'));
+    const candidates = (Array.isArray(raw) ? raw : raw.candidates || []).map((v) =>
+      normalizeCandidate(v, labelById)
+    );
+    if (verbose) console.error(`[fixtures] loaded ${candidates.length} candidate(s) from ${fixtures}`);
+    return { candidates, quotaUnits: 0, source: 'fixtures' };
+  }
+
+  const estimate = estimateMaxQuotaUnits(channels.channels.length, channels.maxVideosPerChannel);
+  if (estimate > QUOTA_CEILING) {
+    throw new Error(
+      `Estimated quota (${estimate} units) exceeds the safety ceiling (${QUOTA_CEILING}). ` +
+        'Reduce channels or maxVideosPerChannel.'
+    );
+  }
+
+  const client = createYouTubeClient({ apiKey });
+  const allIds = [];
+  for (const channel of channels.channels) {
+    const ids = await client.fetchUploadIds(channel, channels.maxVideosPerChannel);
+    if (verbose) console.error(`[fetch] ${channel.label}: ${ids.length} upload(s)`);
+    allIds.push(...ids);
+  }
+  const details = await client.fetchVideoDetails(allIds);
+  const candidates = details.map((v) => normalizeCandidate(v, labelById));
+  return { candidates, quotaUnits: client.quotaUnits, source: 'api' };
+}
+
+async function loadJsonAbsolute(absPath) {
+  let raw;
+  try {
+    raw = await readFile(absPath, 'utf8');
+  } catch (e) {
+    throw new Error(`${absPath}: cannot read (${e.code || e.message})`);
+  }
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    throw new Error(`${absPath}: invalid JSON (${e.message})`);
+  }
+}
+
+function normalizeCandidate(v, labelById) {
+  const durationSeconds =
+    typeof v.durationSeconds === 'number'
+      ? v.durationSeconds
+      : v.durationIso
+        ? parseIso8601ToSeconds(v.durationIso)
+        : null;
+  return {
+    id: v.id,
+    title: v.title ?? '',
+    description: v.description ?? '',
+    publishedAt: v.publishedAt ?? null,
+    durationSeconds,
+    privacyStatus: v.privacyStatus ?? null,
+    thumbnail: v.thumbnail || (v.id ? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg` : null),
+    channelLabel: labelById.get(v.channelId) || v.channelLabel || v.channelTitle || 'Unknown channel',
+  };
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const config = await loadConfig();
@@ -65,12 +142,22 @@ async function main() {
     );
   }
 
-  console.log(
-    `Config OK: ${config.channels.channels.length} channels, ` +
-      `${config.denylist.keywords.length} denylist keywords, ` +
-      `${config.blocklist.videoIds.length} blocklisted IDs.`
-  );
-  // Fetch (U4) and filter/bucket/write/report (U5) are wired in the next units.
+  if (args.verbose) {
+    console.error(
+      `[config] ${config.channels.channels.length} channels, ` +
+        `${config.denylist.keywords.length} denylist keywords, ` +
+        `${config.blocklist.videoIds.length} blocklisted IDs.`
+    );
+  }
+
+  const { candidates, quotaUnits, source } = await gatherCandidates(config, {
+    apiKey,
+    fixtures: args.fixtures,
+    verbose: args.verbose,
+  });
+
+  console.log(`Fetched ${candidates.length} candidate video(s) from ${source} (≈${quotaUnits} quota units).`);
+  // Filter/bucket/write/report (U5) are wired in the next unit.
 }
 
 // Only run when invoked directly (so tests can import the pure exports above).
