@@ -1,0 +1,16 @@
+{
+  "name": "squishy",
+  "version": "1.0.0",
+  "description": "A tiny, self-maintaining feed of wholesome animal videos — a deliberate, joyful alternative to doom-scrolling.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node --env-file-if-exists=.env scripts/build-feed.mjs",
+    "dry-run": "node --env-file-if-exists=.env scripts/build-feed.mjs --dry-run",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "private": true
+}
