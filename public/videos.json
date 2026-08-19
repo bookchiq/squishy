@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:02:51.017Z",
+  "generatedAt": "2026-08-19T02:30:44.449Z",
   "videos": [
     {
       "id": "3D9pNu9I108",
@@ -9,7 +9,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-19T01:00:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/3D9pNu9I108/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3D9pNu9I108/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "moIem-_ngys",
@@ -19,7 +20,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T22:00:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/moIem-_ngys/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/moIem-_ngys/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-_PbCzd65EM",
@@ -29,7 +31,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T21:01:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/-_PbCzd65EM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-_PbCzd65EM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ft5ovoi00rc",
@@ -39,17 +42,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T19:58:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/ft5ovoi00rc/hqdefault.jpg"
-    },
-    {
-      "id": "1LY4HTSg0gU",
-      "title": "Sink or Swim? with Monét X Change | Monterey Bay Aquarium",
-      "channel": "Monterey Bay Aquarium",
-      "durationSeconds": 63,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-18T18:00:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/1LY4HTSg0gU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ft5ovoi00rc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "COTbPQqjmVU",
@@ -59,7 +53,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T14:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/COTbPQqjmVU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/COTbPQqjmVU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "aL3Yfi65JHg",
@@ -69,7 +64,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T13:00:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/aL3Yfi65JHg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/aL3Yfi65JHg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "G5EcoRrCls0",
@@ -79,7 +75,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T13:00:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/G5EcoRrCls0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/G5EcoRrCls0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "dvY6EfvZT5w",
@@ -89,7 +86,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T13:00:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/dvY6EfvZT5w/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dvY6EfvZT5w/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3EZfi8c0_Go",
@@ -99,7 +97,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T11:12:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/3EZfi8c0_Go/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3EZfi8c0_Go/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "qEQQQrV0_cA",
@@ -109,7 +108,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T11:01:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/qEQQQrV0_cA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/qEQQQrV0_cA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "hJ6ZsZc-ogg",
@@ -119,7 +119,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T11:00:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/hJ6ZsZc-ogg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/hJ6ZsZc-ogg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "YOfePjy4YUo",
@@ -129,7 +130,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T07:32:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/YOfePjy4YUo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/YOfePjy4YUo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "TPsikERo5C0",
@@ -139,7 +141,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T07:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/TPsikERo5C0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/TPsikERo5C0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "PmMy7-QMHQU",
@@ -149,7 +152,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T04:00:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/PmMy7-QMHQU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/PmMy7-QMHQU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "aF3Hsf1Q9Ug",
@@ -159,7 +163,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T04:00:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/aF3Hsf1Q9Ug/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/aF3Hsf1Q9Ug/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "S8il4uxKhQY",
@@ -169,7 +174,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-18T01:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/S8il4uxKhQY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/S8il4uxKhQY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "UnJ4SlOsav8",
@@ -179,7 +185,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-18T00:59:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/UnJ4SlOsav8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/UnJ4SlOsav8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "P9i_kMkLU-c",
@@ -189,7 +196,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T22:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/P9i_kMkLU-c/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/P9i_kMkLU-c/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZRNoEO3FA60",
@@ -199,7 +207,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T16:30:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZRNoEO3FA60/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZRNoEO3FA60/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jMUQylasKxs",
@@ -209,7 +218,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T14:58:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/jMUQylasKxs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jMUQylasKxs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "JxoO-HLbRzE",
@@ -219,7 +229,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T13:00:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/JxoO-HLbRzE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/JxoO-HLbRzE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "WBGyWYmalhA",
@@ -229,7 +240,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T12:41:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/WBGyWYmalhA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/WBGyWYmalhA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uX3TwRVax2Y",
@@ -239,7 +251,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T11:01:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/uX3TwRVax2Y/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uX3TwRVax2Y/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "8q7AfRrra_I",
@@ -249,7 +262,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T11:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/8q7AfRrra_I/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/8q7AfRrra_I/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Pjf7pE8AzMA",
@@ -259,7 +273,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T09:31:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/Pjf7pE8AzMA/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Pjf7pE8AzMA/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "9dsFI7lC2Fo",
@@ -269,7 +284,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T09:30:47Z",
-      "thumbnail": "https://i.ytimg.com/vi/9dsFI7lC2Fo/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9dsFI7lC2Fo/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "4idt0Ggc7Vs",
@@ -279,7 +295,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T07:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/4idt0Ggc7Vs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4idt0Ggc7Vs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "q5xPaSEuaWg",
@@ -289,7 +306,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-17T04:00:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/q5xPaSEuaWg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/q5xPaSEuaWg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "17x13jjALdg",
@@ -299,7 +317,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-17T01:00:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/17x13jjALdg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/17x13jjALdg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jT7gfc903BI",
@@ -309,7 +328,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T22:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/jT7gfc903BI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jT7gfc903BI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ic_X5KdryWs",
@@ -319,7 +339,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-16T20:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ic_X5KdryWs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ic_X5KdryWs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QLDjH4Lh1OM",
@@ -329,7 +350,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T19:50:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/QLDjH4Lh1OM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QLDjH4Lh1OM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-WJ8oixzk6g",
@@ -339,7 +361,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T13:35:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/-WJ8oixzk6g/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-WJ8oixzk6g/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AEgxsOxG4SU",
@@ -349,7 +372,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-16T13:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/AEgxsOxG4SU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AEgxsOxG4SU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "SVS_lPb_8o0",
@@ -359,7 +383,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T13:00:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/SVS_lPb_8o0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/SVS_lPb_8o0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "PkYt9UWJAoo",
@@ -369,7 +394,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-16T11:01:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/PkYt9UWJAoo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/PkYt9UWJAoo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "XwxF23IhTYY",
@@ -379,7 +405,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T11:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/XwxF23IhTYY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/XwxF23IhTYY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AwyDpM3z1Q8",
@@ -389,7 +416,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-16T02:00:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/AwyDpM3z1Q8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AwyDpM3z1Q8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "DxTjV3qdXnY",
@@ -399,7 +427,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-16T00:35:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/DxTjV3qdXnY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/DxTjV3qdXnY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "lGt8Bxls3Ss",
@@ -409,7 +438,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-15T19:46:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/lGt8Bxls3Ss/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/lGt8Bxls3Ss/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "bbm8ohIlXlw",
@@ -419,7 +449,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-15T17:54:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/bbm8ohIlXlw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/bbm8ohIlXlw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GwiQLShjj2I",
@@ -429,7 +460,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-15T12:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/GwiQLShjj2I/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GwiQLShjj2I/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "J0F5pgG_xsc",
@@ -439,7 +471,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-15T11:01:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/J0F5pgG_xsc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/J0F5pgG_xsc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Lvmn_52XPpw",
@@ -449,7 +482,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T22:38:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/Lvmn_52XPpw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Lvmn_52XPpw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "cGNuzPdQrf0",
@@ -459,7 +493,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T22:20:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/cGNuzPdQrf0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/cGNuzPdQrf0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9CG1qQZDedw",
@@ -469,7 +504,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T20:21:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/9CG1qQZDedw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9CG1qQZDedw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "qKgIDRbDuF0",
@@ -479,7 +515,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T19:28:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/qKgIDRbDuF0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/qKgIDRbDuF0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "diFaUQq_7AY",
@@ -489,7 +526,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T19:18:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/diFaUQq_7AY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/diFaUQq_7AY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "68IdAZHbn4A",
@@ -499,7 +537,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T17:12:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/68IdAZHbn4A/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/68IdAZHbn4A/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "irMqzgX-fOY",
@@ -509,7 +548,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T17:00:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/irMqzgX-fOY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/irMqzgX-fOY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "aohxakEZQog",
@@ -519,7 +559,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T15:27:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/aohxakEZQog/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/aohxakEZQog/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "R7vayzWe7gY",
@@ -529,7 +570,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T13:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/R7vayzWe7gY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/R7vayzWe7gY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "rgkBr5MNhQs",
@@ -539,7 +581,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T11:01:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/rgkBr5MNhQs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rgkBr5MNhQs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NOdlVhCdn9s",
@@ -549,7 +592,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-14T08:38:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/NOdlVhCdn9s/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NOdlVhCdn9s/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "e-LvXgpEnys",
@@ -559,7 +603,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-14T06:36:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/e-LvXgpEnys/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/e-LvXgpEnys/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "hNvnkgl4Hnk",
@@ -569,7 +614,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T19:35:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/hNvnkgl4Hnk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/hNvnkgl4Hnk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Z_lX6wgBE8c",
@@ -579,7 +625,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T17:36:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/Z_lX6wgBE8c/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Z_lX6wgBE8c/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "PZrHKR_r_zM",
@@ -589,7 +636,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T15:37:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/PZrHKR_r_zM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/PZrHKR_r_zM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "8359Iw9p7Gw",
@@ -599,7 +647,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T15:16:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/8359Iw9p7Gw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/8359Iw9p7Gw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ce5eIlx0sB8",
@@ -609,7 +658,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T13:00:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/ce5eIlx0sB8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ce5eIlx0sB8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "gSa_Ng3wyBA",
@@ -619,7 +669,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-13T11:01:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/gSa_Ng3wyBA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/gSa_Ng3wyBA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "S9_Wmz4VdqU",
@@ -629,7 +680,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-13T09:36:47Z",
-      "thumbnail": "https://i.ytimg.com/vi/S9_Wmz4VdqU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/S9_Wmz4VdqU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "JZvzJ42O6SY",
@@ -639,7 +691,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-13T06:29:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/JZvzJ42O6SY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/JZvzJ42O6SY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "EDDLqe_gBG0",
@@ -649,7 +702,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-13T05:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/EDDLqe_gBG0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/EDDLqe_gBG0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "z3uo_rRFrxY",
@@ -659,7 +713,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-12T19:09:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/z3uo_rRFrxY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/z3uo_rRFrxY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "G0HnoEGNghw",
@@ -669,7 +724,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T17:09:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/G0HnoEGNghw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/G0HnoEGNghw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "4iST14984XY",
@@ -679,7 +735,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-12T15:45:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/4iST14984XY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4iST14984XY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NUch0NbBEHc",
@@ -689,7 +746,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T15:21:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/NUch0NbBEHc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NUch0NbBEHc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "70K_Trw2hv8",
@@ -699,7 +757,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-12T13:00:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/70K_Trw2hv8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/70K_Trw2hv8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6BdtAe2Fu8g",
@@ -709,7 +768,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T12:02:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/6BdtAe2Fu8g/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6BdtAe2Fu8g/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "idYgck9CbWE",
@@ -719,7 +779,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T12:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/idYgck9CbWE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/idYgck9CbWE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NPEB19xjml0",
@@ -729,7 +790,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T11:01:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/NPEB19xjml0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NPEB19xjml0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1xSH1IBtIPI",
@@ -739,7 +801,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-12T09:18:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/1xSH1IBtIPI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1xSH1IBtIPI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yBZ7s4I7RTw",
@@ -749,7 +812,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-12T00:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/yBZ7s4I7RTw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yBZ7s4I7RTw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-rgWwMETE08",
@@ -759,7 +823,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T23:56:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/-rgWwMETE08/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-rgWwMETE08/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "7uyVCyOXVco",
@@ -769,7 +834,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T21:09:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/7uyVCyOXVco/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/7uyVCyOXVco/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iJJFfrhrIEU",
@@ -779,7 +845,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T18:58:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/iJJFfrhrIEU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iJJFfrhrIEU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-m-FpL3UX-w",
@@ -789,7 +856,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T17:08:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/-m-FpL3UX-w/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-m-FpL3UX-w/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3vd5jrX2hiY",
@@ -799,7 +867,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T16:33:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/3vd5jrX2hiY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3vd5jrX2hiY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "5QKRjwsYIxM",
@@ -809,7 +878,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-11T14:05:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/5QKRjwsYIxM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5QKRjwsYIxM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "LIAz1XnG0eQ",
@@ -819,7 +889,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T13:00:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/LIAz1XnG0eQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/LIAz1XnG0eQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9fSqcSNGicE",
@@ -829,7 +900,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-11T11:15:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/9fSqcSNGicE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9fSqcSNGicE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "pQ3rordFuFI",
@@ -839,7 +911,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-11T11:01:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/pQ3rordFuFI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/pQ3rordFuFI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "F4RCWL0_OQc",
@@ -849,7 +922,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-11T10:49:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/F4RCWL0_OQc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/F4RCWL0_OQc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "K-7jOXno3Oc",
@@ -859,7 +933,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-10T23:56:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/K-7jOXno3Oc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/K-7jOXno3Oc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "d1enlDKDUFE",
@@ -869,7 +944,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-10T22:20:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/d1enlDKDUFE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/d1enlDKDUFE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "b7JIzJW9PdU",
@@ -879,7 +955,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-10T17:21:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/b7JIzJW9PdU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/b7JIzJW9PdU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xULf0ZclWfA",
@@ -889,7 +966,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-10T16:09:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/xULf0ZclWfA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xULf0ZclWfA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QxdnoFiu0OE",
@@ -899,7 +977,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-10T15:28:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/QxdnoFiu0OE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QxdnoFiu0OE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Pqqn0ZpzGMc",
@@ -909,7 +988,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-10T13:00:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/Pqqn0ZpzGMc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Pqqn0ZpzGMc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iU03eq4G9D4",
@@ -919,7 +999,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-10T13:00:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/iU03eq4G9D4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iU03eq4G9D4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fg2S7N8B4IA",
@@ -929,7 +1010,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-10T11:01:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/fg2S7N8B4IA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fg2S7N8B4IA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QtKMe5eqE2k",
@@ -939,7 +1021,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-09T13:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/QtKMe5eqE2k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QtKMe5eqE2k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jWHrFAtVerQ",
@@ -949,7 +1032,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-09T11:01:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/jWHrFAtVerQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jWHrFAtVerQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NusrZFpC7n8",
@@ -959,7 +1043,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-09T09:32:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/NusrZFpC7n8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NusrZFpC7n8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uz5z74YzgrI",
@@ -969,7 +1054,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-08T21:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/uz5z74YzgrI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uz5z74YzgrI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xUXm757oEf8",
@@ -979,7 +1065,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-08T20:30:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/xUXm757oEf8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xUXm757oEf8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2Ok66SOEvys",
@@ -989,7 +1076,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-08T14:22:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/2Ok66SOEvys/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2Ok66SOEvys/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "vInOjOlhz58",
@@ -999,7 +1087,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-08T13:00:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/vInOjOlhz58/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/vInOjOlhz58/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6HbsODdS5yg",
@@ -1009,7 +1098,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-08T12:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/6HbsODdS5yg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6HbsODdS5yg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ShegR6zUVtA",
@@ -1019,7 +1109,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-08T11:01:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/ShegR6zUVtA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ShegR6zUVtA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "5basqrrpBzQ",
@@ -1029,7 +1120,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-08T09:13:51Z",
-      "thumbnail": "https://i.ytimg.com/vi/5basqrrpBzQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5basqrrpBzQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_r2hW98Kh54",
@@ -1039,7 +1131,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-08T00:38:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/_r2hW98Kh54/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_r2hW98Kh54/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "oNrMY2TH7Bo",
@@ -1049,7 +1142,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T20:36:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/oNrMY2TH7Bo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/oNrMY2TH7Bo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "WhchTmgZADg",
@@ -1059,7 +1153,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T18:21:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/WhchTmgZADg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/WhchTmgZADg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1LqDv45zT8o",
@@ -1069,7 +1164,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T18:21:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/1LqDv45zT8o/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1LqDv45zT8o/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GBPZtkEj1Ag",
@@ -1079,7 +1175,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T18:16:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/GBPZtkEj1Ag/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GBPZtkEj1Ag/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "v5rHKfgzPVA",
@@ -1089,7 +1186,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T16:45:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/v5rHKfgzPVA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/v5rHKfgzPVA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "PrXOenxlUUA",
@@ -1099,7 +1197,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T16:00:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/PrXOenxlUUA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/PrXOenxlUUA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "0yAhPRh9EPM",
@@ -1109,7 +1208,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T14:56:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/0yAhPRh9EPM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/0yAhPRh9EPM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "LdzzCgWNE0U",
@@ -1119,7 +1219,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T13:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/LdzzCgWNE0U/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/LdzzCgWNE0U/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "BPWyBv6ISA0",
@@ -1129,7 +1230,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T11:30:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/BPWyBv6ISA0/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BPWyBv6ISA0/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "rcl8Zn_y0Ds",
@@ -1139,7 +1241,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T11:27:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/rcl8Zn_y0Ds/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rcl8Zn_y0Ds/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "BWDBXGUJoGQ",
@@ -1149,7 +1252,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T11:01:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/BWDBXGUJoGQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BWDBXGUJoGQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "HLW9rM1DuGo",
@@ -1159,7 +1263,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-07T08:36:48Z",
-      "thumbnail": "https://i.ytimg.com/vi/HLW9rM1DuGo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/HLW9rM1DuGo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "kpr0IiFyO68",
@@ -1169,7 +1274,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T03:16:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/kpr0IiFyO68/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/kpr0IiFyO68/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Vo1rDPeXSK8",
@@ -1179,7 +1285,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-07T01:13:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/Vo1rDPeXSK8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Vo1rDPeXSK8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_690L0bajQU",
@@ -1189,7 +1296,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-06T19:45:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/_690L0bajQU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_690L0bajQU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "HHzudiT5sSA",
@@ -1199,7 +1307,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-06T17:42:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/HHzudiT5sSA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/HHzudiT5sSA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "48cQQL8pXI8",
@@ -1209,7 +1318,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-06T16:49:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/48cQQL8pXI8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/48cQQL8pXI8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "unHRZaz2Clo",
@@ -1219,7 +1329,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-06T16:44:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/unHRZaz2Clo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/unHRZaz2Clo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "5DiGbYm7pEs",
@@ -1229,7 +1340,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-06T13:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/5DiGbYm7pEs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5DiGbYm7pEs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "VM7AAgRRw28",
@@ -1239,7 +1351,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-06T11:01:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/VM7AAgRRw28/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/VM7AAgRRw28/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "cjo8V8-JoBQ",
@@ -1249,7 +1362,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-06T00:40:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/cjo8V8-JoBQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/cjo8V8-JoBQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Nm-HSjrF-pg",
@@ -1259,7 +1373,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-05T20:38:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/Nm-HSjrF-pg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Nm-HSjrF-pg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "29nfObbawTo",
@@ -1269,7 +1384,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-05T17:04:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/29nfObbawTo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/29nfObbawTo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "YSfx1rBjQGc",
@@ -1279,7 +1395,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-05T13:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/YSfx1rBjQGc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/YSfx1rBjQGc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "H3u1sY2kaUk",
@@ -1289,7 +1406,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-05T12:00:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/H3u1sY2kaUk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/H3u1sY2kaUk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2XhYGDw-4ow",
@@ -1299,7 +1417,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-05T11:01:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/2XhYGDw-4ow/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2XhYGDw-4ow/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "R6IAkRzvlZQ",
@@ -1309,7 +1428,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-05T10:53:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/R6IAkRzvlZQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/R6IAkRzvlZQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uUF-4_KaIeg",
@@ -1319,7 +1439,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-05T02:25:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/uUF-4_KaIeg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uUF-4_KaIeg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "cjjoRHrjlKw",
@@ -1329,7 +1450,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-04T19:03:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/cjjoRHrjlKw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/cjjoRHrjlKw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "7cEZjGgketM",
@@ -1339,7 +1461,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-04T17:21:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/7cEZjGgketM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/7cEZjGgketM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_XQSra5Gefg",
@@ -1349,7 +1472,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-04T16:23:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/_XQSra5Gefg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_XQSra5Gefg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "maANS4W2rdc",
@@ -1359,7 +1483,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-04T15:17:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/maANS4W2rdc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/maANS4W2rdc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "EczQZODQjwg",
@@ -1369,7 +1494,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-04T15:02:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/EczQZODQjwg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/EczQZODQjwg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1gcGxcAHkc4",
@@ -1379,7 +1505,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-04T11:01:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/1gcGxcAHkc4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1gcGxcAHkc4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "q26st0X6MM8",
@@ -1389,7 +1516,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-03T21:56:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/q26st0X6MM8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/q26st0X6MM8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xurrbxuphpI",
@@ -1399,7 +1527,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-08-03T21:19:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/xurrbxuphpI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xurrbxuphpI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "vQmJPJTr7JA",
@@ -1409,7 +1538,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T16:59:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/vQmJPJTr7JA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/vQmJPJTr7JA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ljRiBGGmq3E",
@@ -1419,7 +1549,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:47Z",
-      "thumbnail": "https://i.ytimg.com/vi/ljRiBGGmq3E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ljRiBGGmq3E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "zVBs5mw65Ug",
@@ -1429,7 +1560,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/zVBs5mw65Ug/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/zVBs5mw65Ug/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RUYSw3u72FY",
@@ -1439,7 +1571,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/RUYSw3u72FY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RUYSw3u72FY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "7jAK_vHZ1ww",
@@ -1449,7 +1582,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/7jAK_vHZ1ww/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/7jAK_vHZ1ww/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Hm7NuE7-6yg",
@@ -1459,7 +1593,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/Hm7NuE7-6yg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Hm7NuE7-6yg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "cU5-W6RMeoM",
@@ -1469,7 +1604,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/cU5-W6RMeoM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/cU5-W6RMeoM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2DKgtzM_ge4",
@@ -1479,7 +1615,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/2DKgtzM_ge4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2DKgtzM_ge4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "E-_M0gPEdkE",
@@ -1489,7 +1626,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T13:48:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/E-_M0gPEdkE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/E-_M0gPEdkE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QBWslOiYuA4",
@@ -1499,7 +1637,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T11:01:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/QBWslOiYuA4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QBWslOiYuA4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "hMNvy3JFXwE",
@@ -1509,7 +1648,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-03T02:15:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/hMNvy3JFXwE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/hMNvy3JFXwE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-JoKh71-ebo",
@@ -1519,7 +1659,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-02T20:15:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/-JoKh71-ebo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-JoKh71-ebo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "XBUMJP535zs",
@@ -1529,7 +1670,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-02T11:01:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/XBUMJP535zs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/XBUMJP535zs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GlZAkgv5VQo",
@@ -1539,7 +1681,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-08-01T16:07:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/GlZAkgv5VQo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GlZAkgv5VQo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3Sj74vYiQBo",
@@ -1549,7 +1692,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-08-01T12:00:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/3Sj74vYiQBo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3Sj74vYiQBo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ogJLXTOTrzA",
@@ -1559,7 +1703,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-08-01T11:01:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/ogJLXTOTrzA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ogJLXTOTrzA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "lZ3e9BTqhJI",
@@ -1569,7 +1714,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-31T17:29:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/lZ3e9BTqhJI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/lZ3e9BTqhJI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1fG9PTVuvF8",
@@ -1579,7 +1725,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-31T16:37:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/1fG9PTVuvF8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1fG9PTVuvF8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "XT153NhVoTg",
@@ -1589,7 +1736,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-31T16:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/XT153NhVoTg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/XT153NhVoTg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "vaf4Lf9cfSo",
@@ -1599,7 +1747,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-31T16:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/vaf4Lf9cfSo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/vaf4Lf9cfSo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2E1QMm6vzz4",
@@ -1609,7 +1758,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-31T15:04:50Z",
-      "thumbnail": "https://i.ytimg.com/vi/2E1QMm6vzz4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2E1QMm6vzz4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "l1XN-lVQJLE",
@@ -1619,7 +1769,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-31T11:01:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/l1XN-lVQJLE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/l1XN-lVQJLE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZUKA_9YckIo",
@@ -1629,7 +1780,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-31T11:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZUKA_9YckIo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZUKA_9YckIo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iusF5-mSrNg",
@@ -1639,7 +1791,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-31T05:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/iusF5-mSrNg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iusF5-mSrNg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "pE89juaUUzQ",
@@ -1649,7 +1802,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-31T02:15:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/pE89juaUUzQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/pE89juaUUzQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AgtRFnyqIi4",
@@ -1659,7 +1813,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-30T21:57:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/AgtRFnyqIi4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AgtRFnyqIi4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "wGIIHl_WNOA",
@@ -1669,7 +1824,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-30T21:54:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/wGIIHl_WNOA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wGIIHl_WNOA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6nxi7jopc00",
@@ -1679,7 +1835,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-30T19:14:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/6nxi7jopc00/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6nxi7jopc00/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_HKEcDTusDo",
@@ -1689,7 +1846,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-30T17:02:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/_HKEcDTusDo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_HKEcDTusDo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZKYZAzMogf4",
@@ -1699,7 +1857,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-30T11:01:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZKYZAzMogf4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZKYZAzMogf4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "705war9MZBo",
@@ -1709,7 +1868,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-30T02:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/705war9MZBo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/705war9MZBo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "y_OufgHvPXc",
@@ -1719,7 +1879,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-29T23:29:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/y_OufgHvPXc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/y_OufgHvPXc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Bc1YNm83oEI",
@@ -1729,7 +1890,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-29T17:20:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/Bc1YNm83oEI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Bc1YNm83oEI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "UOKfflRMMrk",
@@ -1739,7 +1901,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-29T16:17:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/UOKfflRMMrk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/UOKfflRMMrk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2HuwplYjkpk",
@@ -1749,7 +1912,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-29T15:53:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/2HuwplYjkpk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2HuwplYjkpk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Dx_EPJWpQk4",
@@ -1759,7 +1923,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-29T13:53:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/Dx_EPJWpQk4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Dx_EPJWpQk4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "15TeX0JHTvg",
@@ -1769,7 +1934,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-29T12:00:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/15TeX0JHTvg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/15TeX0JHTvg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OsYmJ0-5X4g",
@@ -1779,7 +1945,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-28T17:05:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/OsYmJ0-5X4g/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OsYmJ0-5X4g/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "7Xl2tsNuimA",
@@ -1789,7 +1956,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-28T16:10:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/7Xl2tsNuimA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/7Xl2tsNuimA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "n_1JSM2uKVg",
@@ -1799,7 +1967,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-28T13:00:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/n_1JSM2uKVg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/n_1JSM2uKVg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "edCJsxkYbpY",
@@ -1809,7 +1978,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-27T16:36:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/edCJsxkYbpY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/edCJsxkYbpY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "u2Xbh6lT3Qk",
@@ -1819,7 +1989,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-27T14:00:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/u2Xbh6lT3Qk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/u2Xbh6lT3Qk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xZkq8DerRgQ",
@@ -1829,7 +2000,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-27T02:15:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/xZkq8DerRgQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xZkq8DerRgQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "aUB4adZAvvA",
@@ -1839,7 +2011,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-26T19:42:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/aUB4adZAvvA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/aUB4adZAvvA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "v9NCR4BIRss",
@@ -1849,7 +2022,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-26T13:00:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/v9NCR4BIRss/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/v9NCR4BIRss/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fuam4WBrKl4",
@@ -1859,7 +2033,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-25T18:56:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/fuam4WBrKl4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fuam4WBrKl4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "8LYb-nZQiBY",
@@ -1869,7 +2044,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-25T18:33:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/8LYb-nZQiBY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/8LYb-nZQiBY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ux0DPmCpbqg",
@@ -1879,7 +2055,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-25T16:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ux0DPmCpbqg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ux0DPmCpbqg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "aGXoYHBMykE",
@@ -1889,7 +2066,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-25T13:02:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/aGXoYHBMykE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/aGXoYHBMykE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yvd_MBl5jq0",
@@ -1899,7 +2077,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-25T12:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/yvd_MBl5jq0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yvd_MBl5jq0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uwH_OT2MJ24",
@@ -1909,7 +2088,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-24T20:39:55Z",
-      "thumbnail": "https://i.ytimg.com/vi/uwH_OT2MJ24/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uwH_OT2MJ24/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "4MiTXiADPoA",
@@ -1919,7 +2099,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-24T19:27:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/4MiTXiADPoA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4MiTXiADPoA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "wVTCXRhm6YM",
@@ -1929,7 +2110,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-24T16:24:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/wVTCXRhm6YM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wVTCXRhm6YM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "LeloF3ZqNRg",
@@ -1939,7 +2121,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-24T15:50:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/LeloF3ZqNRg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/LeloF3ZqNRg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "SE6YwcZvLbk",
@@ -1949,7 +2132,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-24T13:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/SE6YwcZvLbk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/SE6YwcZvLbk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9RaVkbiTSGc",
@@ -1959,7 +2143,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-24T13:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/9RaVkbiTSGc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9RaVkbiTSGc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "H-DjBEjtzq8",
@@ -1969,7 +2154,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-23T16:15:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/H-DjBEjtzq8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/H-DjBEjtzq8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "XkQ1J5RDRQQ",
@@ -1979,7 +2165,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-22T19:33:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/XkQ1J5RDRQQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/XkQ1J5RDRQQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-m9QVa8oAqk",
@@ -1989,7 +2176,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-22T18:45:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/-m9QVa8oAqk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-m9QVa8oAqk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fmHQSwd-7ow",
@@ -1999,7 +2187,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-22T17:49:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/fmHQSwd-7ow/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fmHQSwd-7ow/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "vvzPMiY_DS4",
@@ -2009,7 +2198,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-22T12:00:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/vvzPMiY_DS4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/vvzPMiY_DS4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NNwIg_Nq9AA",
@@ -2019,7 +2209,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-22T11:00:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/NNwIg_Nq9AA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NNwIg_Nq9AA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GU-s_doDPKw",
@@ -2029,7 +2220,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-21T21:34:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/GU-s_doDPKw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GU-s_doDPKw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "i3GkMRReXOg",
@@ -2039,7 +2231,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-21T16:21:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/i3GkMRReXOg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/i3GkMRReXOg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "qzpu-VerOzE",
@@ -2049,7 +2242,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-21T13:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/qzpu-VerOzE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/qzpu-VerOzE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1o4QzjB56Sg",
@@ -2059,7 +2253,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-20T16:31:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/1o4QzjB56Sg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1o4QzjB56Sg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "P9C2kBaYhgY",
@@ -2069,7 +2264,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-19T13:00:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/P9C2kBaYhgY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/P9C2kBaYhgY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "zL68biE6wAs",
@@ -2079,7 +2275,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-18T20:45:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/zL68biE6wAs/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/zL68biE6wAs/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "wbRe_c0objQ",
@@ -2089,7 +2286,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-18T20:43:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/wbRe_c0objQ/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wbRe_c0objQ/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "eQ_foBERmzA",
@@ -2099,7 +2297,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-18T20:42:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/eQ_foBERmzA/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/eQ_foBERmzA/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "MKP_lvNz9Qs",
@@ -2109,7 +2308,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-18T12:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/MKP_lvNz9Qs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/MKP_lvNz9Qs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jYQnopzcABI",
@@ -2119,7 +2319,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-17T19:26:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/jYQnopzcABI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jYQnopzcABI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uMeJguboG00",
@@ -2129,7 +2330,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-17T16:38:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/uMeJguboG00/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uMeJguboG00/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ao1xQN8sMak",
@@ -2139,7 +2341,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-17T16:00:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/ao1xQN8sMak/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ao1xQN8sMak/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "FBQC35HLP38",
@@ -2149,7 +2352,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-17T15:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/FBQC35HLP38/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/FBQC35HLP38/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "wSeevuWhwL0",
@@ -2159,7 +2363,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-17T14:10:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/wSeevuWhwL0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wSeevuWhwL0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "rrpfNStQNio",
@@ -2169,7 +2374,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-16T18:11:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/rrpfNStQNio/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rrpfNStQNio/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "EV-Sin7_6ZI",
@@ -2179,7 +2385,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-16T18:10:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/EV-Sin7_6ZI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/EV-Sin7_6ZI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "oazyjsUPpvI",
@@ -2189,7 +2396,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-16T13:25:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/oazyjsUPpvI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/oazyjsUPpvI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "BsZIfB4sOfU",
@@ -2199,7 +2407,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-16T02:15:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/BsZIfB4sOfU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BsZIfB4sOfU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3lKCOzy5hxg",
@@ -2209,7 +2418,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-15T21:49:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/3lKCOzy5hxg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3lKCOzy5hxg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ge7ECEWLSQE",
@@ -2219,7 +2429,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-15T21:19:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ge7ECEWLSQE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ge7ECEWLSQE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uPR0rWz8Dh0",
@@ -2229,7 +2440,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-15T17:09:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/uPR0rWz8Dh0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uPR0rWz8Dh0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OomFWXVuU5Q",
@@ -2239,7 +2451,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-15T14:56:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/OomFWXVuU5Q/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OomFWXVuU5Q/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fBEVt1A_Z20",
@@ -2249,7 +2462,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-15T12:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/fBEVt1A_Z20/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fBEVt1A_Z20/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Pv5J8ycR1bI",
@@ -2259,7 +2473,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-14T21:42:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/Pv5J8ycR1bI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Pv5J8ycR1bI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "FyYRDbkS2RM",
@@ -2269,7 +2484,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-14T02:30:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/FyYRDbkS2RM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/FyYRDbkS2RM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "wVASFXOYPK8",
@@ -2279,7 +2495,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-12T14:19:48Z",
-      "thumbnail": "https://i.ytimg.com/vi/wVASFXOYPK8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wVASFXOYPK8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Vo8laXg5ox0",
@@ -2289,7 +2506,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-11T21:25:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/Vo8laXg5ox0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Vo8laXg5ox0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Tm7DVP6AfPg",
@@ -2299,7 +2517,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-11T12:00:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/Tm7DVP6AfPg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Tm7DVP6AfPg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QRTS-JUa4Gg",
@@ -2309,7 +2528,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-10T21:19:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/QRTS-JUa4Gg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QRTS-JUa4Gg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "MdOtXKSorsI",
@@ -2319,7 +2539,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-10T15:10:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/MdOtXKSorsI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/MdOtXKSorsI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NXUJDBGlKzY",
@@ -2329,7 +2550,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-10T14:38:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/NXUJDBGlKzY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NXUJDBGlKzY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "s3bMkBnfZx8",
@@ -2339,7 +2561,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-10T05:19:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/s3bMkBnfZx8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/s3bMkBnfZx8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-J_4TatqsUk",
@@ -2349,7 +2572,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-10T02:15:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/-J_4TatqsUk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-J_4TatqsUk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ui_RtykAU04",
@@ -2359,7 +2583,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-09T18:46:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ui_RtykAU04/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ui_RtykAU04/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "TYGdyn6mw50",
@@ -2369,7 +2594,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-08T19:23:44Z",
-      "thumbnail": "https://i.ytimg.com/vi/TYGdyn6mw50/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/TYGdyn6mw50/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "IovX1xMdkmA",
@@ -2379,7 +2605,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-08T18:26:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/IovX1xMdkmA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/IovX1xMdkmA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "trwuMYRmnwI",
@@ -2389,7 +2616,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-08T14:44:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/trwuMYRmnwI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/trwuMYRmnwI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "CR5mfjFrk3c",
@@ -2399,7 +2627,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-08T14:40:50Z",
-      "thumbnail": "https://i.ytimg.com/vi/CR5mfjFrk3c/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/CR5mfjFrk3c/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iuCv3nlm3RA",
@@ -2409,7 +2638,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-08T12:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/iuCv3nlm3RA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iuCv3nlm3RA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ui4fv1j-Dh8",
@@ -2419,7 +2649,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-08T06:50:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ui4fv1j-Dh8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ui4fv1j-Dh8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "gnURb3Kn3E8",
@@ -2429,7 +2660,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-07T22:02:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/gnURb3Kn3E8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/gnURb3Kn3E8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "n_GpVsz4nHU",
@@ -2439,7 +2671,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-07-07T21:33:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/n_GpVsz4nHU/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/n_GpVsz4nHU/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "dDa4lm-9XxA",
@@ -2449,7 +2682,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-07T17:26:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/dDa4lm-9XxA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dDa4lm-9XxA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Pq1l407v1q0",
@@ -2459,7 +2693,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-07T02:00:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/Pq1l407v1q0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Pq1l407v1q0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "YkMtQWXUvmU",
@@ -2469,7 +2704,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-06T17:22:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/YkMtQWXUvmU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/YkMtQWXUvmU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Cu9eJqMcFzo",
@@ -2479,7 +2715,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-06T03:00:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/Cu9eJqMcFzo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Cu9eJqMcFzo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "rM_rZh30RnE",
@@ -2489,7 +2726,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-07-05T06:58:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/rM_rZh30RnE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rM_rZh30RnE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "e9F4LQ8jBIA",
@@ -2499,7 +2737,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-05T02:15:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/e9F4LQ8jBIA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/e9F4LQ8jBIA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-Jx_mS03tQc",
@@ -2509,7 +2748,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-04T16:30:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/-Jx_mS03tQc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-Jx_mS03tQc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iLOfh7A1hLE",
@@ -2519,7 +2759,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-04T12:00:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/iLOfh7A1hLE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iLOfh7A1hLE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "A9PaLJXEc3Q",
@@ -2529,7 +2770,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-04T02:15:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/A9PaLJXEc3Q/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/A9PaLJXEc3Q/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Zl0XI4wiZNM",
@@ -2539,7 +2781,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-03T21:27:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/Zl0XI4wiZNM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Zl0XI4wiZNM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Y1sU7lzx07E",
@@ -2549,7 +2792,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-03T14:02:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/Y1sU7lzx07E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Y1sU7lzx07E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Wp624nMw86E",
@@ -2559,7 +2803,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-03T13:08:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/Wp624nMw86E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Wp624nMw86E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fsDOOonETdU",
@@ -2569,7 +2814,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-02T16:30:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/fsDOOonETdU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fsDOOonETdU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xEZWn1FlwDs",
@@ -2579,7 +2825,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-01T22:20:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/xEZWn1FlwDs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xEZWn1FlwDs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "rOxagAi9Z7k",
@@ -2589,7 +2836,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-01T20:31:51Z",
-      "thumbnail": "https://i.ytimg.com/vi/rOxagAi9Z7k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rOxagAi9Z7k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AURwM7E9ePk",
@@ -2599,7 +2847,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-07-01T19:23:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/AURwM7E9ePk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AURwM7E9ePk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "TRBkr-Nj9eU",
@@ -2609,7 +2858,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-01T14:00:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/TRBkr-Nj9eU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/TRBkr-Nj9eU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yfWUsuL-X6U",
@@ -2619,7 +2869,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-07-01T12:00:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/yfWUsuL-X6U/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yfWUsuL-X6U/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "h7avTzbBepA",
@@ -2629,7 +2880,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-07-01T02:00:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/h7avTzbBepA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/h7avTzbBepA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GdLiXLaw0vU",
@@ -2639,7 +2891,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-30T23:20:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/GdLiXLaw0vU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GdLiXLaw0vU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "G16VqYFtlYs",
@@ -2649,7 +2902,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-29T16:56:55Z",
-      "thumbnail": "https://i.ytimg.com/vi/G16VqYFtlYs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/G16VqYFtlYs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "zt0gWyTv-l0",
@@ -2659,7 +2913,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-27T23:18:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/zt0gWyTv-l0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/zt0gWyTv-l0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-K-VxA6v7QM",
@@ -2669,7 +2924,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-06-27T22:45:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/-K-VxA6v7QM/hqdefault_live.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-K-VxA6v7QM/hqdefault_live.jpg",
+      "score": 0
     },
     {
       "id": "SNxkG21bT84",
@@ -2679,7 +2935,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-27T15:27:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/SNxkG21bT84/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/SNxkG21bT84/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "cWHmkIEQJrw",
@@ -2689,7 +2946,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-27T12:00:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/cWHmkIEQJrw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/cWHmkIEQJrw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "G4oTNPGNTWk",
@@ -2699,7 +2957,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-26T21:39:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/G4oTNPGNTWk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/G4oTNPGNTWk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RnKUFbg2gk0",
@@ -2709,7 +2968,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-26T17:26:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/RnKUFbg2gk0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RnKUFbg2gk0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "SLUZqm8Sz28",
@@ -2719,7 +2979,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-26T16:04:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/SLUZqm8Sz28/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/SLUZqm8Sz28/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "pPRdMkK3GeI",
@@ -2729,7 +2990,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-25T10:23:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/pPRdMkK3GeI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/pPRdMkK3GeI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "hWBkpmoaLiE",
@@ -2739,7 +3001,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-24T21:31:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/hWBkpmoaLiE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/hWBkpmoaLiE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RdveY7MnKuY",
@@ -2749,7 +3012,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-24T20:41:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/RdveY7MnKuY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RdveY7MnKuY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QzPVP8bCQiY",
@@ -2759,7 +3023,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-24T18:37:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/QzPVP8bCQiY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QzPVP8bCQiY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RDEyheNxy3w",
@@ -2769,7 +3034,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-06-24T16:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/RDEyheNxy3w/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RDEyheNxy3w/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "8mP6MAIdZR8",
@@ -2779,7 +3045,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-24T12:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/8mP6MAIdZR8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/8mP6MAIdZR8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "CpwRkqysj-Y",
@@ -2789,7 +3056,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-24T02:42:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/CpwRkqysj-Y/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/CpwRkqysj-Y/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "G4dabBG3iUc",
@@ -2799,7 +3067,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-06-22T18:56:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/G4dabBG3iUc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/G4dabBG3iUc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yYMfdUkRJ2s",
@@ -2809,7 +3078,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-22T01:27:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/yYMfdUkRJ2s/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yYMfdUkRJ2s/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZP_n52eoyXk",
@@ -2819,7 +3089,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-21T20:30:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZP_n52eoyXk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZP_n52eoyXk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ucPhMwfs_28",
@@ -2829,7 +3100,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-21T14:40:47Z",
-      "thumbnail": "https://i.ytimg.com/vi/ucPhMwfs_28/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ucPhMwfs_28/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AwJ3SGZcfcQ",
@@ -2839,7 +3111,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-21T01:58:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/AwJ3SGZcfcQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AwJ3SGZcfcQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6hk4EEkgqz0",
@@ -2849,7 +3122,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-20T16:41:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/6hk4EEkgqz0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6hk4EEkgqz0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Uw7H6tENkeQ",
@@ -2859,7 +3133,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-06-20T12:00:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/Uw7H6tENkeQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Uw7H6tENkeQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "vWMuQf-r-J0",
@@ -2869,7 +3144,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-06-17T17:45:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/vWMuQf-r-J0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/vWMuQf-r-J0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "bGLKnU7-18s",
@@ -2879,7 +3155,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-06-15T19:52:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/bGLKnU7-18s/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/bGLKnU7-18s/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "sxYRTYtIAJI",
@@ -2889,7 +3166,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-14T17:45:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/sxYRTYtIAJI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/sxYRTYtIAJI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "dj6B8H9ktds",
@@ -2899,7 +3177,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-13T19:40:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/dj6B8H9ktds/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dj6B8H9ktds/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "blzgAu88TWQ",
@@ -2909,7 +3188,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-13T19:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/blzgAu88TWQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/blzgAu88TWQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "mKjNvZ5NYGM",
@@ -2919,7 +3199,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-13T14:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/mKjNvZ5NYGM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/mKjNvZ5NYGM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "4V8QxTxuVX8",
@@ -2929,7 +3210,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-12T20:53:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/4V8QxTxuVX8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4V8QxTxuVX8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "xVESO1ng3pU",
@@ -2939,7 +3221,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-12T20:45:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/xVESO1ng3pU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/xVESO1ng3pU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "dyqRITw62ok",
@@ -2949,7 +3232,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-12T17:50:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/dyqRITw62ok/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dyqRITw62ok/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "LQbkvGWshkQ",
@@ -2959,7 +3243,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-12T13:23:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/LQbkvGWshkQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/LQbkvGWshkQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "u2XSa_O-Lw4",
@@ -2969,7 +3254,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-10T16:00:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/u2XSa_O-Lw4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/u2XSa_O-Lw4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RCH0acO74R8",
@@ -2979,7 +3265,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-06-10T00:29:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/RCH0acO74R8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RCH0acO74R8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZXsT6VggpVU",
@@ -2989,7 +3276,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-06-08T16:30:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZXsT6VggpVU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZXsT6VggpVU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "myHWVeJoUQw",
@@ -2999,7 +3287,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-06-03T18:03:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/myHWVeJoUQw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/myHWVeJoUQw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "wJEgpAoG5-A",
@@ -3009,7 +3298,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-06-03T17:10:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/wJEgpAoG5-A/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/wJEgpAoG5-A/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "oJUQs9SjUjY",
@@ -3019,7 +3309,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-27T15:00:50Z",
-      "thumbnail": "https://i.ytimg.com/vi/oJUQs9SjUjY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/oJUQs9SjUjY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RE4JlONrxM0",
@@ -3029,7 +3320,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-05-24T17:58:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/RE4JlONrxM0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RE4JlONrxM0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "FfD0okbo6sc",
@@ -3039,7 +3331,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-23T02:01:52Z",
-      "thumbnail": "https://i.ytimg.com/vi/FfD0okbo6sc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/FfD0okbo6sc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "kdLhcplF_lY",
@@ -3049,7 +3342,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-22T21:59:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/kdLhcplF_lY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/kdLhcplF_lY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "BQQB3bGfCQ4",
@@ -3059,7 +3353,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-22T16:30:50Z",
-      "thumbnail": "https://i.ytimg.com/vi/BQQB3bGfCQ4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BQQB3bGfCQ4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "1ZbcaRahSXg",
@@ -3069,7 +3364,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-05-22T16:07:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/1ZbcaRahSXg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/1ZbcaRahSXg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ugyr-no2HXE",
@@ -3079,7 +3375,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-21T00:01:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ugyr-no2HXE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ugyr-no2HXE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "56J5WSpb-oM",
@@ -3089,7 +3386,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-20T20:32:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/56J5WSpb-oM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/56J5WSpb-oM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "IsfRq97phTQ",
@@ -3099,7 +3397,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-20T17:28:44Z",
-      "thumbnail": "https://i.ytimg.com/vi/IsfRq97phTQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/IsfRq97phTQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "furVpsUxA_4",
@@ -3109,7 +3408,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-20T16:06:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/furVpsUxA_4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/furVpsUxA_4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fPhioNAT-TI",
@@ -3119,7 +3419,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-16T18:38:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/fPhioNAT-TI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fPhioNAT-TI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "0JimA82VclM",
@@ -3129,7 +3430,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-16T15:31:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/0JimA82VclM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/0JimA82VclM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9iX-l-HR_Fg",
@@ -3139,7 +3441,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-05-14T21:11:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/9iX-l-HR_Fg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9iX-l-HR_Fg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3xG-l4pzs-M",
@@ -3149,7 +3452,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-14T18:22:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/3xG-l4pzs-M/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3xG-l4pzs-M/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-N4qgo2YkIY",
@@ -3159,7 +3463,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-05-13T16:27:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/-N4qgo2YkIY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-N4qgo2YkIY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uBj78oVlBRo",
@@ -3169,7 +3474,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-13T14:22:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/uBj78oVlBRo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uBj78oVlBRo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9iLdGTvoI_o",
@@ -3179,7 +3485,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-13T00:59:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/9iLdGTvoI_o/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9iLdGTvoI_o/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "zxFjzQNdnEg",
@@ -3189,7 +3496,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-11T18:10:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/zxFjzQNdnEg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/zxFjzQNdnEg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "gcnjKAcue2c",
@@ -3199,7 +3507,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-05-06T16:01:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/gcnjKAcue2c/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/gcnjKAcue2c/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OZ-HPWQtvBE",
@@ -3209,7 +3518,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-05-05T20:38:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/OZ-HPWQtvBE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OZ-HPWQtvBE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "mkYHc-644ZI",
@@ -3219,7 +3529,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-05T18:43:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/mkYHc-644ZI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/mkYHc-644ZI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "RcZUJ27buas",
@@ -3229,7 +3540,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-05T15:57:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/RcZUJ27buas/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/RcZUJ27buas/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6PsZdQnHdbg",
@@ -3239,7 +3551,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-02T16:36:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/6PsZdQnHdbg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6PsZdQnHdbg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "sdjidISlQL0",
@@ -3249,7 +3562,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-05-01T13:42:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/sdjidISlQL0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/sdjidISlQL0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "AOSeWM6uIHo",
@@ -3259,7 +3573,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-04-30T16:47:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/AOSeWM6uIHo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/AOSeWM6uIHo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Oo9TtcJf1fg",
@@ -3269,7 +3584,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-29T19:05:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/Oo9TtcJf1fg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Oo9TtcJf1fg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "EUWw7ffckXs",
@@ -3279,7 +3595,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-29T16:00:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/EUWw7ffckXs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/EUWw7ffckXs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "rVYxB2Rrc5k",
@@ -3289,7 +3606,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-27T14:00:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/rVYxB2Rrc5k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/rVYxB2Rrc5k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_xp21DRGHsw",
@@ -3299,7 +3617,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-24T19:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/_xp21DRGHsw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_xp21DRGHsw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "nOaRzR9uPV8",
@@ -3309,7 +3628,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-24T14:30:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/nOaRzR9uPV8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/nOaRzR9uPV8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "eWGJUKwj4VU",
@@ -3319,7 +3639,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-24T12:25:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/eWGJUKwj4VU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/eWGJUKwj4VU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "4_KVBkvvI0c",
@@ -3329,7 +3650,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-04-22T19:09:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/4_KVBkvvI0c/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4_KVBkvvI0c/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9dAqKvqeSNw",
@@ -3339,7 +3661,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-04-22T18:32:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/9dAqKvqeSNw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9dAqKvqeSNw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "SVnvei7avVM",
@@ -3349,7 +3672,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-22T15:47:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/SVnvei7avVM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/SVnvei7avVM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "8ZvIw1an35Q",
@@ -3359,7 +3683,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-20T19:30:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/8ZvIw1an35Q/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/8ZvIw1an35Q/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jeTWuRXYfz4",
@@ -3369,7 +3694,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-04-18T22:25:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/jeTWuRXYfz4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jeTWuRXYfz4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Ie3A54ZOVeY",
@@ -3379,7 +3705,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-04-17T13:13:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ie3A54ZOVeY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Ie3A54ZOVeY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "hi5IsxhUb6k",
@@ -3389,7 +3716,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-04-16T13:27:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/hi5IsxhUb6k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/hi5IsxhUb6k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "i6Wtw1h9WN4",
@@ -3399,7 +3727,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-04-15T19:06:44Z",
-      "thumbnail": "https://i.ytimg.com/vi/i6Wtw1h9WN4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/i6Wtw1h9WN4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "UYeJop9MH08",
@@ -3409,7 +3738,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-15T12:24:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/UYeJop9MH08/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/UYeJop9MH08/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OqeVGtdSVio",
@@ -3419,7 +3749,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-09T12:11:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/OqeVGtdSVio/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OqeVGtdSVio/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uCyoUuJLF9E",
@@ -3429,7 +3760,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-04-06T21:02:52Z",
-      "thumbnail": "https://i.ytimg.com/vi/uCyoUuJLF9E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uCyoUuJLF9E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yByu0KuhIpk",
@@ -3439,7 +3771,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-04-06T20:45:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/yByu0KuhIpk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yByu0KuhIpk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "-Xtvg05eNq4",
@@ -3449,7 +3782,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-04-05T21:19:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/-Xtvg05eNq4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/-Xtvg05eNq4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NdPl338do4w",
@@ -3459,7 +3793,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-04-02T12:01:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/NdPl338do4w/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NdPl338do4w/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "o4iRts4P-UM",
@@ -3469,7 +3804,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-04-01T18:30:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/o4iRts4P-UM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/o4iRts4P-UM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "qfl_rpPwAMY",
@@ -3479,7 +3815,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-03-31T12:09:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/qfl_rpPwAMY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/qfl_rpPwAMY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "k2qbHwPpQuQ",
@@ -3489,7 +3826,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-27T17:39:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/k2qbHwPpQuQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/k2qbHwPpQuQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Amx2nuKOHEw",
@@ -3499,7 +3837,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-27T12:23:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/Amx2nuKOHEw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Amx2nuKOHEw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "iW69QYLossY",
@@ -3509,7 +3848,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-24T17:51:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/iW69QYLossY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/iW69QYLossY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "mPaCbCT3osc",
@@ -3519,7 +3859,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-24T17:13:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/mPaCbCT3osc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/mPaCbCT3osc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "DAbfDljuQM8",
@@ -3529,7 +3870,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-03-24T11:59:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/DAbfDljuQM8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/DAbfDljuQM8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QLRPKSJjHbI",
@@ -3539,7 +3881,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-18T20:59:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/QLRPKSJjHbI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QLRPKSJjHbI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_l_at6TH6zE",
@@ -3549,7 +3892,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-03-18T12:12:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/_l_at6TH6zE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_l_at6TH6zE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "La7nNVCDwFI",
@@ -3559,7 +3903,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-03-13T12:13:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/La7nNVCDwFI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/La7nNVCDwFI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "TH-H981Wtng",
@@ -3569,7 +3914,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-03-11T20:00:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/TH-H981Wtng/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/TH-H981Wtng/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "oC5wsW2cMiM",
@@ -3579,7 +3925,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-10T19:14:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/oC5wsW2cMiM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/oC5wsW2cMiM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "dgsR-IjUVF4",
@@ -3589,7 +3936,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-10T19:02:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/dgsR-IjUVF4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dgsR-IjUVF4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jsyILwRSZp4",
@@ -3599,7 +3947,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-03-10T12:00:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/jsyILwRSZp4/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jsyILwRSZp4/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "WRm2RZFc89U",
@@ -3609,7 +3958,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-08T15:46:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/WRm2RZFc89U/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/WRm2RZFc89U/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QcAkGRa0sDA",
@@ -3619,7 +3969,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-05T19:06:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/QcAkGRa0sDA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QcAkGRa0sDA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "yrUcDmzdQ5E",
@@ -3629,7 +3980,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-03-05T15:01:43Z",
-      "thumbnail": "https://i.ytimg.com/vi/yrUcDmzdQ5E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/yrUcDmzdQ5E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "NSjuhbept6A",
@@ -3639,7 +3991,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-03-05T14:00:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/NSjuhbept6A/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/NSjuhbept6A/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "mCR63t_IIx0",
@@ -3649,7 +4002,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-05T13:01:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/mCR63t_IIx0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/mCR63t_IIx0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QddIcRTVyKY",
@@ -3659,7 +4013,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-03-03T16:18:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/QddIcRTVyKY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QddIcRTVyKY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ev-wqxSRhbw",
@@ -3669,7 +4024,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-03-02T16:07:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/ev-wqxSRhbw/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ev-wqxSRhbw/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3AQcXk6rcO0",
@@ -3679,7 +4035,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-03-01T16:04:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/3AQcXk6rcO0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3AQcXk6rcO0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZJPNkEXfLJE",
@@ -3689,7 +4046,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-02-27T17:47:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZJPNkEXfLJE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZJPNkEXfLJE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZKT9en-ZM2k",
@@ -3699,7 +4057,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-02-26T14:00:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZKT9en-ZM2k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZKT9en-ZM2k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6uLLu8UAMLc",
@@ -3709,7 +4068,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-02-23T19:33:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/6uLLu8UAMLc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6uLLu8UAMLc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "_P3LuBierw8",
@@ -3719,7 +4079,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-02-18T15:53:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/_P3LuBierw8/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/_P3LuBierw8/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "FXSqPpi0lIY",
@@ -3729,7 +4090,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-02-14T22:14:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/FXSqPpi0lIY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/FXSqPpi0lIY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Nmn5cf6CBoo",
@@ -3739,7 +4101,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-02-04T20:35:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/Nmn5cf6CBoo/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Nmn5cf6CBoo/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "0XyXuN2V8AY",
@@ -3749,7 +4112,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-02-01T18:53:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/0XyXuN2V8AY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/0XyXuN2V8AY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "GrndAVQ2FdY",
@@ -3759,7 +4123,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-01-29T23:11:48Z",
-      "thumbnail": "https://i.ytimg.com/vi/GrndAVQ2FdY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/GrndAVQ2FdY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "QwngshA6IeI",
@@ -3769,7 +4134,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-01-28T19:50:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/QwngshA6IeI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/QwngshA6IeI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "q2OGX95Z828",
@@ -3779,7 +4145,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2026-01-26T18:52:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/q2OGX95Z828/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/q2OGX95Z828/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "mltHKyY46pY",
@@ -3789,7 +4156,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-01-25T21:46:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/mltHKyY46pY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/mltHKyY46pY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZSwzcytucqA",
@@ -3799,7 +4167,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-01-23T17:43:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZSwzcytucqA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZSwzcytucqA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Tip-bsZk32M",
@@ -3809,7 +4178,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-01-19T16:40:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/Tip-bsZk32M/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Tip-bsZk32M/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "2WREL6vWufg",
@@ -3819,7 +4189,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-01-17T18:00:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/2WREL6vWufg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/2WREL6vWufg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "KEUXfQ0MiyE",
@@ -3829,7 +4200,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-01-17T00:32:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/KEUXfQ0MiyE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/KEUXfQ0MiyE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ZnzQ17KQKbY",
@@ -3839,7 +4211,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-01-16T23:13:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZnzQ17KQKbY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ZnzQ17KQKbY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "6LqDf2ENOLs",
@@ -3849,7 +4222,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-01-16T16:15:00Z",
-      "thumbnail": "https://i.ytimg.com/vi/6LqDf2ENOLs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/6LqDf2ENOLs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "tAx4K_IU40k",
@@ -3859,7 +4233,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-01-14T18:26:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/tAx4K_IU40k/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/tAx4K_IU40k/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "bu8tjJWT-BA",
@@ -3869,7 +4244,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2026-01-14T16:45:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/bu8tjJWT-BA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/bu8tjJWT-BA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "eb4QKvJdN6E",
@@ -3879,7 +4255,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-01-13T23:21:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/eb4QKvJdN6E/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/eb4QKvJdN6E/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ucZFtAtx9Fc",
@@ -3889,7 +4266,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-01-09T16:45:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/ucZFtAtx9Fc/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ucZFtAtx9Fc/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "JdDjnVpT0Fg",
@@ -3899,7 +4277,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2026-01-07T18:15:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/JdDjnVpT0Fg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/JdDjnVpT0Fg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "D7tGfLUuxgI",
@@ -3909,7 +4288,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2026-01-07T14:16:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/D7tGfLUuxgI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/D7tGfLUuxgI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "5WJhNmpc1Ng",
@@ -3919,7 +4299,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-01-05T01:08:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/5WJhNmpc1Ng/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5WJhNmpc1Ng/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "H_sMkwu7O2o",
@@ -3929,7 +4310,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2026-01-03T17:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/H_sMkwu7O2o/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/H_sMkwu7O2o/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "sxUwAtecRcs",
@@ -3939,7 +4321,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2025-12-12T15:01:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/sxUwAtecRcs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/sxUwAtecRcs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "4zbw1Qr50kY",
@@ -3949,7 +4332,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2025-12-10T16:00:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/4zbw1Qr50kY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/4zbw1Qr50kY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "EncH3j3LNRI",
@@ -3959,7 +4343,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-12-09T20:33:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/EncH3j3LNRI/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/EncH3j3LNRI/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fVRbFdTRuWY",
@@ -3969,7 +4354,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2025-12-03T16:01:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/fVRbFdTRuWY/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fVRbFdTRuWY/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "ElOr1ZBfHIU",
@@ -3979,7 +4365,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-12-02T22:45:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/ElOr1ZBfHIU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/ElOr1ZBfHIU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OijsiytfiLs",
@@ -3989,7 +4376,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2025-11-29T15:00:44Z",
-      "thumbnail": "https://i.ytimg.com/vi/OijsiytfiLs/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OijsiytfiLs/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "uWwF7lenInU",
@@ -3999,7 +4387,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2025-11-25T00:04:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/uWwF7lenInU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/uWwF7lenInU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "5wm5eMFHoM0",
@@ -4009,7 +4398,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-11-23T22:18:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/5wm5eMFHoM0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/5wm5eMFHoM0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "dMPjcGOPNjQ",
@@ -4019,7 +4409,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-11-11T20:43:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/dMPjcGOPNjQ/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/dMPjcGOPNjQ/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "tE5uEOwgN4M",
@@ -4029,7 +4420,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-11-10T16:01:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/tE5uEOwgN4M/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/tE5uEOwgN4M/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "jtpQR0Pph4A",
@@ -4039,7 +4431,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2025-11-07T15:01:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/jtpQR0Pph4A/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/jtpQR0Pph4A/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "9AjVjzVHrvM",
@@ -4049,7 +4442,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-11-05T23:59:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/9AjVjzVHrvM/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/9AjVjzVHrvM/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "BmGP5TaZ4nE",
@@ -4059,7 +4453,8 @@
       "bucket": "medium",
       "orientation": "portrait",
       "publishedAt": "2025-11-05T15:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/BmGP5TaZ4nE/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/BmGP5TaZ4nE/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "nbMWvcFYcqg",
@@ -4069,7 +4464,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2025-10-31T10:06:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/nbMWvcFYcqg/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/nbMWvcFYcqg/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "OukPoMBkxu0",
@@ -4079,7 +4475,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2025-10-18T12:49:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/OukPoMBkxu0/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/OukPoMBkxu0/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "3puGLeac3iU",
@@ -4089,7 +4486,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-10-07T20:47:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/3puGLeac3iU/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/3puGLeac3iU/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "WOkTq-CK7is",
@@ -4099,7 +4497,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2025-10-03T15:36:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/WOkTq-CK7is/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/WOkTq-CK7is/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "lXDU6C4giyA",
@@ -4109,7 +4508,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2025-09-29T11:59:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/lXDU6C4giyA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/lXDU6C4giyA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "PN6azriOw4M",
@@ -4119,7 +4519,8 @@
       "bucket": "short",
       "orientation": "portrait",
       "publishedAt": "2025-09-27T16:07:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/PN6azriOw4M/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/PN6azriOw4M/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Z881A_BhPHA",
@@ -4129,7 +4530,8 @@
       "bucket": "short",
       "orientation": "landscape",
       "publishedAt": "2025-09-24T12:33:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/Z881A_BhPHA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Z881A_BhPHA/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "fiWmw6rWFIk",
@@ -4139,7 +4541,8 @@
       "bucket": "long",
       "orientation": "landscape",
       "publishedAt": "2025-09-23T19:11:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/fiWmw6rWFIk/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/fiWmw6rWFIk/hqdefault.jpg",
+      "score": 0
     },
     {
       "id": "Q7w7DQl9WrA",
@@ -4149,7 +4552,8 @@
       "bucket": "medium",
       "orientation": "landscape",
       "publishedAt": "2025-09-18T13:54:07Z",
-      "thumbnail": "https://i.ytimg.com/vi/Q7w7DQl9WrA/hqdefault.jpg"
+      "thumbnail": "https://i.ytimg.com/vi/Q7w7DQl9WrA/hqdefault.jpg",
+      "score": 0
     }
   ]
 }
