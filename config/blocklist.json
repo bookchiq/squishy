@@ -2,5 +2,7 @@
   "videoIds": [
     "G4dabBG3iUc"
   ],
-  "notes": "Reactive, per-video overrides. One YouTube video ID per slip-through that the denylist did not catch. Rare hand-maintenance — add an ID here to permanently hide a specific video. (G4dabBG3iUc = a NASCAR promo filmed at the San Diego Zoo — not an animal video.)"
+  "autoBlockThreshold": 3,
+  "autoBlocked": [],
+  "notes": "Hides specific videos. `videoIds` = manual overrides (add an ID to permanently hide it; G4dabBG3iUc = a NASCAR promo at the San Diego Zoo, not an animal video). `autoBlockThreshold` = when a video reaches this many viewer reports, the daily build moves it into `autoBlocked` (managed automatically; 0 disables). `autoBlocked` entries are added by the build with {id,title,reports,addedAt} — to un-hide one, delete it from that list."
 }

@@ -44,12 +44,12 @@ jobs:
 
       - name: Commit updated feed (only if changed)
         run: |
-          if git diff --quiet -- public/videos.json; then
-            echo "No feed changes — nothing to commit."
+          if git diff --quiet -- public/videos.json config/blocklist.json; then
+            echo "No changes — nothing to commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/videos.json
-          git commit -m "chore(feed): refresh videos.json [skip ci]"
+          git add public/videos.json config/blocklist.json
+          git commit -m "chore(feed): refresh feed [skip ci]"
           git push

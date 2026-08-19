@@ -100,7 +100,31 @@ export function validateDenylistConfig(cfg) {
 
 export function validateBlocklistConfig(cfg) {
   if (!cfg || !Array.isArray(cfg.videoIds)) throw new Error('config/blocklist.json: "videoIds" must be an array');
+  if (cfg.autoBlockThreshold !== undefined && (typeof cfg.autoBlockThreshold !== 'number' || cfg.autoBlockThreshold < 0)) {
+    throw new Error('config/blocklist.json: "autoBlockThreshold" must be a non-negative number (0 = off)');
+  }
+  if (cfg.autoBlocked !== undefined && !Array.isArray(cfg.autoBlocked)) {
+    throw new Error('config/blocklist.json: "autoBlocked" must be an array');
+  }
   return cfg;
+}
+
+/**
+ * Given the report tally `{ id: { count, title } }`, a threshold, and the IDs
+ * already blocked, return the NEW entries to auto-block (count >= threshold and
+ * not already blocked). Pure. threshold < 1 disables (returns []).
+ */
+export function selectAutoBlocked(reports, threshold, alreadyBlockedIds = []) {
+  if (!threshold || threshold < 1) return [];
+  const blocked = new Set(alreadyBlockedIds);
+  const out = [];
+  for (const [id, info] of Object.entries(reports || {})) {
+    const count = (info && info.count) || 0;
+    if (count >= threshold && !blocked.has(id)) {
+      out.push({ id, title: (info && info.title) || '', reports: count });
+    }
+  }
+  return out;
 }
 
 /**

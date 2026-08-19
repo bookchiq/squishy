@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseArgs, gatherCandidates, attachScores } from '../scripts/build-feed.mjs';
+import { parseArgs, gatherCandidates, attachScores, applyAutoBlock } from '../scripts/build-feed.mjs';
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -83,6 +83,33 @@ test('attachScores leaves scores at 0 when no endpoint is configured', async () 
   await attachScores(videos, { endpoint: '', fetchImpl: async () => ((called = true), { ok: true, json: async () => ({}) }) });
   assert.equal(videos[0].score, 0);
   assert.equal(called, false, 'no network call without an endpoint');
+});
+
+test('applyAutoBlock promotes over-threshold reports into config (dry-run, no write)', async () => {
+  const config = { blocklist: { videoIds: ['manual1'], autoBlockThreshold: 2, autoBlocked: [] } };
+  const fetchImpl = async (url) => {
+    assert.ok(url.endsWith('/reports'), 'reads the /reports route');
+    return { ok: true, json: async () => ({ vidA: { count: 2, title: 'Bad A' }, vidB: { count: 1, title: 'B' }, manual1: { count: 9 } }) };
+  };
+  const changed = await applyAutoBlock(config, { endpoint: 'https://votes.example.dev', dryRun: true, fetchImpl });
+  assert.equal(changed, true);
+  // vidA crosses threshold and is new; vidB below; manual1 already blocked.
+  assert.deepEqual(config.blocklist.autoBlocked.map((a) => a.id), ['vidA']);
+  assert.equal(config.blocklist.autoBlocked[0].reports, 2);
+  assert.ok(config.blocklist.autoBlocked[0].addedAt, 'stamps addedAt');
+});
+
+test('applyAutoBlock is a no-op when the threshold is off (0)', async () => {
+  const config = { blocklist: { videoIds: [], autoBlockThreshold: 0, autoBlocked: [] } };
+  let called = false;
+  const changed = await applyAutoBlock(config, {
+    endpoint: 'https://votes.example.dev',
+    dryRun: true,
+    fetchImpl: async () => ((called = true), { ok: true, json: async () => ({ x: { count: 99 } }) }),
+  });
+  assert.equal(changed, false);
+  assert.equal(called, false, 'no report fetch when disabled');
+  assert.deepEqual(config.blocklist.autoBlocked, []);
 });
 
 test('gatherCandidates loads fixtures offline with zero quota', async () => {

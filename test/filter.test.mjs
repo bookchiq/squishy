@@ -11,6 +11,7 @@ import {
   validateBlocklistConfig,
   filterAndBucket,
   dropSummary,
+  selectAutoBlocked,
 } from '../scripts/lib/filter.mjs';
 
 const NOW = new Date('2026-08-18T00:00:00Z');
@@ -114,6 +115,25 @@ test('validateDenylistConfig and validateBlocklistConfig require their arrays', 
   assert.throws(() => validateBlocklistConfig({}), /videoIds/);
   assert.doesNotThrow(() => validateDenylistConfig({ keywords: [] }));
   assert.doesNotThrow(() => validateBlocklistConfig({ videoIds: [] }));
+});
+
+test('validateBlocklistConfig accepts optional auto-block fields and rejects bad ones', () => {
+  assert.doesNotThrow(() => validateBlocklistConfig({ videoIds: [], autoBlockThreshold: 3, autoBlocked: [] }));
+  assert.throws(() => validateBlocklistConfig({ videoIds: [], autoBlockThreshold: -1 }), /autoBlockThreshold/);
+  assert.throws(() => validateBlocklistConfig({ videoIds: [], autoBlockThreshold: 'x' }), /autoBlockThreshold/);
+  assert.throws(() => validateBlocklistConfig({ videoIds: [], autoBlocked: {} }), /autoBlocked/);
+});
+
+test('selectAutoBlocked promotes reports at/over threshold, skipping already-blocked', () => {
+  const reports = { a: { count: 3, title: 'A' }, b: { count: 1, title: 'B' }, c: { count: 5, title: 'C' } };
+  const out = selectAutoBlocked(reports, 3, ['c']);
+  assert.deepEqual(out.map((x) => x.id), ['a']); // a>=3 & new; b below; c already blocked
+  assert.deepEqual(out[0], { id: 'a', title: 'A', reports: 3 });
+});
+
+test('selectAutoBlocked is disabled when threshold < 1', () => {
+  assert.deepEqual(selectAutoBlocked({ a: { count: 9 } }, 0), []);
+  assert.deepEqual(selectAutoBlocked({ a: { count: 9 } }, undefined), []);
 });
 
 test('filterAndBucket drops each reason and keeps clean videos', () => {
