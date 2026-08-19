@@ -13,7 +13,16 @@
     "election",
     "shooting",
     "died",
-    "euthanized"
+    "euthanized",
+    "behind the scenes",
+    "day in the life",
+    "vet team",
+    "conservation partnership",
+    "keeper chat",
+    "webinar",
+    "fundraiser",
+    "annual report",
+    "press conference"
   ],
-  "notes": "Case-insensitive WORD-BOUNDARY match on title+description (so 'died' will not match 'studied'). Drop any video that matches. Keep this list conservative — over-filtering silently shrinks the feed. Blank keywords are rejected by the build. Every drop is logged (run with --dry-run) so tuning is evidence-based."
+  "notes": "Case-insensitive WORD-BOUNDARY phrase match on title+description (so 'died' will not match 'studied'). Drop any video that matches. Two groups: drift/distress terms (news, loss, urgency) and promo/behind-the-scenes terms (institutional content that isn't a wholesome animal clip). Keep this list conservative — over-filtering silently shrinks the feed, so prefer specific multi-word phrases ('conservation partnership') over broad single words ('conservation'). Blank keywords are rejected by the build. Every drop is logged (run with --dry-run) so tuning is evidence-based."
 }

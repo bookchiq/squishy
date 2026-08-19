@@ -3,7 +3,10 @@
   "channels": [
     { "id": "UCnM5iMGiKsZg-iOlIO2ZkdQ", "label": "Monterey Bay Aquarium", "trust": "high" },
     { "id": "UCE3VoxyYmyQCReOXk2ogsVg", "label": "The Cincinnati Zoo & Botanical Garden", "trust": "high" },
-    { "id": "UCC5NfQ6Mf0dq_eEwv4P_hWA", "label": "San Diego Zoo", "trust": "high" }
+    { "id": "UCC5NfQ6Mf0dq_eEwv4P_hWA", "label": "San Diego Zoo", "trust": "high" },
+    { "id": "UCCHvyiHdlh78vwUTHMw6NFQ", "label": "Georgia Aquarium", "trust": "high" },
+    { "id": "UC3oWOleSolsVhal5krntOlg", "label": "Oregon Zoo", "trust": "high" },
+    { "id": "UCqKNzUHmCrvZsFDzpAR3GjA", "label": "Houston Zoo", "trust": "high" }
   ],
   "maxVideosPerChannel": 20,
   "maxAgeMonths": 12
