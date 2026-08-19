@@ -94,21 +94,36 @@ export function shouldContinue(cumulativeSeconds, budgetSeconds) {
 /** A small, bounded budget for the "a few more?" gentle top-up. */
 export const TOP_UP_SECONDS = 120;
 
+/** How far past the budget a single video may push before we prefer a shorter one. */
+export const OVERSHOOT_MIN_SECONDS = 60;
+export const OVERSHOOT_FRACTION = 0.15;
+
+/** Allowed overshoot: the greater of 15% of the budget or 60 seconds. */
+export function overshootAllowance(budgetSeconds) {
+  return Math.max(OVERSHOOT_FRACTION * budgetSeconds, OVERSHOOT_MIN_SECONDS);
+}
+
 /**
- * Decide what happens after a video finishes: add its duration to the running
- * total, then either advance to the next pool item or end the session (budget
- * reached, or the pool is exhausted). Pure — the caller applies the returned state.
+ * Choose which remaining video to play next. Normally that's the first (the
+ * score/preference-ordered head of the queue). But if playing it would push the
+ * session past its budget by more than the allowance, pick the shortest remaining
+ * video that still just barely goes over — so a long clip with little time left
+ * doesn't blow way past the intended session length.
+ *
+ * Pure. Returns the index into `queue`, or -1 if empty.
  */
-export function nextStep({ index, cumulativeSeconds, poolLength, budgetSeconds }, endedDurationSeconds) {
-  const cumulative = cumulativeSeconds + (Number(endedDurationSeconds) || 0);
-  if (!shouldContinue(cumulative, budgetSeconds)) {
-    return { action: 'end', index, cumulativeSeconds: cumulative };
+export function chooseNextIndex(queue, remainingSeconds, budgetSeconds) {
+  if (!queue || queue.length === 0) return -1;
+  const dur = (v) => Number(v && v.durationSeconds) || 0;
+  const overshoot = dur(queue[0]) - remainingSeconds;
+  if (overshoot <= overshootAllowance(budgetSeconds)) return 0;
+  // The head overshoots too much — find the shortest video that still runs past
+  // the remaining time (goes over by the least).
+  let best = 0;
+  for (let i = 1; i < queue.length; i++) {
+    if (dur(queue[i]) >= remainingSeconds && dur(queue[i]) < dur(queue[best])) best = i;
   }
-  const nextIndex = index + 1;
-  if (nextIndex >= poolLength) {
-    return { action: 'end', index: nextIndex, cumulativeSeconds: cumulative };
-  }
-  return { action: 'advance', index: nextIndex, cumulativeSeconds: cumulative };
+  return best;
 }
 
 /**

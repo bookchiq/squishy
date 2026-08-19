@@ -6,7 +6,8 @@ import {
   buildPool,
   shouldContinue,
   buildReportTarget,
-  nextStep,
+  chooseNextIndex,
+  overshootAllowance,
   TOP_UP_SECONDS,
   pruneSeen,
   addSeen,
@@ -112,21 +113,34 @@ test('shouldContinue stops advancing once cumulative reaches budget', () => {
   assert.equal(shouldContinue(200, 120), false);
 });
 
-test('nextStep advances while under budget, accumulating watch time', () => {
-  const step = nextStep({ index: 0, cumulativeSeconds: 30, poolLength: 5, budgetSeconds: 120 }, 40);
-  assert.deepEqual(step, { action: 'advance', index: 1, cumulativeSeconds: 70 });
+const vd = (id, durationSeconds) => ({ id, durationSeconds });
+
+test('overshootAllowance is the greater of 15% of budget or 60s', () => {
+  assert.equal(overshootAllowance(120), 60); // 15% = 18 -> floor 60
+  assert.equal(overshootAllowance(600), 90); // 15% = 90
+  assert.equal(overshootAllowance(1200), 180); // 15% = 180
 });
 
-test('nextStep ends the session once the budget is reached', () => {
-  const step = nextStep({ index: 1, cumulativeSeconds: 90, poolLength: 5, budgetSeconds: 120 }, 40);
-  assert.equal(step.action, 'end');
-  assert.equal(step.cumulativeSeconds, 130);
+test('chooseNextIndex plays the head when its overshoot is within the allowance', () => {
+  // 2-min budget, 10s left; head 45s overshoots by 35 <= 60 allowance -> keep the head.
+  const queue = [vd('a', 45), vd('b', 20), vd('c', 300)];
+  assert.equal(chooseNextIndex(queue, 10, 120), 0);
 });
 
-test('nextStep ends the session when the pool is exhausted even under budget', () => {
-  const step = nextStep({ index: 4, cumulativeSeconds: 10, poolLength: 5, budgetSeconds: 600 }, 20);
-  assert.equal(step.action, 'end');
-  assert.equal(step.index, 5);
+test('chooseNextIndex swaps to the shortest just-over video when the head overshoots too much', () => {
+  // 10-min budget, 30s left; head 300s overshoots by 270 > 90. Shortest video still >= 30s is b(40).
+  const queue = [vd('a', 300), vd('b', 40), vd('c', 120)];
+  assert.equal(chooseNextIndex(queue, 30, 600), 1);
+});
+
+test('chooseNextIndex keeps the head when no shorter video still goes over', () => {
+  // head overshoots too much, but the only other video is shorter than the remaining time.
+  const queue = [vd('a', 300), vd('b', 10)];
+  assert.equal(chooseNextIndex(queue, 60, 120), 0);
+});
+
+test('chooseNextIndex returns -1 for an empty queue', () => {
+  assert.equal(chooseNextIndex([], 60, 120), -1);
 });
 
 test('TOP_UP_SECONDS bounds the "a few more?" top-up', () => {
