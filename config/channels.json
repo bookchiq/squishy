@@ -6,7 +6,26 @@
     { "id": "UCC5NfQ6Mf0dq_eEwv4P_hWA", "label": "San Diego Zoo", "trust": "high" },
     { "id": "UCCHvyiHdlh78vwUTHMw6NFQ", "label": "Georgia Aquarium", "trust": "high" },
     { "id": "UC3oWOleSolsVhal5krntOlg", "label": "Oregon Zoo", "trust": "high" },
-    { "id": "UCqKNzUHmCrvZsFDzpAR3GjA", "label": "Houston Zoo", "trust": "high" }
+    { "id": "UCqKNzUHmCrvZsFDzpAR3GjA", "label": "Houston Zoo", "trust": "high" },
+
+    { "id": "UC5VvB6tmC4lu_WCx7hE0PZA", "label": "Kitten Lady", "trust": "high" },
+    { "id": "UC83RKJs4eKHVE9v0YUyqzgg", "label": "Kitten Academy", "trust": "high" },
+    { "id": "UCvmijL-eepDVHYSJHDY3d6w", "label": "Cole and Marmalade", "trust": "high" },
+    { "id": "UCTl8bLnzuZzID1kIhpbS5vQ", "label": "Flatbush Cats", "trust": "high" },
+    { "id": "UCeL2LSl91k2VccR7XEh5IKg", "label": "TinyKittens HQ", "trust": "high" },
+    { "id": "UCRRi9jT43EehTp16gK2e-KQ", "label": "Lucky Ferals", "trust": "high" },
+    { "id": "UCsCFq6T-ut6mRvC5MlZmjkw", "label": "Sho Ko", "trust": "high" },
+    { "id": "UCGbOTPDlBwkN-4N85dK6U7Q", "label": "Kagonekoshiro (Zen Cats)", "trust": "high" },
+    { "id": "UCUSfEor0VihlL4fMt-VlLgQ", "label": "Lennon The Bunny", "trust": "high" },
+    { "id": "UCsX4V8PYAGJjw0r7ry-mscg", "label": "101Rabbits", "trust": "high" },
+    { "id": "UCMwnCA2CMDQnoQ-UOrwVMUw", "label": "Victoria Raechel", "trust": "high" },
+    { "id": "UCKD8QcX1LhFB8n7lhjfuQdg", "label": "Gohan The Husky", "trust": "high" },
+    { "id": "UCj9pk54KCzfvTs9gnMKJYSg", "label": "Life with Malamutes", "trust": "high" },
+    { "id": "UCU0LJ9et5Tb3m7COFzShgLg", "label": "Robert E Fuller (Wildlife)", "trust": "high" },
+    { "id": "UC2GYlKSMFgAPqVZoFyw5Itg", "label": "Wildlife Aid", "trust": "medium" },
+    { "id": "UCb3KY97ICfIkDJY_p6d7yig", "label": "SaveAFox", "trust": "high" },
+    { "id": "UCbJ-1yM55NHrR1GS9hhPuvg", "label": "Alveus Sanctuary", "trust": "high" },
+    { "id": "UCgfnQIQVXWBwLPxYRvcsv2g", "label": "Edgar's Mission (Farm Sanctuary)", "trust": "high" }
   ],
   "maxVideosPerChannel": 20,
   "maxAgeMonths": 12
