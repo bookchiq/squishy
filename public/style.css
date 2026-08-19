@@ -150,6 +150,14 @@ h2 {
   border: 0;
 }
 
+/* Vertical Shorts: portrait frame, centered and height-capped so it doesn't
+   dominate on desktop while filling nicely on a phone. */
+.player-frame.portrait {
+  aspect-ratio: 9 / 16;
+  max-width: min(100%, 380px);
+  margin-inline: auto;
+}
+
 .now-playing {
   color: var(--ink-soft);
   font-size: 0.95rem;

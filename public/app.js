@@ -24,7 +24,9 @@ const els = {
   picker: document.getElementById('picker'),
   pickerNote: document.getElementById('picker-note'),
   playerScreen: document.getElementById('player-screen'),
+  playerFrame: document.querySelector('#player-screen .player-frame'),
   nowPlaying: document.getElementById('now-playing'),
+  skipBtn: document.getElementById('skip-btn'),
   reportLink: document.getElementById('report-link'),
   quitBtn: document.getElementById('quit-btn'),
   endScreen: document.getElementById('end-screen'),
@@ -145,6 +147,8 @@ function playCurrent() {
   // Update the "now playing" line and report link via safe DOM APIs.
   els.nowPlaying.textContent = `${video.title} · ${video.channel}`;
   els.reportLink.href = buildReportTarget(video, MAINTAINER_EMAIL).mailto;
+  // Vertical Shorts get a portrait frame so they aren't letterboxed into 16:9.
+  els.playerFrame.classList.toggle('portrait', video.orientation === 'portrait');
 
   armWatchdog();
 
@@ -203,9 +207,29 @@ function onPlayerStateChange(event) {
 }
 
 // A non-embeddable or unavailable video errors instead of firing ENDED — skip it.
-// Errored/skipped videos do not count against the watch budget.
+// Errored videos do not count against the watch budget.
 function onPlayerError() {
   advance();
+}
+
+// User skip: credit only the time actually watched (not the full duration), then
+// move on — so skipping something that isn't for you doesn't burn your budget.
+function skip() {
+  const watched = Math.floor(state.player?.getCurrentTime?.() || 0);
+  const step = nextStep(
+    {
+      index: state.index,
+      cumulativeSeconds: state.cumulativeSeconds,
+      poolLength: state.pool.length,
+      budgetSeconds: state.session.budgetSeconds,
+    },
+    watched
+  );
+  state.index = step.index;
+  state.cumulativeSeconds = step.cumulativeSeconds;
+  clearWatchdog();
+  if (step.action === 'end') endSession();
+  else playCurrent();
 }
 
 function advance() {
@@ -278,6 +302,7 @@ function init() {
   for (const btn of document.querySelectorAll('.choice[data-minutes]')) {
     btn.addEventListener('click', () => startSession(Number(btn.dataset.minutes)));
   }
+  els.skipBtn.addEventListener('click', skip);
   els.quitBtn.addEventListener('click', endSession);
   els.moreBtn.addEventListener('click', aFewMore);
   els.restartBtn.addEventListener('click', () => {

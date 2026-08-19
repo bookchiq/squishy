@@ -52,6 +52,29 @@ export function buildPlaylistItemsUrl(playlistId, apiKey, pageToken) {
   return u.toString();
 }
 
+/**
+ * Detect a video's orientation without the Data API (which exposes no dimensions).
+ * A YouTube Short serves 200 at /shorts/<id>; a regular (landscape) video
+ * redirects (3xx) to /watch. Defaults to 'landscape' on any error — orientation
+ * detection must never fail the build.
+ */
+export async function detectOrientation(videoId, { fetchImpl = fetch } = {}) {
+  try {
+    const res = await fetchImpl(`https://www.youtube.com/shorts/${videoId}`, {
+      redirect: 'manual',
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+    try {
+      res.body?.cancel?.();
+    } catch {
+      /* ignore */
+    }
+    return res.status === 200 ? 'portrait' : 'landscape';
+  } catch {
+    return 'landscape';
+  }
+}
+
 export function buildVideosUrl(ids, apiKey) {
   const u = new URL(`${API}/videos`);
   u.searchParams.set('part', 'contentDetails,snippet,status');

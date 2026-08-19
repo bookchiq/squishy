@@ -8,6 +8,7 @@ import {
   buildPlaylistItemsUrl,
   buildVideosUrl,
   createYouTubeClient,
+  detectOrientation,
 } from '../scripts/lib/youtube.mjs';
 
 test('uploadsPlaylistId swaps only the UC prefix for UU', () => {
@@ -84,6 +85,17 @@ test('fetchUploadIds stops at a single page when there is no nextPageToken', asy
   const client = createYouTubeClient({ apiKey: 'K', fetchImpl });
   const ids = await client.fetchUploadIds({ id: 'UCabc' }, 20);
   assert.deepEqual(ids, ['x1']);
+});
+
+test('detectOrientation maps a 200 /shorts/ response to portrait, else landscape', async () => {
+  const shortImpl = async () => ({ status: 200 });
+  const notShortImpl = async () => ({ status: 303 });
+  const errorImpl = async () => {
+    throw new Error('network down');
+  };
+  assert.equal(await detectOrientation('vid', { fetchImpl: shortImpl }), 'portrait');
+  assert.equal(await detectOrientation('vid', { fetchImpl: notShortImpl }), 'landscape');
+  assert.equal(await detectOrientation('vid', { fetchImpl: errorImpl }), 'landscape', 'errors default to landscape, never throw');
 });
 
 test('an API error surfaces as a loud failure with the key redacted', async () => {
