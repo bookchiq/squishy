@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { parseArgs, gatherCandidates } from '../scripts/build-feed.mjs';
+import { parseArgs, gatherCandidates, attachScores } from '../scripts/build-feed.mjs';
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -65,6 +65,24 @@ test('gatherCandidates aborts when every channel fails rather than returning emp
   const config = { channels: { channels: [{ id: 'UCzzz', label: 'z' }], maxVideosPerChannel: 5, maxAgeMonths: 12 } };
   const fetchImpl = async () => ({ ok: false, status: 500, text: async () => 'boom' });
   await assert.rejects(() => gatherCandidates(config, { apiKey: 'K', fetchImpl }), /All 1 channel/);
+});
+
+test('attachScores bakes vote counts, defaulting missing videos to 0', async () => {
+  const videos = [{ id: 'a' }, { id: 'b' }, { id: 'c' }];
+  const fetchImpl = async (url) => {
+    assert.ok(url.endsWith('/votes'), 'reads the /votes route');
+    return { ok: true, json: async () => ({ a: 5, c: 2 }) };
+  };
+  await attachScores(videos, { endpoint: 'https://votes.example.dev', fetchImpl });
+  assert.deepEqual(videos.map((v) => v.score), [5, 0, 2]);
+});
+
+test('attachScores leaves scores at 0 when no endpoint is configured', async () => {
+  const videos = [{ id: 'a' }];
+  let called = false;
+  await attachScores(videos, { endpoint: '', fetchImpl: async () => ((called = true), { ok: true, json: async () => ({}) }) });
+  assert.equal(videos[0].score, 0);
+  assert.equal(called, false, 'no network call without an endpoint');
 });
 
 test('gatherCandidates loads fixtures offline with zero quota', async () => {

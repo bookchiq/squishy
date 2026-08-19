@@ -24,6 +24,12 @@ function shuffle(arr, rng = Math.random) {
   return a;
 }
 
+// Most-liked first, randomized within an equal-score tier so the very top isn't
+// frozen. Relies on Array.prototype.sort being stable (Node 12+ / modern browsers).
+function orderByScore(list, rng = Math.random) {
+  return shuffle(list, rng).sort((a, b) => (b.score || 0) - (a.score || 0));
+}
+
 /**
  * Build the eligible play pool for a session preference.
  * - Videos in `exclude` (already-seen IDs) are dropped first; if that would
@@ -47,11 +53,16 @@ export function buildPool(videos, preference, rng = Math.random, exclude = new S
   if (pool.length === 0) pool = uniq;
 
   const pref = new Set(preference);
-  const preferred = pool.filter((v) => pref.has(v.bucket));
+  // Preferred bucket ordered by 👍 (most-liked first, shuffled within a tier).
+  const preferred = orderByScore(
+    pool.filter((v) => pref.has(v.bucket)),
+    rng
+  );
+  // Fallback bucket stays shortest-first so a thin session doesn't open long.
   const rest = pool
     .filter((v) => !pref.has(v.bucket))
     .sort((a, b) => (a.durationSeconds || 0) - (b.durationSeconds || 0));
-  return [...shuffle(preferred, rng), ...rest];
+  return [...preferred, ...rest];
 }
 
 // --- "Already seen" store (persisted by the front-end in localStorage) -------

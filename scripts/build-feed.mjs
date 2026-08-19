@@ -118,6 +118,38 @@ async function attachOrientations(candidates, { fetchImpl, verbose, concurrency 
   }
 }
 
+async function resolveVotesEndpoint() {
+  if (process.env.VOTES_ENDPOINT) return process.env.VOTES_ENDPOINT.trim();
+  try {
+    const cfg = await loadJson('public/vote-config.json');
+    return String(cfg.endpoint || '').trim();
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Bake a 👍 `score` onto each video from the vote worker's /votes tally.
+ * No endpoint (or an unreachable one) leaves every score at 0 — the feed still
+ * builds; the front-end just orders randomly until votes exist.
+ */
+export async function attachScores(videos, { fetchImpl, endpoint } = {}) {
+  const url = (endpoint !== undefined ? endpoint : await resolveVotesEndpoint()).trim();
+  let counts = {};
+  if (url) {
+    try {
+      const res = await (fetchImpl || fetch)(url.replace(/\/$/, '') + '/votes', {
+        signal: AbortSignal.timeout(15000),
+      });
+      if (res && res.ok) counts = await res.json();
+    } catch {
+      /* votes unavailable — scores stay 0 */
+    }
+  }
+  for (const v of videos) v.score = counts[v.id] || 0;
+  return videos;
+}
+
 async function loadJsonAbsolute(absPath, displayName = absPath) {
   let raw;
   try {
@@ -191,7 +223,10 @@ async function main() {
     }
   }
 
-  // Freshest first.
+  // Bake 👍 scores from the vote worker (0 for everything if not configured).
+  await attachScores(videos);
+
+  // Freshest first (the front-end re-orders by score at play time).
   videos.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
 
   const output = {

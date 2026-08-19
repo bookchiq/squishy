@@ -1,0 +1,4 @@
+{
+  "_note": "Set 'endpoint' to your deployed vote worker's URL (e.g. https://squishy-votes.<subdomain>.workers.dev). Empty = voting disabled (no 👍 button, ordering falls back to random). Both the front-end and the daily build read this file.",
+  "endpoint": ""
+}

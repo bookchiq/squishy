@@ -140,6 +140,19 @@ nothing to build.
 
 ---
 
+## 👍 Voting (optional)
+
+Viewers can 👍 videos they love; the feed then orders each session by most-liked
+(unseen first). It stays true to the static design: a tiny **Cloudflare Worker +
+KV** collects votes, and the daily build bakes a `score` into `videos.json` — the
+deployed site only reads that score and fires a like POST.
+
+Setup lives in **`vote-worker/README.md`** (deploy the Worker, then set the URL in
+`public/vote-config.json`). Until an endpoint is configured, the 👍 button is
+hidden and ordering falls back to random — everything else works unchanged.
+
+---
+
 ## Repository layout
 
 ```

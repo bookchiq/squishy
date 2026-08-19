@@ -50,6 +50,25 @@ test('buildPool de-duplicates repeated video IDs', () => {
   assert.deepEqual(pool.map((v) => v.id).sort(), ['s1', 's2']);
 });
 
+test('buildPool orders the preferred bucket by score, most-liked first', () => {
+  const videos = [
+    { id: 'a', bucket: 'short', durationSeconds: 30, score: 1 },
+    { id: 'b', bucket: 'short', durationSeconds: 30, score: 9 },
+    { id: 'c', bucket: 'short', durationSeconds: 30, score: 5 },
+  ];
+  const pool = buildPool(videos, ['short'], () => 0);
+  assert.deepEqual(pool.map((v) => v.id), ['b', 'c', 'a']);
+});
+
+test('buildPool treats a missing score as 0', () => {
+  const videos = [
+    { id: 'a', bucket: 'short', durationSeconds: 30 },
+    { id: 'b', bucket: 'short', durationSeconds: 30, score: 3 },
+  ];
+  const pool = buildPool(videos, ['short'], () => 0);
+  assert.equal(pool[0].id, 'b', 'the voted video leads the unvoted one');
+});
+
 test('buildPool excludes already-seen videos', () => {
   const videos = [vid('s1', 'short', 30), vid('s2', 'short', 40), vid('s3', 'short', 50)];
   const pool = buildPool(videos, ['short'], () => 0, new Set(['s1', 's2']));

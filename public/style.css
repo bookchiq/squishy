@@ -203,6 +203,16 @@ h2 {
   padding: 0;
 }
 
+.like-btn.is-liked {
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: default;
+}
+
+.like-btn:disabled {
+  opacity: 1; /* "Liked" is a state, not a disabled-looking control */
+}
+
 /* Live cams */
 .livecams {
   border-top: 1px solid var(--line);

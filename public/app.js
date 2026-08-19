@@ -22,6 +22,7 @@ const MAINTAINER_EMAIL = 'you@example.com';
 const YT_API_TIMEOUT_MS = 8000; // how long to wait for the IFrame API before giving up
 const VIDEO_START_WATCHDOG_MS = 12000; // skip a video that never starts playing
 const SEEN_KEY = 'squishy:seen:v1'; // localStorage key for the "already watched" store
+const LIKED_KEY = 'squishy:liked:v1'; // localStorage key for videos this browser 👍'd
 
 const els = {
   picker: document.getElementById('picker'),
@@ -29,6 +30,7 @@ const els = {
   playerScreen: document.getElementById('player-screen'),
   playerFrame: document.querySelector('#player-screen .player-frame'),
   nowPlaying: document.getElementById('now-playing'),
+  likeBtn: document.getElementById('like-btn'),
   skipBtn: document.getElementById('skip-btn'),
   reportLink: document.getElementById('report-link'),
   quitBtn: document.getElementById('quit-btn'),
@@ -51,7 +53,67 @@ const state = {
   watchdog: null,
   seenEntries: [], // [{ id, ts }] persisted in localStorage
   seenIds: new Set(),
+  voteEndpoint: '', // vote worker URL, from vote-config.json ('' = voting off)
+  likedIds: new Set(), // videos this browser has 👍'd
 };
+
+// --- 👍 voting ---------------------------------------------------------------
+async function loadVoteConfig() {
+  try {
+    const res = await fetch('vote-config.json', { cache: 'no-cache' });
+    if (res.ok) {
+      const cfg = await res.json();
+      state.voteEndpoint = String(cfg.endpoint || '').trim().replace(/\/$/, '');
+    }
+  } catch {
+    /* no config — voting stays off */
+  }
+}
+
+function loadLiked() {
+  try {
+    const raw = localStorage.getItem(LIKED_KEY);
+    state.likedIds = new Set(raw ? JSON.parse(raw) : []);
+  } catch {
+    state.likedIds = new Set();
+  }
+}
+
+function persistLiked() {
+  try {
+    localStorage.setItem(LIKED_KEY, JSON.stringify([...state.likedIds]));
+  } catch {
+    /* storage unavailable — keep in-memory for this page session */
+  }
+}
+
+function updateLikeButton(video) {
+  if (!state.voteEndpoint) {
+    els.likeBtn.hidden = true;
+    return;
+  }
+  els.likeBtn.hidden = false;
+  const liked = video && state.likedIds.has(video.id);
+  els.likeBtn.textContent = liked ? '👍 Liked' : '👍 Like';
+  els.likeBtn.disabled = !!liked;
+  els.likeBtn.classList.toggle('is-liked', !!liked);
+}
+
+function like() {
+  const video = currentVideo();
+  if (!video || !state.voteEndpoint || state.likedIds.has(video.id)) return;
+  // Optimistic: mark liked immediately; the POST is fire-and-forget.
+  state.likedIds.add(video.id);
+  persistLiked();
+  updateLikeButton(video);
+  fetch(`${state.voteEndpoint}/vote`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ videoId: video.id }),
+  }).catch(() => {
+    /* network hiccup — the like is still remembered locally; scores rebuild daily */
+  });
+}
 
 // --- "Already watched" memory (localStorage) --------------------------------
 function loadSeen() {
@@ -175,6 +237,7 @@ function playCurrent() {
   // Update the "now playing" line and report link via safe DOM APIs.
   els.nowPlaying.textContent = `${video.title} · ${video.channel}`;
   els.reportLink.href = buildReportTarget(video, MAINTAINER_EMAIL).mailto;
+  updateLikeButton(video);
   // Vertical Shorts get a portrait frame so they aren't letterboxed into 16:9.
   els.playerFrame.classList.toggle('portrait', video.orientation === 'portrait');
 
@@ -329,9 +392,12 @@ function renderLiveCams(cams) {
 // --- Wire up -----------------------------------------------------------------
 function init() {
   loadSeen();
+  loadLiked();
+  loadVoteConfig();
   for (const btn of document.querySelectorAll('.choice[data-minutes]')) {
     btn.addEventListener('click', () => startSession(Number(btn.dataset.minutes)));
   }
+  els.likeBtn.addEventListener('click', like);
   els.skipBtn.addEventListener('click', skip);
   els.quitBtn.addEventListener('click', endSession);
   els.moreBtn.addEventListener('click', aFewMore);
