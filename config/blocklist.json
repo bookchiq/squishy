@@ -1,4 +1,6 @@
 {
-  "videoIds": [],
-  "notes": "Reactive, per-video overrides. One YouTube video ID per slip-through that the denylist did not catch. Rare hand-maintenance — add an ID here to permanently hide a specific video."
+  "videoIds": [
+    "G4dabBG3iUc"
+  ],
+  "notes": "Reactive, per-video overrides. One YouTube video ID per slip-through that the denylist did not catch. Rare hand-maintenance — add an ID here to permanently hide a specific video. (G4dabBG3iUc = a NASCAR promo filmed at the San Diego Zoo — not an animal video.)"
 }
