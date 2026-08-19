@@ -64,6 +64,29 @@ test('matchesDenylist is case-insensitive substring on title+description', () =>
   assert.equal(matchesDenylist('Otter eats a clam', 'wholesome', kw), null);
 });
 
+test('matchesDenylist respects word boundaries (no substring false positives)', () => {
+  const kw = ['rip', 'died', 'election'];
+  // Must NOT match inside longer words:
+  assert.equal(matchesDenylist('A trip to the aquarium', '', kw), null);
+  assert.equal(matchesDenylist('Otter grips a shell', '', kw), null);
+  assert.equal(matchesDenylist('We studied the reef', '', kw), null);
+  assert.equal(matchesDenylist('candied yams', '', kw), null);
+  // Must still match the whole word:
+  assert.ok(matchesDenylist('RIP little friend', '', kw));
+  assert.ok(matchesDenylist('the otter died', '', kw));
+});
+
+test('matchesDenylist skips blank/whitespace keywords instead of matching everything', () => {
+  assert.equal(matchesDenylist('Any wholesome title', 'body', ['', '   ']), null);
+});
+
+test('validateDenylistConfig rejects blank keywords (a blank would empty the feed)', () => {
+  assert.throws(() => validateDenylistConfig({ keywords: ['ok', ''] }), /non-empty string/);
+  assert.throws(() => validateDenylistConfig({ keywords: ['ok', '   '] }), /non-empty string/);
+  assert.throws(() => validateDenylistConfig({ keywords: ['ok', 42] }), /non-empty string/);
+  assert.doesNotThrow(() => validateDenylistConfig({ keywords: ['ok'] }));
+});
+
 test('isTooOld drops videos older than the cap, keeps fresh ones', () => {
   const now = new Date('2026-08-18T00:00:00Z');
   const thirteenMonthsAgo = '2025-07-01T00:00:00Z';

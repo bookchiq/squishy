@@ -62,6 +62,30 @@ test('client counts one quota unit per list call', async () => {
   assert.equal(calls, 2);
 });
 
+test('fetchUploadIds pages across nextPageToken and truncates to maxVideos', async () => {
+  const page1 = { items: Array.from({ length: 50 }, (_, i) => ({ contentDetails: { videoId: `a${i}` } })), nextPageToken: 'PAGE2' };
+  const page2 = { items: Array.from({ length: 50 }, (_, i) => ({ contentDetails: { videoId: `b${i}` } })) };
+  let calls = 0;
+  const fetchImpl = async (url) => {
+    calls++;
+    const token = new URL(url).searchParams.get('pageToken');
+    return { ok: true, json: async () => (token === 'PAGE2' ? page2 : page1) };
+  };
+  const client = createYouTubeClient({ apiKey: 'K', fetchImpl });
+  const ids = await client.fetchUploadIds({ id: 'UCabc' }, 70);
+  assert.equal(ids.length, 70, 'truncated to maxVideos across pages');
+  assert.equal(ids[0], 'a0');
+  assert.equal(ids[69], 'b19');
+  assert.equal(calls, 2, 'stopped paging once the cap was reached (no third page)');
+});
+
+test('fetchUploadIds stops at a single page when there is no nextPageToken', async () => {
+  const fetchImpl = async () => ({ ok: true, json: async () => ({ items: [{ contentDetails: { videoId: 'x1' } }] }) });
+  const client = createYouTubeClient({ apiKey: 'K', fetchImpl });
+  const ids = await client.fetchUploadIds({ id: 'UCabc' }, 20);
+  assert.deepEqual(ids, ['x1']);
+});
+
 test('an API error surfaces as a loud failure with the key redacted', async () => {
   const fetchImpl = async () => ({ ok: false, status: 403, text: async () => 'quota exceeded key=SECRET' });
   const client = createYouTubeClient({ apiKey: 'SECRET', fetchImpl });

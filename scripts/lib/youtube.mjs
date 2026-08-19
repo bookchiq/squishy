@@ -11,6 +11,9 @@ const API = 'https://www.googleapis.com/youtube/v3';
 /** Hard ceiling on estimated quota units per run — a runaway-channel-list backstop. */
 export const QUOTA_CEILING = 500;
 
+/** Per-request timeout (ms) so a half-open connection fails loudly instead of hanging. */
+export const FETCH_TIMEOUT_MS = 15000;
+
 /** Every channel's uploads playlist ID is its channel ID with the leading UC swapped for UU. */
 export function uploadsPlaylistId(channelId) {
   if (typeof channelId !== 'string' || !/^UC/.test(channelId)) {
@@ -79,7 +82,13 @@ export function createYouTubeClient({ apiKey, fetchImpl = fetch } = {}) {
 
   async function getJson(url) {
     state.quotaUnits += 1;
-    const res = await fetchImpl(url);
+    let res;
+    try {
+      res = await fetchImpl(url, { signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
+    } catch (e) {
+      // Network error / timeout — surface loudly, key scrubbed, never a silent empty feed.
+      throw new Error(`YouTube API request failed for ${scrub(url)} — ${scrub(e.message || String(e))}`);
+    }
     if (!res.ok) {
       let body = '';
       try {

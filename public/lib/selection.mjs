@@ -53,6 +53,26 @@ export function shouldContinue(cumulativeSeconds, budgetSeconds) {
   return cumulativeSeconds < budgetSeconds;
 }
 
+/** A small, bounded budget for the "a few more?" gentle top-up. */
+export const TOP_UP_SECONDS = 120;
+
+/**
+ * Decide what happens after a video finishes: add its duration to the running
+ * total, then either advance to the next pool item or end the session (budget
+ * reached, or the pool is exhausted). Pure — the caller applies the returned state.
+ */
+export function nextStep({ index, cumulativeSeconds, poolLength, budgetSeconds }, endedDurationSeconds) {
+  const cumulative = cumulativeSeconds + (Number(endedDurationSeconds) || 0);
+  if (!shouldContinue(cumulative, budgetSeconds)) {
+    return { action: 'end', index, cumulativeSeconds: cumulative };
+  }
+  const nextIndex = index + 1;
+  if (nextIndex >= poolLength) {
+    return { action: 'end', index: nextIndex, cumulativeSeconds: cumulative };
+  }
+  return { action: 'advance', index: nextIndex, cumulativeSeconds: cumulative };
+}
+
 /**
  * Build a prefilled mailto for the "report this video" affordance.
  * Everything is URL-encoded so a crafted title cannot inject mail headers.

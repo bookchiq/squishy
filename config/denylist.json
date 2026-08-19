@@ -7,7 +7,7 @@
     "rainbow bridge",
     "passed away",
     "in memory of",
-    "rip ",
+    "rip",
     "breaking",
     "politics",
     "election",
@@ -15,5 +15,5 @@
     "died",
     "euthanized"
   ],
-  "notes": "Case-insensitive substring match on title+description. Drop any video that matches. Keep this list conservative — over-filtering silently shrinks the feed. Every drop is logged by the build (run with --dry-run) so tuning is evidence-based."
+  "notes": "Case-insensitive WORD-BOUNDARY match on title+description (so 'died' will not match 'studied'). Drop any video that matches. Keep this list conservative — over-filtering silently shrinks the feed. Blank keywords are rejected by the build. Every drop is logged (run with --dry-run) so tuning is evidence-based."
 }

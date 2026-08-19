@@ -33,14 +33,23 @@ export function bucketFor(seconds) {
   return 'long';
 }
 
+function keywordRegex(keyword) {
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Word-boundary match so "died" does not match "studied" and "rip" not "trip".
+  return new RegExp(`\\b${escaped}\\b`, 'i');
+}
+
 /**
- * Case-insensitive substring match of any denylist keyword against title+description.
+ * Word-boundary match of any denylist keyword against title+description.
+ * Blank/whitespace keywords are skipped (they would otherwise match everything).
  * Returns the matched keyword (truthy) or null (no match) so callers can log the reason.
  */
 export function matchesDenylist(title, description, keywords) {
-  const hay = `${title || ''} ${description || ''}`.toLowerCase();
+  const hay = `${title || ''} ${description || ''}`;
   for (const k of keywords) {
-    if (hay.includes(String(k).toLowerCase())) return k;
+    const trimmed = String(k).trim();
+    if (!trimmed) continue;
+    if (keywordRegex(trimmed).test(hay)) return k;
   }
   return null;
 }
@@ -81,6 +90,11 @@ export function validateChannelsConfig(cfg) {
 
 export function validateDenylistConfig(cfg) {
   if (!cfg || !Array.isArray(cfg.keywords)) throw new Error('config/denylist.json: "keywords" must be an array');
+  cfg.keywords.forEach((k, i) => {
+    if (typeof k !== 'string' || k.trim() === '') {
+      throw new Error(`config/denylist.json: keywords[${i}] must be a non-empty string (a blank keyword would drop every video)`);
+    }
+  });
   return cfg;
 }
 

@@ -6,6 +6,8 @@ import {
   buildPool,
   shouldContinue,
   buildReportTarget,
+  nextStep,
+  TOP_UP_SECONDS,
 } from '../public/lib/selection.mjs';
 
 const vid = (id, bucket, durationSeconds) => ({ id, bucket, durationSeconds, title: id, channel: 'c' });
@@ -51,6 +53,28 @@ test('shouldContinue stops advancing once cumulative reaches budget', () => {
   assert.equal(shouldContinue(119, 120), true);
   assert.equal(shouldContinue(120, 120), false);
   assert.equal(shouldContinue(200, 120), false);
+});
+
+test('nextStep advances while under budget, accumulating watch time', () => {
+  const step = nextStep({ index: 0, cumulativeSeconds: 30, poolLength: 5, budgetSeconds: 120 }, 40);
+  assert.deepEqual(step, { action: 'advance', index: 1, cumulativeSeconds: 70 });
+});
+
+test('nextStep ends the session once the budget is reached', () => {
+  const step = nextStep({ index: 1, cumulativeSeconds: 90, poolLength: 5, budgetSeconds: 120 }, 40);
+  assert.equal(step.action, 'end');
+  assert.equal(step.cumulativeSeconds, 130);
+});
+
+test('nextStep ends the session when the pool is exhausted even under budget', () => {
+  const step = nextStep({ index: 4, cumulativeSeconds: 10, poolLength: 5, budgetSeconds: 600 }, 20);
+  assert.equal(step.action, 'end');
+  assert.equal(step.index, 5);
+});
+
+test('TOP_UP_SECONDS bounds the "a few more?" top-up', () => {
+  assert.equal(typeof TOP_UP_SECONDS, 'number');
+  assert.ok(TOP_UP_SECONDS > 0 && TOP_UP_SECONDS <= 300);
 });
 
 test('buildReportTarget URL-encodes a crafted title so it cannot inject mail headers', () => {

@@ -27,11 +27,12 @@ import {
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 export function parseArgs(argv) {
-  const args = { dryRun: false, verbose: false, fixtures: null };
+  const args = { dryRun: false, verbose: false, fixtures: null, allowEmpty: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--verbose') args.verbose = true;
+    else if (a === '--allow-empty') args.allowEmpty = true;
     else if (a === '--fixtures') args.fixtures = argv[++i];
     else if (a.startsWith('--fixtures=')) args.fixtures = a.slice('--fixtures='.length);
     else throw new Error(`Unknown argument: ${a}`);
@@ -40,19 +41,8 @@ export function parseArgs(argv) {
   return args;
 }
 
-async function loadJson(relPath) {
-  let raw;
-  try {
-    raw = await readFile(path.join(ROOT, relPath), 'utf8');
-  } catch (e) {
-    throw new Error(`${relPath}: cannot read (${e.code || e.message})`);
-  }
-  try {
-    return JSON.parse(raw);
-  } catch (e) {
-    throw new Error(`${relPath}: invalid JSON (${e.message})`);
-  }
-}
+// Read + parse a JSON file relative to the repo root.
+const loadJson = (relPath) => loadJsonAbsolute(path.join(ROOT, relPath), relPath);
 
 export async function loadConfig() {
   const channels = validateChannelsConfig(await loadJson('config/channels.json'));
@@ -66,7 +56,7 @@ export async function loadConfig() {
  * fixtures directory (`<dir>/candidates.json`). Returns a uniform candidate
  * shape regardless of source so the filter pipeline is source-agnostic.
  */
-export async function gatherCandidates(config, { apiKey, fixtures, verbose } = {}) {
+export async function gatherCandidates(config, { apiKey, fixtures, verbose, fetchImpl } = {}) {
   const { channels } = config;
   const labelById = new Map(channels.channels.map((c) => [c.id, c.label]));
 
@@ -76,7 +66,7 @@ export async function gatherCandidates(config, { apiKey, fixtures, verbose } = {
       normalizeCandidate(v, labelById)
     );
     if (verbose) console.error(`[fixtures] loaded ${candidates.length} candidate(s) from ${fixtures}`);
-    return { candidates, quotaUnits: 0, source: 'fixtures' };
+    return { candidates, quotaUnits: 0, source: 'fixtures', channelFailures: [] };
   }
 
   const estimate = estimateMaxQuotaUnits(channels.channels.length, channels.maxVideosPerChannel);
@@ -87,29 +77,39 @@ export async function gatherCandidates(config, { apiKey, fixtures, verbose } = {
     );
   }
 
-  const client = createYouTubeClient({ apiKey });
+  const client = createYouTubeClient({ apiKey, ...(fetchImpl ? { fetchImpl } : {}) });
   const allIds = [];
+  const channelFailures = [];
+  // One dead/renamed/private channel must not fail the whole refresh — skip it and continue.
   for (const channel of channels.channels) {
-    const ids = await client.fetchUploadIds(channel, channels.maxVideosPerChannel);
-    if (verbose) console.error(`[fetch] ${channel.label}: ${ids.length} upload(s)`);
-    allIds.push(...ids);
+    try {
+      const ids = await client.fetchUploadIds(channel, channels.maxVideosPerChannel);
+      if (verbose) console.error(`[fetch] ${channel.label}: ${ids.length} upload(s)`);
+      allIds.push(...ids);
+    } catch (e) {
+      channelFailures.push({ channel: channel.label || channel.id, error: e.message });
+      console.error(`[warn] channel "${channel.label || channel.id}" failed, skipping: ${e.message}`);
+    }
+  }
+  if (channelFailures.length === channels.channels.length) {
+    throw new Error(`All ${channelFailures.length} channel(s) failed to fetch — aborting rather than writing an empty feed.`);
   }
   const details = await client.fetchVideoDetails(allIds);
   const candidates = details.map((v) => normalizeCandidate(v, labelById));
-  return { candidates, quotaUnits: client.quotaUnits, source: 'api' };
+  return { candidates, quotaUnits: client.quotaUnits, source: 'api', channelFailures };
 }
 
-async function loadJsonAbsolute(absPath) {
+async function loadJsonAbsolute(absPath, displayName = absPath) {
   let raw;
   try {
     raw = await readFile(absPath, 'utf8');
   } catch (e) {
-    throw new Error(`${absPath}: cannot read (${e.code || e.message})`);
+    throw new Error(`${displayName}: cannot read (${e.code || e.message})`);
   }
   try {
     return JSON.parse(raw);
   } catch (e) {
-    throw new Error(`${absPath}: invalid JSON (${e.message})`);
+    throw new Error(`${displayName}: invalid JSON (${e.message})`);
   }
 }
 
@@ -152,7 +152,7 @@ async function main() {
     );
   }
 
-  const { candidates, quotaUnits, source } = await gatherCandidates(config, {
+  const { candidates, quotaUnits, source, channelFailures } = await gatherCandidates(config, {
     apiKey,
     fixtures: args.fixtures,
     verbose: args.verbose,
@@ -182,10 +182,22 @@ async function main() {
   for (const v of videos) buckets[v.bucket] += 1;
 
   printReport({ source, quotaUnits, inCount: candidates.length, videos, drops, buckets, dryRun: args.dryRun });
+  if (channelFailures && channelFailures.length) {
+    console.log(`channels skipped (fetch failed): ${channelFailures.length}`);
+  }
 
   if (args.dryRun) {
     console.log('\n[dry-run] Nothing written. Re-run without --dry-run to write public/videos.json.');
     return;
+  }
+
+  // Floor guard: never overwrite a healthy feed with an empty one (a collapsed
+  // denylist, mass aging-out, etc. would otherwise ship an empty site silently).
+  if (videos.length === 0 && !args.allowEmpty) {
+    throw new Error(
+      'Kept 0 videos — refusing to overwrite public/videos.json with an empty feed. ' +
+        'Check the report above (over-broad denylist? all channels failed?). Pass --allow-empty to override.'
+    );
   }
 
   const outPath = path.join(ROOT, 'public', 'videos.json');
