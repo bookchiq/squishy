@@ -1,0 +1,49 @@
+name: Deploy site
+
+# Publishes the static site in public/ to GitHub Pages.
+# GitHub Pages "deploy from a branch" can only serve / or /docs, not public/,
+# so we deploy public/ as an Actions artifact instead. This also lets us chain
+# the deploy after each scheduled feed refresh (whose GITHUB_TOKEN commit would
+# not trigger an ordinary push-based deploy).
+
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ['Refresh feed']
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # On a workflow_run trigger, only deploy if the refresh actually succeeded.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload public/ as the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

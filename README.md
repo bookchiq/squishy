@@ -117,21 +117,26 @@ the video ID to `config/blocklist.json`.
 Pages, Netlify, Cloudflare Pages) with no build step of its own, because
 `public/videos.json` is committed to the repo.
 
-**GitHub Pages (default):** point Pages at this repo. The scheduled Action
-(`.github/workflows/refresh-feed.yml`) regenerates `public/videos.json` daily and
-commits it back; the commit is what triggers a redeploy.
+**GitHub Pages (default): use the GitHub Actions source, not "deploy from a
+branch".** Pages' deploy-from-a-branch mode can only serve `/` or `/docs`, never
+an arbitrary `public/` folder. This repo therefore ships a Pages **Actions**
+workflow (`.github/workflows/deploy-pages.yml`) that publishes the `public/`
+directory as the Pages artifact.
 
-> **Important — Pages deployment mode.** The auto-redeploy only works when Pages
-> is configured as **Deploy from a branch** (serving `public/` from the committed
-> branch). If you instead use a **GitHub Actions** Pages deployment (an
-> `on: push` workflow), note that a commit pushed by the built-in `GITHUB_TOKEN`
-> **does not** trigger another workflow — so the site would serve stale content.
-> In that setup, add `workflow_dispatch`/`workflow_run` chaining or a deploy step
-> to the refresh workflow.
+To enable it: **Settings → Pages → Build and deployment → Source → GitHub
+Actions**. The site then deploys on every push to `main`, and — via a
+`workflow_run` trigger — after each scheduled feed refresh. That chaining is
+what solves the classic gotcha: the refresh workflow's `GITHUB_TOKEN` commit of
+`videos.json` would **not** trigger an ordinary `on: push` deploy, so the deploy
+workflow listens for the refresh workflow completing instead.
 
-The refresh workflow needs `contents: write` permission (already declared in the
-workflow) so it can commit the regenerated feed; the default `GITHUB_TOKEN` is
-sufficient — no personal access token required.
+- `refresh-feed.yml` needs `contents: write` (declared) to commit the feed; the
+  default `GITHUB_TOKEN` is sufficient — no personal access token required.
+- `deploy-pages.yml` needs `pages: write` + `id-token: write` (declared).
+
+**Other hosts (Netlify / Cloudflare Pages):** set the publish directory to
+`public/` and no build command. The committed `videos.json` means there is
+nothing to build.
 
 ---
 
