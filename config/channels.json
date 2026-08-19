@@ -1,5 +1,5 @@
 {
-  "notes": "Starter set of reputable, wholesome animal channels — EDIT THIS to curate your own feed. `id` is the YouTube channel ID (starts with UC; find it at youtube.com/channel/<id> or via Social Blade). `trust` is advisory metadata for future tuning (high|medium). `maxVideosPerChannel` caps uploads pulled per channel; `maxAgeMonths` limits how far back the feed reaches.",
+  "notes": "Reputable, wholesome, ACTIVE animal channels — EDIT THIS to curate your own feed. `id` is the YouTube channel ID (starts with UC; find it at youtube.com/channel/<id> or via Social Blade). Prefer channels that post short clips/Shorts regularly (long-form-only channels get filtered by the 20-min cap). `trust` is advisory (high|medium). `maxVideosPerChannel` caps uploads pulled per channel; `maxAgeMonths` limits how far back the feed reaches.",
   "channels": [
     { "id": "UCnM5iMGiKsZg-iOlIO2ZkdQ", "label": "Monterey Bay Aquarium", "trust": "high" },
     { "id": "UCE3VoxyYmyQCReOXk2ogsVg", "label": "The Cincinnati Zoo & Botanical Garden", "trust": "high" },
@@ -13,19 +13,19 @@
     { "id": "UCvmijL-eepDVHYSJHDY3d6w", "label": "Cole and Marmalade", "trust": "high" },
     { "id": "UCTl8bLnzuZzID1kIhpbS5vQ", "label": "Flatbush Cats", "trust": "high" },
     { "id": "UCeL2LSl91k2VccR7XEh5IKg", "label": "TinyKittens HQ", "trust": "high" },
-    { "id": "UCRRi9jT43EehTp16gK2e-KQ", "label": "Lucky Ferals", "trust": "high" },
     { "id": "UCsCFq6T-ut6mRvC5MlZmjkw", "label": "Sho Ko", "trust": "high" },
     { "id": "UCGbOTPDlBwkN-4N85dK6U7Q", "label": "Kagonekoshiro (Zen Cats)", "trust": "high" },
-    { "id": "UCUSfEor0VihlL4fMt-VlLgQ", "label": "Lennon The Bunny", "trust": "high" },
-    { "id": "UCsX4V8PYAGJjw0r7ry-mscg", "label": "101Rabbits", "trust": "high" },
-    { "id": "UCMwnCA2CMDQnoQ-UOrwVMUw", "label": "Victoria Raechel", "trust": "high" },
-    { "id": "UCKD8QcX1LhFB8n7lhjfuQdg", "label": "Gohan The Husky", "trust": "high" },
+    { "id": "UCplhkHsYKxXjTde1lq8F-4w", "label": "Mochimaru", "trust": "high" },
+    { "id": "UCRVruzlQF5cqpw9jQgIgNdw", "label": "I am Maru", "trust": "high" },
+    { "id": "UCMwnCA2CMDQnoQ-UOrwVMUw", "label": "Victoria Raechel (Rabbits)", "trust": "high" },
+    { "id": "UCITMs6XgJVhSxUXNArIA2Kw", "label": "OneMorePlease (Rabbit)", "trust": "high" },
+    { "id": "UCDd21vf-O4Ay6A3X7WPPvEw", "label": "Little Adventures (Guinea Pigs)", "trust": "high" },
+    { "id": "UCayH4MNB8xF60ibtQzUMB-w", "label": "Sunday The Golden Retriever", "trust": "high" },
     { "id": "UCj9pk54KCzfvTs9gnMKJYSg", "label": "Life with Malamutes", "trust": "high" },
     { "id": "UCU0LJ9et5Tb3m7COFzShgLg", "label": "Robert E Fuller (Wildlife)", "trust": "high" },
     { "id": "UC2GYlKSMFgAPqVZoFyw5Itg", "label": "Wildlife Aid", "trust": "medium" },
     { "id": "UCb3KY97ICfIkDJY_p6d7yig", "label": "SaveAFox", "trust": "high" },
-    { "id": "UCbJ-1yM55NHrR1GS9hhPuvg", "label": "Alveus Sanctuary", "trust": "high" },
-    { "id": "UCgfnQIQVXWBwLPxYRvcsv2g", "label": "Edgar's Mission (Farm Sanctuary)", "trust": "high" }
+    { "id": "UCbJ-1yM55NHrR1GS9hhPuvg", "label": "Alveus Sanctuary", "trust": "high" }
   ],
   "maxVideosPerChannel": 20,
   "maxAgeMonths": 12
