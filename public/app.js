@@ -7,7 +7,8 @@ import {
   sessionFor,
   buildPool,
   buildReportTarget,
-  nextStep,
+  shouldContinue,
+  chooseNextIndex,
   TOP_UP_SECONDS,
   pruneSeen,
   addSeen,
@@ -49,8 +50,8 @@ const els = {
 const state = {
   videos: [],
   session: null,
-  pool: [],
-  index: 0,
+  queue: [], // remaining videos this session, in preference/score order
+  current: null, // the video playing now
   cumulativeSeconds: 0,
   player: null,
   watchdog: null,
@@ -251,7 +252,7 @@ function warmPickerNote(text) {
 function beginPlayback() {
   loadYouTubeApi();
   ytReadyWithTimeout()
-    .then(() => playCurrent())
+    .then(() => playNext())
     .catch((err) => {
       console.warn(err);
       warmPickerNote("We couldn't reach the video player just now — please try again in a moment. 🐾");
@@ -262,11 +263,11 @@ function startSession(minutes) {
   const session = sessionFor(minutes);
   if (!session) return;
   state.session = session;
-  state.pool = buildPool(state.videos, session.preference, Math.random, state.seenIds);
-  state.index = 0;
+  state.queue = buildPool(state.videos, session.preference, Math.random, state.seenIds);
+  state.current = null;
   state.cumulativeSeconds = 0;
 
-  if (state.pool.length === 0) {
+  if (state.queue.length === 0) {
     warmPickerNote('The feed is empty right now — check back soon, or run the build to fill it. 🐾');
     return;
   }
@@ -277,11 +278,19 @@ function startSession(minutes) {
 }
 
 function currentVideo() {
-  return state.pool[state.index];
+  return state.current;
 }
 
-function playCurrent() {
-  const video = currentVideo();
+// Pick the next video from the remaining queue (time-budget aware), play it.
+function playNext() {
+  const remaining = state.session.budgetSeconds - state.cumulativeSeconds;
+  const idx = chooseNextIndex(state.queue, remaining, state.session.budgetSeconds);
+  if (idx < 0) return endSession(); // queue empty
+  state.current = state.queue.splice(idx, 1)[0];
+  playCurrent(state.current);
+}
+
+function playCurrent(video) {
   if (!video) return endSession();
 
   // Update the "now playing" line and report link via safe DOM APIs.
@@ -313,7 +322,7 @@ function armWatchdog() {
   clearWatchdog();
   // If the video never reaches PLAYING (autoplay blocked, endless buffering, an
   // interstitial), skip it rather than stalling the session on a dead frame.
-  state.watchdog = setTimeout(() => advance(), VIDEO_START_WATCHDOG_MS);
+  state.watchdog = setTimeout(() => playNext(), VIDEO_START_WATCHDOG_MS);
 }
 
 function clearWatchdog() {
@@ -332,53 +341,27 @@ function onPlayerStateChange(event) {
   }
   if (event.data === YTP.ENDED) {
     clearWatchdog();
-    const step = nextStep(
-      {
-        index: state.index,
-        cumulativeSeconds: state.cumulativeSeconds,
-        poolLength: state.pool.length,
-        budgetSeconds: state.session.budgetSeconds,
-      },
-      currentVideo()?.durationSeconds
-    );
-    state.index = step.index;
-    state.cumulativeSeconds = step.cumulativeSeconds;
-    if (step.action === 'end') endSession();
-    else playCurrent();
+    // Count the finished video against the budget, then continue or end.
+    state.cumulativeSeconds += Number(state.current?.durationSeconds) || 0;
+    if (!shouldContinue(state.cumulativeSeconds, state.session.budgetSeconds)) endSession();
+    else playNext();
   }
 }
 
 // A non-embeddable or unavailable video errors instead of firing ENDED — skip it.
 // Errored videos do not count against the watch budget.
 function onPlayerError() {
-  advance();
+  clearWatchdog();
+  playNext();
 }
 
 // User skip: credit only the time actually watched (not the full duration), then
 // move on — so skipping something that isn't for you doesn't burn your budget.
 function skip() {
-  const watched = Math.floor(state.player?.getCurrentTime?.() || 0);
-  const step = nextStep(
-    {
-      index: state.index,
-      cumulativeSeconds: state.cumulativeSeconds,
-      poolLength: state.pool.length,
-      budgetSeconds: state.session.budgetSeconds,
-    },
-    watched
-  );
-  state.index = step.index;
-  state.cumulativeSeconds = step.cumulativeSeconds;
   clearWatchdog();
-  if (step.action === 'end') endSession();
-  else playCurrent();
-}
-
-function advance() {
-  clearWatchdog();
-  state.index += 1;
-  if (state.index >= state.pool.length) return endSession();
-  playCurrent();
+  state.cumulativeSeconds += Math.floor(state.player?.getCurrentTime?.() || 0);
+  if (!shouldContinue(state.cumulativeSeconds, state.session.budgetSeconds)) endSession();
+  else playNext();
 }
 
 function endSession() {
@@ -392,12 +375,12 @@ function endSession() {
 }
 
 function aFewMore() {
-  // Fresh short pool with a small BOUNDED top-up budget — not another full session.
+  // Fresh short queue with a small BOUNDED top-up budget — not another full session.
   state.session = { ...state.session, budgetSeconds: TOP_UP_SECONDS };
-  state.pool = buildPool(state.videos, ['short'], Math.random, state.seenIds);
-  state.index = 0;
+  state.queue = buildPool(state.videos, ['short'], Math.random, state.seenIds);
+  state.current = null;
   state.cumulativeSeconds = 0;
-  if (state.pool.length === 0) return endSession();
+  if (state.queue.length === 0) return endSession();
   show('player');
   beginPlayback();
 }
