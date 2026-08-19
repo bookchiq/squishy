@@ -22,6 +22,7 @@ import {
   createYouTubeClient,
   estimateMaxQuotaUnits,
   QUOTA_CEILING,
+  detectOrientation,
 } from './lib/youtube.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -96,7 +97,25 @@ export async function gatherCandidates(config, { apiKey, fixtures, verbose, fetc
   }
   const details = await client.fetchVideoDetails(allIds);
   const candidates = details.map((v) => normalizeCandidate(v, labelById));
+  // Orientation (portrait/landscape) is a non-API web probe — no quota cost.
+  await attachOrientations(candidates, { fetchImpl, verbose });
   return { candidates, quotaUnits: client.quotaUnits, source: 'api', channelFailures };
+}
+
+// Probe each candidate's orientation with bounded concurrency; mutate in place.
+async function attachOrientations(candidates, { fetchImpl, verbose, concurrency = 8 } = {}) {
+  let cursor = 0;
+  async function worker() {
+    while (cursor < candidates.length) {
+      const c = candidates[cursor++];
+      c.orientation = await detectOrientation(c.id, fetchImpl ? { fetchImpl } : {});
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, candidates.length) }, worker));
+  if (verbose) {
+    const portrait = candidates.filter((c) => c.orientation === 'portrait').length;
+    console.error(`[orientation] ${portrait} portrait, ${candidates.length - portrait} landscape`);
+  }
 }
 
 async function loadJsonAbsolute(absPath, displayName = absPath) {
@@ -129,6 +148,8 @@ function normalizeCandidate(v, labelById) {
     privacyStatus: v.privacyStatus ?? null,
     thumbnail: v.thumbnail || (v.id ? `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg` : null),
     channelLabel: labelById.get(v.channelId) || v.channelLabel || v.channelTitle || 'Unknown channel',
+    // Fixtures may pin orientation; the API path overrides via attachOrientations.
+    orientation: v.orientation === 'portrait' ? 'portrait' : 'landscape',
   };
 }
 

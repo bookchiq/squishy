@@ -40,6 +40,7 @@ test('gatherCandidates skips a failing channel and keeps the rest', async () => 
   };
   const fetchImpl = async (url) => {
     const u = new URL(url);
+    if (u.hostname === 'www.youtube.com') return { status: 200 }; // /shorts/ probe -> portrait
     if (u.pathname.endsWith('/playlistItems')) {
       const pl = u.searchParams.get('playlistId');
       if (pl.startsWith('UUaaa')) return { ok: false, status: 404, text: async () => 'not found' };
@@ -55,6 +56,7 @@ test('gatherCandidates skips a failing channel and keeps the rest', async () => 
   const result = await gatherCandidates(config, { apiKey: 'K', fetchImpl });
   assert.equal(result.candidates.length, 1);
   assert.equal(result.candidates[0].channelLabel, 'Good Channel');
+  assert.equal(result.candidates[0].orientation, 'portrait', 'orientation probed on the API path');
   assert.equal(result.channelFailures.length, 1);
   assert.equal(result.channelFailures[0].channel, 'Dead Channel');
 });
@@ -79,4 +81,5 @@ test('gatherCandidates loads fixtures offline with zero quota', async () => {
   assert.ok(result.candidates.length > 0);
   const otter = result.candidates.find((c) => c.id === 'otter001');
   assert.equal(otter.channelLabel, 'Monterey Bay Aquarium', 'channelLabel resolves from config by channelId');
+  assert.equal(otter.orientation, 'portrait', 'fixtures may pin orientation');
 });

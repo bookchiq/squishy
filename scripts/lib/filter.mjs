@@ -147,6 +147,7 @@ export function filterAndBucket(candidates, { blocklist = [], keywords = [], max
       channel: c.channelLabel,
       durationSeconds: c.durationSeconds,
       bucket: bucketFor(c.durationSeconds),
+      orientation: c.orientation === 'portrait' ? 'portrait' : 'landscape',
       publishedAt: c.publishedAt,
       thumbnail: c.thumbnail,
     });
