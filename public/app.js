@@ -23,6 +23,7 @@ const YT_API_TIMEOUT_MS = 8000; // how long to wait for the IFrame API before gi
 const VIDEO_START_WATCHDOG_MS = 12000; // skip a video that never starts playing
 const SEEN_KEY = 'squishy:seen:v1'; // localStorage key for the "already watched" store
 const LIKED_KEY = 'squishy:liked:v1'; // localStorage key for videos this browser 👍'd
+const REPORTED_KEY = 'squishy:reported:v1'; // localStorage key for videos this browser reported
 
 const els = {
   picker: document.getElementById('picker'),
@@ -32,7 +33,7 @@ const els = {
   nowPlaying: document.getElementById('now-playing'),
   likeBtn: document.getElementById('like-btn'),
   skipBtn: document.getElementById('skip-btn'),
-  reportLink: document.getElementById('report-link'),
+  reportBtn: document.getElementById('report-btn'),
   quitBtn: document.getElementById('quit-btn'),
   endScreen: document.getElementById('end-screen'),
   moreBtn: document.getElementById('more-btn'),
@@ -55,7 +56,54 @@ const state = {
   seenIds: new Set(),
   voteEndpoint: '', // vote worker URL, from vote-config.json ('' = voting off)
   likedIds: new Set(), // videos this browser has 👍'd
+  reportedIds: new Set(), // videos this browser has reported
 };
+
+function loadReported() {
+  try {
+    const raw = localStorage.getItem(REPORTED_KEY);
+    state.reportedIds = new Set(raw ? JSON.parse(raw) : []);
+  } catch {
+    state.reportedIds = new Set();
+  }
+}
+
+function persistReported() {
+  try {
+    localStorage.setItem(REPORTED_KEY, JSON.stringify([...state.reportedIds]));
+  } catch {
+    /* storage unavailable */
+  }
+}
+
+function updateReportButton(video) {
+  const reported = video && state.reportedIds.has(video.id);
+  els.reportBtn.textContent = reported ? 'Reported ✓' : 'Report this video';
+  els.reportBtn.disabled = !!reported;
+}
+
+// Report a video for the maintainer to review. Prefers the worker's /report route
+// (no email exposed); falls back to a mailto when no endpoint is configured.
+function report() {
+  const video = currentVideo();
+  if (!video || state.reportedIds.has(video.id)) return;
+
+  if (!state.voteEndpoint) {
+    window.location.href = buildReportTarget(video, MAINTAINER_EMAIL).mailto;
+    return;
+  }
+
+  state.reportedIds.add(video.id);
+  persistReported();
+  updateReportButton(video);
+  fetch(`${state.voteEndpoint}/report`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ videoId: video.id, title: video.title }),
+  }).catch(() => {
+    /* network hiccup — still remembered locally */
+  });
+}
 
 // --- 👍 voting ---------------------------------------------------------------
 async function loadVoteConfig() {
@@ -236,7 +284,7 @@ function playCurrent() {
 
   // Update the "now playing" line and report link via safe DOM APIs.
   els.nowPlaying.textContent = `${video.title} · ${video.channel}`;
-  els.reportLink.href = buildReportTarget(video, MAINTAINER_EMAIL).mailto;
+  updateReportButton(video);
   updateLikeButton(video);
   // Vertical Shorts get a portrait frame so they aren't letterboxed into 16:9.
   els.playerFrame.classList.toggle('portrait', video.orientation === 'portrait');
@@ -393,12 +441,14 @@ function renderLiveCams(cams) {
 function init() {
   loadSeen();
   loadLiked();
+  loadReported();
   loadVoteConfig();
   for (const btn of document.querySelectorAll('.choice[data-minutes]')) {
     btn.addEventListener('click', () => startSession(Number(btn.dataset.minutes)));
   }
   els.likeBtn.addEventListener('click', like);
   els.skipBtn.addEventListener('click', skip);
+  els.reportBtn.addEventListener('click', report);
   els.quitBtn.addEventListener('click', endSession);
   els.moreBtn.addEventListener('click', aFewMore);
   els.restartBtn.addEventListener('click', () => {

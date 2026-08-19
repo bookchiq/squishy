@@ -28,6 +28,21 @@ Then wire the URL into the app:
 
 - `POST /vote` with `{ "videoId": "abc123" }` -> `{ "videoId": "abc123", "count": 5 }`
 - `GET /votes` -> `{ "abc123": 5, ... }`
+- `POST /report` with `{ "videoId": "abc123", "title": "…" }` -> `{ "videoId": "abc123", "count": 2 }`
+- `GET /reports` -> `{ "abc123": { "count": 2, "title": "…" }, ... }`
+
+## Reviewing reports
+
+The "Report this video" button flags videos here (no email involved). To see what
+viewers have flagged:
+
+```bash
+curl -s https://<your-worker-url>/reports | python3 -m json.tool
+```
+
+Each entry shows the video ID, how many times it was reported, and the title.
+To hide one, add its ID to `config/blocklist.json` and let the next build drop it.
+(There's a ~60s KV consistency lag before a fresh report appears in `/reports`.)
 
 ## Notes
 
