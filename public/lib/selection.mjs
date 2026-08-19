@@ -91,9 +91,6 @@ export function shouldContinue(cumulativeSeconds, budgetSeconds) {
   return cumulativeSeconds < budgetSeconds;
 }
 
-/** A small, bounded budget for the "a few more?" gentle top-up. */
-export const TOP_UP_SECONDS = 120;
-
 /** How far past the budget a single video may push before we prefer a shorter one. */
 export const OVERSHOOT_MIN_SECONDS = 60;
 export const OVERSHOOT_FRACTION = 0.15;

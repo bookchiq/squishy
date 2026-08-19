@@ -9,7 +9,6 @@ import {
   buildReportTarget,
   shouldContinue,
   chooseNextIndex,
-  TOP_UP_SECONDS,
   pruneSeen,
   addSeen,
 } from './lib/selection.mjs';
@@ -37,7 +36,6 @@ const els = {
   reportBtn: document.getElementById('report-btn'),
   quitBtn: document.getElementById('quit-btn'),
   endScreen: document.getElementById('end-screen'),
-  moreBtn: document.getElementById('more-btn'),
   restartBtn: document.getElementById('restart-btn'),
   livecamsScreen: document.getElementById('livecams-screen'),
   livecamsList: document.getElementById('livecams-list'),
@@ -374,17 +372,6 @@ function endSession() {
   show('end');
 }
 
-function aFewMore() {
-  // Fresh short queue with a small BOUNDED top-up budget — not another full session.
-  state.session = { ...state.session, budgetSeconds: TOP_UP_SECONDS };
-  state.queue = buildPool(state.videos, ['short'], Math.random, state.seenIds);
-  state.current = null;
-  state.cumulativeSeconds = 0;
-  if (state.queue.length === 0) return endSession();
-  show('player');
-  beginPlayback();
-}
-
 // --- Live cams (optional) ----------------------------------------------------
 async function loadLiveCams() {
   try {
@@ -435,7 +422,6 @@ function init() {
   els.skipBtn.addEventListener('click', skip);
   els.reportBtn.addEventListener('click', report);
   els.quitBtn.addEventListener('click', endSession);
-  els.moreBtn.addEventListener('click', aFewMore);
   els.restartBtn.addEventListener('click', () => {
     els.pickerNote.hidden = true;
     show('picker');

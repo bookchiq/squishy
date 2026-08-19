@@ -8,7 +8,6 @@ import {
   buildReportTarget,
   chooseNextIndex,
   overshootAllowance,
-  TOP_UP_SECONDS,
   pruneSeen,
   addSeen,
 } from '../public/lib/selection.mjs';
@@ -141,11 +140,6 @@ test('chooseNextIndex keeps the head when no shorter video still goes over', () 
 
 test('chooseNextIndex returns -1 for an empty queue', () => {
   assert.equal(chooseNextIndex([], 60, 120), -1);
-});
-
-test('TOP_UP_SECONDS bounds the "a few more?" top-up', () => {
-  assert.equal(typeof TOP_UP_SECONDS, 'number');
-  assert.ok(TOP_UP_SECONDS > 0 && TOP_UP_SECONDS <= 300);
 });
 
 test('buildReportTarget URL-encodes a crafted title so it cannot inject mail headers', () => {
