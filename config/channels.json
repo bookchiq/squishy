@@ -1,0 +1,10 @@
+{
+  "notes": "Starter set of reputable, wholesome animal channels — EDIT THIS to curate your own feed. `id` is the YouTube channel ID (starts with UC; find it at youtube.com/channel/<id> or via Social Blade). `trust` is advisory metadata for future tuning (high|medium). `maxVideosPerChannel` caps uploads pulled per channel; `maxAgeMonths` limits how far back the feed reaches.",
+  "channels": [
+    { "id": "UCnM5iMGiKsZg-iOlIO2ZkdQ", "label": "Monterey Bay Aquarium", "trust": "high" },
+    { "id": "UCE3VoxyYmyQCReOXk2ogsVg", "label": "The Cincinnati Zoo & Botanical Garden", "trust": "high" },
+    { "id": "UCC5NfQ6Mf0dq_eEwv4P_hWA", "label": "San Diego Zoo", "trust": "high" }
+  ],
+  "maxVideosPerChannel": 20,
+  "maxAgeMonths": 12
+}

@@ -1,0 +1,7 @@
+{
+  "notes": "Hardcoded persistent live streams for the optional live-cams section. These do NOT flow through the uploads pipeline. `id` is the YouTube video ID of a live stream. Live-stream IDs rotate occasionally — VERIFY these are still live and REPLACE as needed. Served from public/ so the static front-end can fetch it directly. Empty list -> the live-cams section hides itself.",
+  "livecams": [
+    { "id": "REPLACE_ME_LIVE_ID_1", "label": "Sea Otter Cam — Monterey Bay Aquarium (verify/replace)" },
+    { "id": "REPLACE_ME_LIVE_ID_2", "label": "Aquarium Jelly Cam (verify/replace)" }
+  ]
+}

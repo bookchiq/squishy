@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>squishy 🐾 — a little wholesome</title>
+    <meta name="description" content="A short, gentle feed of wholesome animal videos. Pick how long you'd like to watch." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <!-- Intention picker -->
+      <section id="picker" class="screen" aria-labelledby="picker-title">
+        <h1 id="picker-title">Got a minute for something gentle? 🐾</h1>
+        <p class="lede">No news, no noise — just a few wholesome animals. How long would you like to watch?</p>
+        <div class="choices" role="group" aria-label="Choose a session length">
+          <button class="choice" data-minutes="2" type="button">
+            <span class="choice-min">2</span><span class="choice-unit">minutes</span>
+          </button>
+          <button class="choice" data-minutes="5" type="button">
+            <span class="choice-min">5</span><span class="choice-unit">minutes</span>
+          </button>
+          <button class="choice" data-minutes="10" type="button">
+            <span class="choice-min">10</span><span class="choice-unit">minutes</span>
+          </button>
+        </div>
+        <p id="picker-note" class="note" hidden></p>
+      </section>
+
+      <!-- Playback -->
+      <section id="player-screen" class="screen" hidden aria-labelledby="player-title">
+        <h2 id="player-title" class="visually-hidden">Now playing</h2>
+        <div class="player-frame"><div id="player"></div></div>
+        <p id="now-playing" class="now-playing" aria-live="polite"></p>
+        <div class="player-actions">
+          <a id="report-link" class="ghost-btn" href="#" rel="noopener">Report this video</a>
+          <button id="quit-btn" class="ghost-btn" type="button">I'm done for now</button>
+        </div>
+      </section>
+
+      <!-- Gentle end -->
+      <section id="end-screen" class="screen" hidden aria-labelledby="end-title">
+        <h2 id="end-title">Hope that brightened your day 🐾</h2>
+        <p class="lede">That's your little moment. Come back whenever you'd like.</p>
+        <div class="end-actions">
+          <button id="more-btn" class="choice small" type="button">a few more?</button>
+          <button id="restart-btn" class="ghost-btn" type="button">start over</button>
+        </div>
+      </section>
+
+      <!-- Optional: live cams -->
+      <section id="livecams-screen" class="livecams" hidden aria-labelledby="livecams-title">
+        <h2 id="livecams-title">Live right now</h2>
+        <div id="livecams-list" class="livecams-list"></div>
+      </section>
+
+      <p id="feed-status" class="feed-status" aria-live="polite"></p>
+    </main>
+
+    <footer class="footer">
+      <button id="livecams-toggle" class="link-btn" type="button" hidden>watch a live cam</button>
+      <span class="footer-note">Curated, not algorithmic. <a href="https://github.com/" rel="noopener">about squishy</a></span>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
