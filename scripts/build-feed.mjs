@@ -17,6 +17,7 @@ import {
   parseIso8601ToSeconds,
   filterAndBucket,
   dropSummary,
+  selectAutoBlocked,
 } from './lib/filter.mjs';
 import {
   createYouTubeClient,
@@ -150,6 +151,49 @@ export async function attachScores(videos, { fetchImpl, endpoint } = {}) {
   return videos;
 }
 
+/** Fetch the report tally `{ id: { count, title } }` from the vote worker. */
+export async function fetchReports(endpoint, { fetchImpl } = {}) {
+  if (!endpoint) return {};
+  try {
+    const res = await (fetchImpl || fetch)(endpoint.replace(/\/$/, '') + '/reports', {
+      signal: AbortSignal.timeout(15000),
+    });
+    if (res && res.ok) return await res.json();
+  } catch {
+    /* reports unavailable */
+  }
+  return {};
+}
+
+/**
+ * Promote videos that crossed `autoBlockThreshold` reports into the managed
+ * `autoBlocked` list on `config.blocklist` (mutated in place). Persists the
+ * updated config/blocklist.json unless dryRun. Returns whether anything changed.
+ * No-op when the threshold is off (0/absent) or no endpoint is configured.
+ */
+export async function applyAutoBlock(config, { endpoint, dryRun, fetchImpl } = {}) {
+  const bl = config.blocklist;
+  const threshold = bl.autoBlockThreshold || 0;
+  if (!threshold || threshold < 1 || !endpoint) return false;
+
+  const reports = await fetchReports(endpoint, fetchImpl ? { fetchImpl } : {});
+  const already = [...bl.videoIds, ...(bl.autoBlocked || []).map((a) => a.id)];
+  const newly = selectAutoBlocked(reports, threshold, already);
+  if (newly.length === 0) return false;
+
+  const stamped = newly.map((n) => ({ ...n, addedAt: new Date().toISOString() }));
+  bl.autoBlocked = [...(bl.autoBlocked || []), ...stamped];
+  for (const n of stamped) {
+    console.log(`[auto-block] ${n.id} (${n.reports} report(s)) — ${n.title}`);
+  }
+
+  if (!dryRun) {
+    await writeFile(path.join(ROOT, 'config', 'blocklist.json'), JSON.stringify(bl, null, 2) + '\n', 'utf8');
+    console.log(`Auto-blocked ${stamped.length} video(s); updated config/blocklist.json.`);
+  }
+  return true;
+}
+
 async function loadJsonAbsolute(absPath, displayName = absPath) {
   let raw;
   try {
@@ -211,8 +255,16 @@ async function main() {
     verbose: args.verbose,
   });
 
+  const endpoint = await resolveVotesEndpoint();
+
+  // Auto-blocklist: promote videos that crossed the report threshold into the
+  // managed autoBlocked list (persisted so they stay hidden and stay auditable).
+  await applyAutoBlock(config, { endpoint, dryRun: args.dryRun });
+
+  const blockedIds = [...config.blocklist.videoIds, ...(config.blocklist.autoBlocked || []).map((a) => a.id)];
+
   const { videos, drops } = filterAndBucket(candidates, {
-    blocklist: config.blocklist.videoIds,
+    blocklist: blockedIds,
     keywords: config.denylist.keywords,
     maxAgeMonths: config.channels.maxAgeMonths,
   });
@@ -224,7 +276,7 @@ async function main() {
   }
 
   // Bake 👍 scores from the vote worker (0 for everything if not configured).
-  await attachScores(videos);
+  await attachScores(videos, { endpoint });
 
   // Freshest first (the front-end re-orders by score at play time).
   videos.sort((a, b) => String(b.publishedAt).localeCompare(String(a.publishedAt)));
