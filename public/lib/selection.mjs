@@ -26,26 +26,53 @@ function shuffle(arr, rng = Math.random) {
 
 /**
  * Build the eligible play pool for a session preference.
+ * - Videos in `exclude` (already-seen IDs) are dropped first; if that would
+ *   leave nothing, the exclusion is ignored so the viewer still gets something.
  * - Preferred-bucket videos come first, shuffled.
  * - When the preferred pool is thin, remaining videos follow ordered
  *   SHORTEST-FIRST, so a 2-minute session never opens with a 20-minute video.
  * - Duplicate video IDs are removed.
  */
-export function buildPool(videos, preference, rng = Math.random) {
-  const seen = new Set();
+export function buildPool(videos, preference, rng = Math.random, exclude = new Set()) {
+  const pickedIds = new Set();
   const uniq = [];
   for (const v of videos || []) {
-    if (v && v.id && !seen.has(v.id)) {
-      seen.add(v.id);
+    if (v && v.id && !pickedIds.has(v.id)) {
+      pickedIds.add(v.id);
       uniq.push(v);
     }
   }
+  // Prefer unseen videos; fall back to the full set only if everything is seen.
+  let pool = uniq.filter((v) => !exclude.has(v.id));
+  if (pool.length === 0) pool = uniq;
+
   const pref = new Set(preference);
-  const preferred = uniq.filter((v) => pref.has(v.bucket));
-  const rest = uniq
+  const preferred = pool.filter((v) => pref.has(v.bucket));
+  const rest = pool
     .filter((v) => !pref.has(v.bucket))
     .sort((a, b) => (a.durationSeconds || 0) - (b.durationSeconds || 0));
   return [...shuffle(preferred, rng), ...rest];
+}
+
+// --- "Already seen" store (persisted by the front-end in localStorage) -------
+export const SEEN_TTL_DAYS = 45;
+export const SEEN_MAX = 500;
+
+/** Drop entries older than the TTL and cap to the most-recent `max`. Pure. */
+export function pruneSeen(entries, { now, ttlDays = SEEN_TTL_DAYS, max = SEEN_MAX } = {}) {
+  const cutoff = now - ttlDays * 86400000;
+  const fresh = (entries || []).filter(
+    (e) => e && typeof e.id === 'string' && typeof e.ts === 'number' && e.ts >= cutoff
+  );
+  fresh.sort((a, b) => b.ts - a.ts);
+  return fresh.slice(0, max);
+}
+
+/** Record `id` as seen at `now`, most-recent first, de-duplicated. Pure. */
+export function addSeen(entries, id, now) {
+  const without = (entries || []).filter((e) => e.id !== id);
+  without.unshift({ id, ts: now });
+  return without;
 }
 
 /** Continue advancing while cumulative watch time is under budget. */

@@ -9,6 +9,8 @@ import {
   buildReportTarget,
   nextStep,
   TOP_UP_SECONDS,
+  pruneSeen,
+  addSeen,
 } from './lib/selection.mjs';
 
 // --- Maintainer config -------------------------------------------------------
@@ -19,6 +21,7 @@ const MAINTAINER_EMAIL = 'you@example.com';
 
 const YT_API_TIMEOUT_MS = 8000; // how long to wait for the IFrame API before giving up
 const VIDEO_START_WATCHDOG_MS = 12000; // skip a video that never starts playing
+const SEEN_KEY = 'squishy:seen:v1'; // localStorage key for the "already watched" store
 
 const els = {
   picker: document.getElementById('picker'),
@@ -46,7 +49,32 @@ const state = {
   cumulativeSeconds: 0,
   player: null,
   watchdog: null,
+  seenEntries: [], // [{ id, ts }] persisted in localStorage
+  seenIds: new Set(),
 };
+
+// --- "Already watched" memory (localStorage) --------------------------------
+function loadSeen() {
+  try {
+    const raw = localStorage.getItem(SEEN_KEY);
+    const entries = raw ? JSON.parse(raw) : [];
+    state.seenEntries = pruneSeen(entries, { now: Date.now() });
+  } catch {
+    state.seenEntries = []; // private mode / disabled storage — degrade to in-memory
+  }
+  state.seenIds = new Set(state.seenEntries.map((e) => e.id));
+}
+
+function markSeen(id) {
+  if (!id || state.seenIds.has(id)) return;
+  state.seenEntries = pruneSeen(addSeen(state.seenEntries, id, Date.now()), { now: Date.now() });
+  state.seenIds = new Set(state.seenEntries.map((e) => e.id));
+  try {
+    localStorage.setItem(SEEN_KEY, JSON.stringify(state.seenEntries));
+  } catch {
+    /* storage unavailable — keep the in-memory set for this page session */
+  }
+}
 
 // --- YouTube IFrame API loader (with failure + timeout) ----------------------
 let ytReadyResolve;
@@ -122,7 +150,7 @@ function startSession(minutes) {
   const session = sessionFor(minutes);
   if (!session) return;
   state.session = session;
-  state.pool = buildPool(state.videos, session.preference);
+  state.pool = buildPool(state.videos, session.preference, Math.random, state.seenIds);
   state.index = 0;
   state.cumulativeSeconds = 0;
 
@@ -186,6 +214,7 @@ function onPlayerStateChange(event) {
   const YTP = window.YT.PlayerState;
   if (event.data === YTP.PLAYING) {
     clearWatchdog(); // it started — stand the watchdog down
+    markSeen(currentVideo()?.id); // remember it so we don't replay it
     return;
   }
   if (event.data === YTP.ENDED) {
@@ -252,7 +281,7 @@ function endSession() {
 function aFewMore() {
   // Fresh short pool with a small BOUNDED top-up budget — not another full session.
   state.session = { ...state.session, budgetSeconds: TOP_UP_SECONDS };
-  state.pool = buildPool(state.videos, ['short']);
+  state.pool = buildPool(state.videos, ['short'], Math.random, state.seenIds);
   state.index = 0;
   state.cumulativeSeconds = 0;
   if (state.pool.length === 0) return endSession();
@@ -299,6 +328,7 @@ function renderLiveCams(cams) {
 
 // --- Wire up -----------------------------------------------------------------
 function init() {
+  loadSeen();
   for (const btn of document.querySelectorAll('.choice[data-minutes]')) {
     btn.addEventListener('click', () => startSession(Number(btn.dataset.minutes)));
   }
