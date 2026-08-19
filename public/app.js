@@ -42,6 +42,8 @@ const els = {
   livecamsList: document.getElementById('livecams-list'),
   livecamsToggle: document.getElementById('livecams-toggle'),
   feedStatus: document.getElementById('feed-status'),
+  aboutBtn: document.getElementById('about-btn'),
+  aboutDialog: document.getElementById('about-dialog'),
 };
 
 const state = {
@@ -458,6 +460,12 @@ function init() {
 
   els.livecamsToggle.addEventListener('click', () => {
     els.livecamsScreen.hidden = !els.livecamsScreen.hidden;
+  });
+
+  els.aboutBtn.addEventListener('click', () => els.aboutDialog.showModal());
+  // Close the about dialog when clicking the backdrop (outside the content box).
+  els.aboutDialog.addEventListener('click', (e) => {
+    if (e.target === els.aboutDialog) els.aboutDialog.close();
   });
 
   loadFeed().then(() => {
