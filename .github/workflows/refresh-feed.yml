@@ -1,0 +1,54 @@
+name: Refresh feed
+
+# Rebuilds public/videos.json from the curated channels and commits it back.
+# The commit-back is what makes the static host (e.g. GitHub Pages in
+# deploy-from-branch mode) redeploy automatically.
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # daily at 12:00 UTC
+  workflow_dispatch: {}
+
+# Least privilege: only permission needed is to push the regenerated feed.
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-feed
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install (no runtime deps; validates lockfile)
+        run: npm ci
+
+      - name: Build feed
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/build-feed.mjs --verbose
+
+      - name: Run tests
+        run: npm test
+
+      - name: Commit updated feed (only if changed)
+        run: |
+          if git diff --quiet -- public/videos.json; then
+            echo "No feed changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/videos.json
+          git commit -m "chore(feed): refresh videos.json [skip ci]"
+          git push
