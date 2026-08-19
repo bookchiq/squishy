@@ -8,6 +8,8 @@ import {
   buildReportTarget,
   nextStep,
   TOP_UP_SECONDS,
+  pruneSeen,
+  addSeen,
 } from '../public/lib/selection.mjs';
 
 const vid = (id, bucket, durationSeconds) => ({ id, bucket, durationSeconds, title: id, channel: 'c' });
@@ -46,6 +48,42 @@ test('buildPool de-duplicates repeated video IDs', () => {
   const pool = buildPool(videos, ['short'], () => 0);
   assert.equal(pool.length, 2);
   assert.deepEqual(pool.map((v) => v.id).sort(), ['s1', 's2']);
+});
+
+test('buildPool excludes already-seen videos', () => {
+  const videos = [vid('s1', 'short', 30), vid('s2', 'short', 40), vid('s3', 'short', 50)];
+  const pool = buildPool(videos, ['short'], () => 0, new Set(['s1', 's2']));
+  assert.deepEqual(pool.map((v) => v.id), ['s3']);
+});
+
+test('buildPool ignores the exclusion when every video has been seen (shows something)', () => {
+  const videos = [vid('s1', 'short', 30), vid('s2', 'short', 40)];
+  const pool = buildPool(videos, ['short'], () => 0, new Set(['s1', 's2']));
+  assert.equal(pool.length, 2, 'falls back to the full set rather than showing nothing');
+});
+
+test('pruneSeen drops entries older than the TTL and caps the count', () => {
+  const now = 1_000_000_000_000;
+  const day = 86400000;
+  const entries = [
+    { id: 'fresh', ts: now - 1 * day },
+    { id: 'stale', ts: now - 60 * day }, // older than 45-day TTL
+  ];
+  const pruned = pruneSeen(entries, { now });
+  assert.deepEqual(pruned.map((e) => e.id), ['fresh']);
+
+  const many = Array.from({ length: 10 }, (_, i) => ({ id: `v${i}`, ts: now - i }));
+  assert.equal(pruneSeen(many, { now, max: 3 }).length, 3);
+  assert.deepEqual(pruneSeen(many, { now, max: 3 }).map((e) => e.id), ['v0', 'v1', 'v2']);
+});
+
+test('addSeen records most-recent-first and de-duplicates', () => {
+  let entries = [];
+  entries = addSeen(entries, 'a', 100);
+  entries = addSeen(entries, 'b', 200);
+  entries = addSeen(entries, 'a', 300); // re-seen — moves to front, no dupe
+  assert.deepEqual(entries.map((e) => e.id), ['a', 'b']);
+  assert.equal(entries[0].ts, 300);
 });
 
 test('shouldContinue stops advancing once cumulative reaches budget', () => {
