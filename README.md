@@ -37,6 +37,30 @@ dumb, static, and safe.
 
 ---
 
+## Make it your own
+
+Want your own instance — your channels, your vibe? The whole thing is a fork and
+a handful of edits. No servers to run, no bill to pay.
+
+1. **Fork this repo** on GitHub.
+2. **Get a free YouTube Data API v3 key** and add it as the `YOUTUBE_API_KEY`
+   Actions secret. → [Setup](#setup)
+3. **Swap in your channels.** Edit `config/channels.json` — replace the starter
+   list with the channels you want. → [Maintaining the feed](#maintaining-the-feed)
+4. **Turn on GitHub Pages** (Settings → Pages → Source → **GitHub Actions**).
+   → [Deploying](#deploying)
+5. **Run the feed workflow once** (Actions → *Refresh feed* → *Run workflow*) to
+   build `public/videos.json` and publish. From then on it refreshes itself daily.
+
+That's a working site. Everything below is optional polish: 👍/reports need the
+[Cloudflare Worker](#-voting--reports-optional); live-cams, the denylist, and
+session lengths are all plain-JSON tuning in
+[Maintaining the feed](#maintaining-the-feed). Prefer to try it locally first?
+`node scripts/build-feed.mjs --dry-run --fixtures fixtures/sample` runs the whole
+build offline with no key.
+
+---
+
 ## The viewer experience
 
 - **Intention picker** — choose 2, 5, or 10 minutes. Shorter sessions favor
@@ -212,4 +236,4 @@ fixtures/sample/ canned API responses for offline dry-runs
 
 ## License
 
-MIT.
+[MIT](LICENSE) — free to use, fork, and build your own version.
