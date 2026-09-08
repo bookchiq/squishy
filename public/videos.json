@@ -1,6 +1,138 @@
 {
-  "generatedAt": "2026-09-07T12:01:12.909Z",
+  "generatedAt": "2026-09-08T12:01:46.105Z",
   "videos": [
+    {
+      "id": "jCsTahhfRhQ",
+      "title": "珍しく兄より先に特等席を確保しにきた弟が可愛すぎましたw",
+      "channel": "Mochimaru",
+      "durationSeconds": 76,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-08T11:01:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/jCsTahhfRhQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "kqYhb0zoogE",
+      "title": "甘酒＜梅＞　260908　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #甘酒＜梅＞",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T11:00:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/kqYhb0zoogE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "dEs_qMwZ2HE",
+      "title": "2026-09-07 Micro: Custard Fits, He Sits",
+      "channel": "Kitten Academy",
+      "durationSeconds": 1100,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-08T07:02:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/dEs_qMwZ2HE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "AsmyYr2K0bs",
+      "title": "ちろさんぽ　260908",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 65,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-08T07:00:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/AsmyYr2K0bs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "r8EEtSI8m_c",
+      "title": "アクエリアス スパークリング　260908　　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #アクエリアス",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T04:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/r8EEtSI8m_c/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "TmEZUFjfOGE",
+      "title": "紫キャベツ　枕猫　260908",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 234,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-08T01:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/TmEZUFjfOGE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "RTO5hPMF-VE",
+      "title": "ふりふりシーズニングパウダー　260908　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #ふりふりシーズニングパウダー",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-07T22:00:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/RTO5hPMF-VE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "zeBfej37ClE",
+      "title": "My Dog Tries To Tell Me Something!! ",
+      "channel": "Life with Malamutes",
+      "durationSeconds": 286,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-07T21:49:57Z",
+      "thumbnail": "https://i.ytimg.com/vi/zeBfej37ClE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "8ziJPZ0HUGc",
+      "title": "ノウゼンカズラ　のせ猫　260908",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 252,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-07T20:00:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/8ziJPZ0HUGc/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "dhtLanrDs0U",
+      "title": "おさつフランスパン（芋あん＆マーガリン）　260908 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #おさつフランスパン",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-07T15:00:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/dhtLanrDs0U/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "p4zsjVjj-h4",
+      "title": "This PARALYSED Fox Learns to RUN Again | Recovery Against All Odds",
+      "channel": "Wildlife Aid",
+      "durationSeconds": 98,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-07T14:30:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/p4zsjVjj-h4/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "1DQBMLxPEVo",
+      "title": "Tanzi the African Pygmy falcon has a lot to say!",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 14,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-07T13:00:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/1DQBMLxPEVo/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "6mlv4BUqfxo",
       "title": "仕事してるのにドタバタ走り回って騒がしい猫たちですwww",
@@ -131,72 +263,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-09-06T11:00:10Z",
       "thumbnail": "https://i.ytimg.com/vi/FHUqi_cM3zo/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Iq8nA0WODpY",
-      "title": "熟旨納豆ひきわり 50g×3個入　260906　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #熟旨納豆ひきわり",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-06T04:00:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/Iq8nA0WODpY/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "_lKx3OQIRCo",
-      "title": "紫キャベツ　のせ猫　　260906",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 143,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-06T01:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/_lKx3OQIRCo/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "My6vy9WLQjI",
-      "title": "夕顔猫　260904　 #cute　 #cat　#夕顔 #ねこ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 32,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-05T23:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/My6vy9WLQjI/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "GrqFjmWM5_Y",
-      "title": "かんてんぱぱ かんてんクック顆粒　260906　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #かんてんぱぱ　 #猫　　　 #かんてんクック顆粒",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-05T22:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/GrqFjmWM5_Y/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "w-Z2KIzeh48",
-      "title": "木槿の花　のせ猫　260906",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 214,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-05T20:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/w-Z2KIzeh48/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "7TFtwMv1aeE",
-      "title": "大和ホワイトリカーの箱入り麦ちゃん　box and cat　260905",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 192,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-05T13:00:15Z",
-      "thumbnail": "https://i.ytimg.com/vi/7TFtwMv1aeE/hqdefault.jpg",
       "score": 0
     },
     {
@@ -728,6 +794,17 @@
       "score": 0
     },
     {
+      "id": "LxTYvz0Lfo0",
+      "title": "しょぼちゃん がライブ配信中！2026年9月8",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-08-29T06:38:42Z",
+      "thumbnail": "https://i.ytimg.com/vi/LxTYvz0Lfo0/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
       "id": "xQ3Byx0qvFg",
       "title": "August 26 - African Painted Dogs",
       "channel": "Houston Zoo",
@@ -1022,17 +1099,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-25T18:45:51Z",
       "thumbnail": "https://i.ytimg.com/vi/EADIbsLD7BY/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "m7OTAQ-zPSs",
-      "title": "At about a month and a half old, Martini, the fennec fox kit is getting more adventurous every day!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 41,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-25T16:00:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/m7OTAQ-zPSs/hqdefault.jpg",
       "score": 0
     },
     {
@@ -1462,17 +1528,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-08-19T12:00:35Z",
       "thumbnail": "https://i.ytimg.com/vi/IR5yl1YvSmw/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "avTJclzyp30",
-      "title": "夕方、寝ぼけながら庭に出てきたもちが可愛すぎます笑",
-      "channel": "Mochimaru",
-      "durationSeconds": 73,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-19T11:01:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/avTJclzyp30/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2078,17 +2133,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-08-09T09:32:16Z",
       "thumbnail": "https://i.ytimg.com/vi/NusrZFpC7n8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "xUXm757oEf8",
-      "title": "Mailbag 2026-08-08: Maggie opens the flowershop for mailbag",
-      "channel": "Kitten Academy",
-      "durationSeconds": 891,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-08T20:30:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/xUXm757oEf8/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2752,17 +2796,6 @@
       "score": 0
     },
     {
-      "id": "Ux0DPmCpbqg",
-      "title": "TRAPPED In a Fireplace! - These Baby Blue Tits Needed Help FAST!",
-      "channel": "Wildlife Aid",
-      "durationSeconds": 270,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-25T16:00:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ux0DPmCpbqg/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "aGXoYHBMykE",
       "title": "What’s your go-to animal fun fact?",
       "channel": "Houston Zoo",
@@ -3079,17 +3112,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-07-07T21:33:58Z",
       "thumbnail": "https://i.ytimg.com/vi/n_GpVsz4nHU/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
-      "id": "Pq1l407v1q0",
-      "title": "Adorable Little Girl Shares Her Ice-Pop With Her Best Friend! Uk Heatwave Hits Hard!!",
-      "channel": "Life with Malamutes",
-      "durationSeconds": 291,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-07T02:00:24Z",
-      "thumbnail": "https://i.ytimg.com/vi/Pq1l407v1q0/hqdefault.jpg",
       "score": 0
     },
     {
