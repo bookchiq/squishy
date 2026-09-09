@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-09-08T12:01:46.105Z",
+  "generatedAt": "2026-09-09T12:01:14.790Z",
   "videos": [
+    {
+      "id": "oSIrSI7R06Q",
+      "title": "はなににゃんプロで負けそうになったもちが…www",
+      "channel": "Mochimaru",
+      "durationSeconds": 100,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T11:01:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/oSIrSI7R06Q/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "80o3Tg1PfTQ",
+      "title": "甘酒 糖質50%オフ　260909　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #甘酒 糖質50%オフ　 #猫　　 #糖質50%オフ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 14,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T11:00:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/80o3Tg1PfTQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "uN2rOGF26Po",
+      "title": "ちゃぶ台の上の茹でとうもろこし　260909",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 539,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T07:00:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/uN2rOGF26Po/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "pVY3ZjBLdF0",
+      "title": "ジョージア アイスカフェオレ　260909　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #ジョージア アイスカフェオレ　　 #猫　 #アイスカフェオレ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 11,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T04:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/pVY3ZjBLdF0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "o_rnwvNb54Y",
+      "title": "紫キャベツ　帽子　のせ猫　260909",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 442,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T01:00:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/o_rnwvNb54Y/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "8xL5qiBpXLA",
+      "title": "HOKO　ごはんがうまい！　日本のさば　味噌煮　水煮　260909　 #cat #のせ猫 #cute　 #ごはんがうまい！　#ねこ #日本のさば  #猫のいる暮らし　 #HOKO",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T22:00:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/8xL5qiBpXLA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "C_mU4HK5Cg4",
+      "title": "Watch A Rhino Demolish A Whole Watermelon With One Squish",
+      "channel": "Oregon Zoo",
+      "durationSeconds": 43,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-08T17:18:48Z",
+      "thumbnail": "https://i.ytimg.com/vi/C_mU4HK5Cg4/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ASR5y7a-3uA",
+      "title": "Outdoor kitten gets a new beginning",
+      "channel": "Flatbush Cats",
+      "durationSeconds": 39,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T16:36:44Z",
+      "thumbnail": "https://i.ytimg.com/vi/ASR5y7a-3uA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "yo-RE0kggwY",
+      "title": "コロネ ダブルマロン　260909　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #コロネ　 #猫　　 #ダブルマロン",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T15:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/yo-RE0kggwY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "PKqDpTAxsLw",
+      "title": "Mboka Jo turns one on September 20!",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 17,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-08T13:00:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/PKqDpTAxsLw/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "jCsTahhfRhQ",
       "title": "珍しく兄より先に特等席を確保しにきた弟が可愛すぎましたw",
@@ -200,28 +310,6 @@
       "score": 0
     },
     {
-      "id": "iYmKl_8b2HM",
-      "title": "はしばみの実　260907　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #はしばみの実",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 32,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-06T20:00:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/iYmKl_8b2HM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "JJemWsME2_k",
-      "title": "きゅうり　のせ猫　260907",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 203,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-06T20:00:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/JJemWsME2_k/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Db_Qt5_n7vM",
       "title": "Hungry hungry hippo!",
       "channel": "The Cincinnati Zoo & Botanical Garden",
@@ -233,17 +321,6 @@
       "score": 0
     },
     {
-      "id": "7Xu6NhKbE9E",
-      "title": "夕顔枕猫　260906",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 322,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-06T13:00:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/7Xu6NhKbE9E/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "hFiy2L1CT2Y",
       "title": "仕事が終わるとすぐになでなでされに来る猫たちが可愛すぎますw",
       "channel": "Mochimaru",
@@ -252,17 +329,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-06T11:01:25Z",
       "thumbnail": "https://i.ytimg.com/vi/hFiy2L1CT2Y/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "FHUqi_cM3zo",
-      "title": "どん兵衛 タテ型　天ぷらそば　60906　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #どん兵衛 タテ型天ぷらそば #猫　　 #天ぷらそば　2",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-06T11:00:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/FHUqi_cM3zo/hqdefault.jpg",
       "score": 0
     },
     {
@@ -794,17 +860,6 @@
       "score": 0
     },
     {
-      "id": "LxTYvz0Lfo0",
-      "title": "しょぼちゃん がライブ配信中！2026年9月8",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-29T06:38:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/LxTYvz0Lfo0/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
       "id": "xQ3Byx0qvFg",
       "title": "August 26 - African Painted Dogs",
       "channel": "Houston Zoo",
@@ -1077,17 +1132,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-26T00:40:31Z",
       "thumbnail": "https://i.ytimg.com/vi/rvle0VSCZmU/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "jzY0CT2hE1g",
-      "title": "Birthday girl coming through! Happy 11th Birthday to Elle.",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 29,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-25T21:00:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/jzY0CT2hE1g/hqdefault.jpg",
       "score": 0
     },
     {
@@ -1407,17 +1451,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-20T17:26:12Z",
       "thumbnail": "https://i.ytimg.com/vi/j2vzDxAYphU/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "ISKtnnouDa4",
-      "title": "まだ遊びたい兄とそろそろ休みたい弟のやり取りが可愛すぎましたwww",
-      "channel": "Mochimaru",
-      "durationSeconds": 89,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-20T11:01:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/ISKtnnouDa4/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2268,17 +2301,6 @@
       "score": 0
     },
     {
-      "id": "kpr0IiFyO68",
-      "title": "Updates on today's surprise kittens!! ❤️‍🩹",
-      "channel": "TinyKittens HQ",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-07T03:16:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/kpr0IiFyO68/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Vo1rDPeXSK8",
       "title": "Helping a Giraffe Learn to Walk",
       "channel": "San Diego Zoo",
@@ -2650,17 +2672,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-07-29T17:20:02Z",
       "thumbnail": "https://i.ytimg.com/vi/Bc1YNm83oEI/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "UOKfflRMMrk",
-      "title": "Big Tiger Brothers Play And Eat Treats Together",
-      "channel": "Oregon Zoo",
-      "durationSeconds": 51,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-29T16:17:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/UOKfflRMMrk/hqdefault.jpg",
       "score": 0
     },
     {
