@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-09-09T12:01:14.790Z",
+  "generatedAt": "2026-09-10T12:01:03.745Z",
   "videos": [
+    {
+      "id": "iu9SF5J2yUs",
+      "title": "みり６。-Miri6.-",
+      "channel": "I am Maru",
+      "durationSeconds": 498,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-10T12:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/iu9SF5J2yUs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "PnFxYyXp68k",
+      "title": "おもちゃに興奮しておかしくなっちゃった猫が可愛すぎましたw",
+      "channel": "Mochimaru",
+      "durationSeconds": 87,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-10T11:01:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/PnFxYyXp68k/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "00E6dvrCIRk",
+      "title": "はじけてグレープソーダ　260910　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #はじけてグレープソーダ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-10T11:00:23Z",
+      "thumbnail": "https://i.ytimg.com/vi/00E6dvrCIRk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ntd-z3CXBQI",
+      "title": "Cygnets All Grown Up: Drone Views Of Swan Family | Robert E Fuller",
+      "channel": "Robert E Fuller (Wildlife)",
+      "durationSeconds": 122,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-10T10:48:59Z",
+      "thumbnail": "https://i.ytimg.com/vi/ntd-z3CXBQI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ZrysrCkCISk",
+      "title": "軽トラで紫キャベツ帽子　260910",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 151,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-10T07:00:14Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZrysrCkCISk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "O-oEyA8MYA8",
+      "title": "UCC　BLACK無糖　　260910　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #UCC　BLACK無糖",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-10T04:00:18Z",
+      "thumbnail": "https://i.ytimg.com/vi/O-oEyA8MYA8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "Wj_NHweB0Y8",
+      "title": "じうり　のせ猫　260910",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 143,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-10T01:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/Wj_NHweB0Y8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ykSkVmkMM6A",
+      "title": "夢の森 りんごジュース 　260910　 #cat #のせ猫　 #cute　 #ねこ　 #猫のいる暮らし　 #夢の森 りんごジュース",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T22:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/ykSkVmkMM6A/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "mz1sOydDMGw",
+      "title": "My Family Takes Care Of My Guinea Pigs",
+      "channel": "Little Adventures (Guinea Pigs)",
+      "durationSeconds": 543,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T20:00:22Z",
+      "thumbnail": "https://i.ytimg.com/vi/mz1sOydDMGw/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "NxZsTCNTUjE",
+      "title": "Ultra-Rare Bali Myna Arrives At Oregon Zoo",
+      "channel": "Oregon Zoo",
+      "durationSeconds": 39,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T17:01:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/NxZsTCNTUjE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "kwEGU6qtJis",
+      "title": "Meet the Herd: Umngani | San Diego Zoo Safari Park",
+      "channel": "San Diego Zoo",
+      "durationSeconds": 151,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T16:25:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/kwEGU6qtJis/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "itWJK3VbVSs",
+      "title": "Wattle you waiting for?",
+      "channel": "San Diego Zoo",
+      "durationSeconds": 20,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T16:11:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/itWJK3VbVSs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "XTXMawMIjAw",
+      "title": "つっきーみ（もち＆黄身あん＆ホイップ）　260910　 #cat　 #cute　 #ねこ　 #のせ猫　 #猫のいる暮らし #つっきーみ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T15:00:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/XTXMawMIjAw/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "a9b41-sRI04",
+      "title": "Meet Crow... a kitten with a cloaca!? 🐾❤️‍🩹",
+      "channel": "TinyKittens HQ",
+      "durationSeconds": 26,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T14:30:16Z",
+      "thumbnail": "https://i.ytimg.com/vi/a9b41-sRI04/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "LB4FmL0DNOs",
+      "title": "This sick street cat still wanted to be everyone’s friend",
+      "channel": "Flatbush Cats",
+      "durationSeconds": 45,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-09T14:25:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/LB4FmL0DNOs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "6srmF6RmkFk",
+      "title": "おすわりしらたま　260909",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 94,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-09T13:00:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/6srmF6RmkFk/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "oSIrSI7R06Q",
       "title": "はなににゃんプロで負けそうになったもちが…www",
@@ -200,28 +376,6 @@
       "score": 0
     },
     {
-      "id": "8ziJPZ0HUGc",
-      "title": "ノウゼンカズラ　のせ猫　260908",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 252,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-07T20:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/8ziJPZ0HUGc/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "dhtLanrDs0U",
-      "title": "おさつフランスパン（芋あん＆マーガリン）　260908 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #おさつフランスパン",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-07T15:00:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/dhtLanrDs0U/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "p4zsjVjj-h4",
       "title": "This PARALYSED Fox Learns to RUN Again | Recovery Against All Odds",
       "channel": "Wildlife Aid",
@@ -252,61 +406,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-07T11:01:06Z",
       "thumbnail": "https://i.ytimg.com/vi/6mlv4BUqfxo/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "XHJsW8Gzdfk",
-      "title": "ドデカミンmini　260907　 #cat #のせ猫　 #cute　 #ねこ　 #猫のいる暮らし　 #ドデカミンmin",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 22,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-07T11:00:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/XHJsW8Gzdfk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "FMNR6ceKE8A",
-      "title": "チビクロお食事　260907",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 239,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-07T07:00:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/FMNR6ceKE8A/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "fX-iT0ku4uI",
-      "title": "おろしだれ納豆　260907　 #cute　 #cat　 #ねこ　 #のせ猫　 #猫のいる暮らし　 #おろしだれ納豆",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-07T04:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/fX-iT0ku4uI/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "T7rG93aS5jg",
-      "title": "ちゃぶ台の上の新じゃが芋の煮っころがし　260907",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 142,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-07T01:00:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/T7rG93aS5jg/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Ls6CMLxWQ2Y",
-      "title": "こつぶ 花巻納豆　260907　 #cat　 #cute　 #ねこ　 #のせ猫　 #猫のいる暮らし　 #花巻納豆",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-06T22:00:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ls6CMLxWQ2Y/hqdefault.jpg",
       "score": 0
     },
     {
@@ -860,6 +959,17 @@
       "score": 0
     },
     {
+      "id": "IYMSxC7Llf8",
+      "title": "かご猫 Blog がライブ配信中！ 2026年9月10日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-08-29T06:41:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/IYMSxC7Llf8/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
       "id": "xQ3Byx0qvFg",
       "title": "August 26 - African Painted Dogs",
       "channel": "Houston Zoo",
@@ -1077,17 +1187,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-08-26T16:53:22Z",
       "thumbnail": "https://i.ytimg.com/vi/rAJUuXb-yK0/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "vrTrD3OgAZM",
-      "title": "Today is World African Painted Dog Day!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 32,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-26T13:00:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/vrTrD3OgAZM/hqdefault.jpg",
       "score": 0
     },
     {
@@ -1410,14 +1509,14 @@
       "score": 0
     },
     {
-      "id": "ut8nz5eKKfE",
-      "title": "なぜか昔から綿棒が好きすぎるもちの反応が可愛すぎますw",
-      "channel": "Mochimaru",
-      "durationSeconds": 64,
-      "bucket": "medium",
+      "id": "D1PZkxqtEY4",
+      "title": "Dad Takes Kids On Holiday Alone! Will He Survive??",
+      "channel": "Life with Malamutes",
+      "durationSeconds": 1176,
+      "bucket": "long",
       "orientation": "landscape",
-      "publishedAt": "2026-08-21T11:01:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/ut8nz5eKKfE/hqdefault.jpg",
+      "publishedAt": "2026-08-21T09:41:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/D1PZkxqtEY4/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2191,17 +2290,6 @@
       "score": 0
     },
     {
-      "id": "_r2hW98Kh54",
-      "title": "Today's updates on Skye's Sink 2.0 kittens and Keys ❤️‍🩹",
-      "channel": "TinyKittens HQ",
-      "durationSeconds": 27,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-08T00:38:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/_r2hW98Kh54/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "oNrMY2TH7Bo",
       "title": "What does the tattoo in his ear mean? #bunny #rabbitlife",
       "channel": "Victoria Raechel (Rabbits)",
@@ -2631,17 +2719,6 @@
       "score": 0
     },
     {
-      "id": "_HKEcDTusDo",
-      "title": "Polar Bear Kallik Wrestles A Blanket",
-      "channel": "Oregon Zoo",
-      "durationSeconds": 29,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-30T17:02:54Z",
-      "thumbnail": "https://i.ytimg.com/vi/_HKEcDTusDo/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "705war9MZBo",
       "title": "Daddy Day Care! The Manchester Bubble Planet Experience!!",
       "channel": "Life with Malamutes",
@@ -2851,17 +2928,6 @@
       "score": 0
     },
     {
-      "id": "SE6YwcZvLbk",
-      "title": "The cunning way a cuckoo chick tricks another species to raise it 🥸",
-      "channel": "Robert E Fuller (Wildlife)",
-      "durationSeconds": 33,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-07-24T13:00:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/SE6YwcZvLbk/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "XkQ1J5RDRQQ",
       "title": "Rescuing a baby racoon from the highway 🦝",
       "channel": "SaveAFox",
@@ -2972,17 +3038,6 @@
       "score": 0
     },
     {
-      "id": "Ge7ECEWLSQE",
-      "title": "An Inside Look at Harter Veterinary Medical Center | San Diego Zoo Safari Park",
-      "channel": "San Diego Zoo",
-      "durationSeconds": 636,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-15T21:19:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ge7ECEWLSQE/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "fBEVt1A_Z20",
       "title": "はなみりと久しぶりのお庭キャンプ。-Garden Camp and Hana&Miri.-",
       "channel": "I am Maru",
@@ -3060,17 +3115,6 @@
       "score": 0
     },
     {
-      "id": "-J_4TatqsUk",
-      "title": "Kids Invent A New Way Of Exercising Their Dog! Is This Cheating??",
-      "channel": "Life with Malamutes",
-      "durationSeconds": 485,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-10T02:15:31Z",
-      "thumbnail": "https://i.ytimg.com/vi/-J_4TatqsUk/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Ui_RtykAU04",
       "title": "The phases of the moon jelly | #shorts",
       "channel": "Monterey Bay Aquarium",
@@ -3134,17 +3178,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-07-06T17:22:19Z",
       "thumbnail": "https://i.ytimg.com/vi/YkMtQWXUvmU/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "rM_rZh30RnE",
-      "title": "鈴鳴らし名猫、はな。-Bell ringer, Hana.- #Shorts",
-      "channel": "I am Maru",
-      "durationSeconds": 68,
-      "bucket": "medium",
-      "orientation": "portrait",
-      "publishedAt": "2026-07-05T06:58:49Z",
-      "thumbnail": "https://i.ytimg.com/vi/rM_rZh30RnE/hqdefault.jpg",
       "score": 0
     },
     {
