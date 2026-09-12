@@ -1,6 +1,314 @@
 {
-  "generatedAt": "2026-09-11T12:01:24.166Z",
+  "generatedAt": "2026-09-12T12:01:05.627Z",
   "videos": [
+    {
+      "id": "zZql3YfjSZ8",
+      "title": "仕事がなかなか終わらないと退屈すぎて猫がこうなっちゃいます…",
+      "channel": "Mochimaru",
+      "durationSeconds": 98,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T11:01:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/zZql3YfjSZ8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "YlT8jKZ9EcY",
+      "title": "くだものごろん ぶどうゼリー　260912　 #cat #くだものごろん ぶどうゼリー #猫　 #のせ猫　 #cute　 #ねこ　 #猫のいる暮らし",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-12T11:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/YlT8jKZ9EcY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "cxBj7GXOZi4",
+      "title": "2026-09-11 Micro: Pre-Bedtime Kitten Shenanigans",
+      "channel": "Kitten Academy",
+      "durationSeconds": 454,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T10:00:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/cxBj7GXOZi4/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "O0bdNb4n0BQ",
+      "title": "2026-09-10 Micro: Sisterly Love",
+      "channel": "Kitten Academy",
+      "durationSeconds": 154,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T10:00:52Z",
+      "thumbnail": "https://i.ytimg.com/vi/O0bdNb4n0BQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "VTCV0kXG7YY",
+      "title": "2026-09-08 Micro: Food, Exercise & Play",
+      "channel": "Kitten Academy",
+      "durationSeconds": 524,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T10:00:47Z",
+      "thumbnail": "https://i.ytimg.com/vi/VTCV0kXG7YY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "uqAzp9xwz9A",
+      "title": "メークインじゃがいも　枕猫　260912",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 263,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T07:00:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/uqAzp9xwz9A/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "8BTDBCrmSjE",
+      "title": "たまぼー がライブ配信中！2026年9月19日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T05:23:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/8BTDBCrmSjE/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "Z8niIeC3uiU",
+      "title": "麦ちゃんが がライブ配信中！2026年9月18日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T05:21:37Z",
+      "thumbnail": "https://i.ytimg.com/vi/Z8niIeC3uiU/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "AVxLwyqf9Ng",
+      "title": "うずちゃん がライブ配信中！2026年9月16日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T05:20:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/AVxLwyqf9Ng/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "pW4cnSmGX9U",
+      "title": "しょぼちゃん がライブ配信中！2026年9月15日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T05:18:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/pW4cnSmGX9U/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "Jc-iPHsXKKc",
+      "title": "たまちゃん がライブ配信中！2026年9月12日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T05:16:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/Jc-iPHsXKKc/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "PoDXVxuzsj8",
+      "title": "夕顔帽子　　260912 #cat #三毛猫 #cute　 #ねこ　 #猫のいる暮らし　 #夕顔帽子",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 31,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-12T05:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/PoDXVxuzsj8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "oKoHQMoqoyM",
+      "title": "ショッパーズプライス オレンジマーマレード　260912　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #オレンジマーマレード",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-12T04:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/oKoHQMoqoyM/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "DhWMcnMIiHE",
+      "title": "麦ちゃんとくるみ拾い　260912",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 282,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-12T01:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/DhWMcnMIiHE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "SwF2I_RiSu4",
+      "title": "うずまきLIVE配信？　放置？　朝まで　2026年9月20日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T22:36:12Z",
+      "thumbnail": "https://i.ytimg.com/vi/SwF2I_RiSu4/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "5nj0LuDL2hg",
+      "title": "うずまきLIVE配信？　放置？　　2026年9月20日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T22:35:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/5nj0LuDL2hg/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "dF3JrmimTCg",
+      "title": "かご猫LIVE配信　2026年9月19日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T22:34:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/dF3JrmimTCg/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "hWvRLLK2mcA",
+      "title": "かご猫LIVE配信　2026年9月18日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T22:33:36Z",
+      "thumbnail": "https://i.ytimg.com/vi/hWvRLLK2mcA/hqdefault_live.jpg",
+      "score": 0
+    },
+    {
+      "id": "f_q1L8ybmPE",
+      "title": "りんごかもめのたまご　260912　　 #cat #のせ猫　 #cute　 #ねこ  #猫のいる暮らし  #りんごかもめのたまご　 #かもめのたまご　2",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-11T22:00:29Z",
+      "thumbnail": "https://i.ytimg.com/vi/f_q1L8ybmPE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "IvR2dGQOjDw",
+      "title": "Celebrate Howloween At The Oregon Zoo",
+      "channel": "Oregon Zoo",
+      "durationSeconds": 31,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T21:09:48Z",
+      "thumbnail": "https://i.ytimg.com/vi/IvR2dGQOjDw/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "AxgluV4Lyls",
+      "title": "トウモロコシ　のせ猫　260912",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 181,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T20:00:19Z",
+      "thumbnail": "https://i.ytimg.com/vi/AxgluV4Lyls/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "YdcE8EQIfp0",
+      "title": "She Found A Huge SNAKE In Her Bin! 🐍",
+      "channel": "Wildlife Aid",
+      "durationSeconds": 23,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-11T16:43:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/YdcE8EQIfp0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "hqKcDc--A2o",
+      "title": "Prospére's Story: How a Silverback Gorilla Saved His Team from a Mamba",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 161,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T15:36:56Z",
+      "thumbnail": "https://i.ytimg.com/vi/hqKcDc--A2o/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "D-6CYX7szE8",
+      "title": "Interview with Hoffman Coexistence Fellow Prospère Teberd",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 423,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T15:14:51Z",
+      "thumbnail": "https://i.ytimg.com/vi/D-6CYX7szE8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "G5TFdZthJhs",
+      "title": "月どら 紫芋あん＆芋あんホイップ入り大福　260912　 #cat #のせ猫 #cute　 #月どら　 #猫のいる暮らし #ねこ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-11T15:00:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/G5TFdZthJhs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "oNd5feI4q_0",
+      "title": "She Found A SNAKE In Her Bin!| It Was Trapped!",
+      "channel": "Wildlife Aid",
+      "durationSeconds": 206,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-11T14:30:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/oNd5feI4q_0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "kFbYXQdYIDI",
+      "title": "I picked up 2 new foster buns 🐰",
+      "channel": "Victoria Raechel (Rabbits)",
+      "durationSeconds": 81,
+      "bucket": "medium",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-11T13:14:59Z",
+      "thumbnail": "https://i.ytimg.com/vi/kFbYXQdYIDI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "r3o5W_lkujo",
+      "title": "Fritz and Bibi! 🦛🦛",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 23,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-11T13:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/r3o5W_lkujo/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "rgv2yPJbAP0",
       "title": "「お散歩するよ〜」と誘ったときのもちの瞬発力が…www",
@@ -10,105 +318,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-11T11:01:25Z",
       "thumbnail": "https://i.ytimg.com/vi/rgv2yPJbAP0/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "QcNPUiLyxhA",
-      "title": "CO・OP うれしいフルーツ 白桃ゼリー　260911　 #cat #三毛猫 #cute　 #ねこ　 #猫のいる暮らし　 #CO・OP うれしいフルーツ 白桃ゼリー",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-11T11:00:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/QcNPUiLyxhA/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "nBxIQqw7gIA",
-      "title": "かご猫 Blog がライブ配信中！ 2026年9月11日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-11T07:16:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/nBxIQqw7gIA/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
-      "id": "vrSPCBV1s9s",
-      "title": "ちゃぶ台の上の焼きいわし　260911",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 387,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-11T07:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/vrSPCBV1s9s/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "bsveJO5J0lI",
-      "title": "アヲハタ　５５  イチゴ　さわやかブレンド　260911　 #三毛猫　 #cat　 #cute  #ねこ  #猫のいる暮らし　 #かしわねこ　 #アヲハタ　５５  イチゴ　さわやかブレンド",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-11T04:00:08Z",
-      "thumbnail": "https://i.ytimg.com/vi/bsveJO5J0lI/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "uwNogcrHhbE",
-      "title": "じうり　枕猫　260911",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 206,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-11T01:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/uwNogcrHhbE/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "5Z09jVXcigg",
-      "title": "龍泉洞の緑茶　260911　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #龍泉洞の緑茶　 #猫",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-10T22:00:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/5Z09jVXcigg/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "-dKXogd7i8c",
-      "title": "大反魂草　のせ猫　260911",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 361,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-10T20:00:38Z",
-      "thumbnail": "https://i.ytimg.com/vi/-dKXogd7i8c/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "LDhcDcgJuJk",
-      "title": "スペースアポロ　260911　 #cat #スペースアポロ　 #猫　 #cute　 #ねこ　 #のせ猫　 #猫のいる暮らし",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-10T15:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/LDhcDcgJuJk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "sJ8FT2yjdG4",
-      "title": "切り株でしっぽふりふりちろ　260910",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 86,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-10T13:00:39Z",
-      "thumbnail": "https://i.ytimg.com/vi/sJ8FT2yjdG4/hqdefault.jpg",
       "score": 0
     },
     {
@@ -145,17 +354,6 @@
       "score": 0
     },
     {
-      "id": "00E6dvrCIRk",
-      "title": "はじけてグレープソーダ　260910　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #はじけてグレープソーダ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-10T11:00:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/00E6dvrCIRk/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "ntd-z3CXBQI",
       "title": "I Filmed The Swan Family From Above: Here's how the Cygnets Are Doing Now | Robert E Fuller",
       "channel": "Robert E Fuller (Wildlife)",
@@ -164,50 +362,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-10T10:48:59Z",
       "thumbnail": "https://i.ytimg.com/vi/ntd-z3CXBQI/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "ZrysrCkCISk",
-      "title": "軽トラで紫キャベツ帽子　260910",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 151,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-10T07:00:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/ZrysrCkCISk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "O-oEyA8MYA8",
-      "title": "UCC　BLACK無糖　　260910　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #UCC　BLACK無糖",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-10T04:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/O-oEyA8MYA8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Wj_NHweB0Y8",
-      "title": "じうり　のせ猫　260910",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 143,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-10T01:00:06Z",
-      "thumbnail": "https://i.ytimg.com/vi/Wj_NHweB0Y8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "ykSkVmkMM6A",
-      "title": "夢の森 りんごジュース 　260910　 #cat #のせ猫　 #cute　 #ねこ　 #猫のいる暮らし　 #夢の森 りんごジュース",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-09T22:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/ykSkVmkMM6A/hqdefault.jpg",
       "score": 0
     },
     {
@@ -255,17 +409,6 @@
       "score": 0
     },
     {
-      "id": "XTXMawMIjAw",
-      "title": "つっきーみ（もち＆黄身あん＆ホイップ）　260910　 #cat　 #cute　 #ねこ　 #のせ猫　 #猫のいる暮らし #つっきーみ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-09T15:00:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/XTXMawMIjAw/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "a9b41-sRI04",
       "title": "Meet Crow... a kitten with a cloaca!? 🐾❤️‍🩹",
       "channel": "TinyKittens HQ",
@@ -288,17 +431,6 @@
       "score": 0
     },
     {
-      "id": "6srmF6RmkFk",
-      "title": "おすわりしらたま　260909",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 94,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-09T13:00:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/6srmF6RmkFk/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "oSIrSI7R06Q",
       "title": "はなににゃんプロで負けそうになったもちが…www",
       "channel": "Mochimaru",
@@ -307,28 +439,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-09T11:01:28Z",
       "thumbnail": "https://i.ytimg.com/vi/oSIrSI7R06Q/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "80o3Tg1PfTQ",
-      "title": "甘酒 糖質50%オフ　260909　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #甘酒 糖質50%オフ　 #猫　　 #糖質50%オフ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 14,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-09T11:00:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/80o3Tg1PfTQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "uN2rOGF26Po",
-      "title": "ちゃぶ台の上の茹でとうもろこし　260909",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 539,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-09T07:00:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/uN2rOGF26Po/hqdefault.jpg",
       "score": 0
     },
     {
@@ -497,14 +607,14 @@
       "score": 0
     },
     {
-      "id": "VNeI98-WgBc",
-      "title": "かご猫LIVE配信　2026年9月11日",
+      "id": "bTghoork-bo",
+      "title": "かご猫LIVE配信　2026年9月12日",
       "channel": "Kagonekoshiro (Zen Cats)",
       "durationSeconds": 0,
       "bucket": "short",
       "orientation": "landscape",
-      "publishedAt": "2026-09-04T21:47:33Z",
-      "thumbnail": "https://i.ytimg.com/vi/VNeI98-WgBc/hqdefault_live.jpg",
+      "publishedAt": "2026-09-04T21:48:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/bTghoork-bo/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -1113,17 +1223,6 @@
       "score": 0
     },
     {
-      "id": "dcb03K_Dkn8",
-      "title": "Mboka Jo has become a good climber!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 52,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-27T13:00:04Z",
-      "thumbnail": "https://i.ytimg.com/vi/dcb03K_Dkn8/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Rs_ikXVWkYM",
       "title": "何歳になってもトムとジェリーに夢中なもちとはなが可愛すぎます…",
       "channel": "Mochimaru",
@@ -1132,28 +1231,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-08-27T11:01:15Z",
       "thumbnail": "https://i.ytimg.com/vi/Rs_ikXVWkYM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "xhr5zuYDf5I",
-      "title": "Elephant loses teeth and shows off her new teeth! Check out the full story on our page.",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 38,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-26T21:30:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/xhr5zuYDf5I/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "hBrpUiVt9vo",
-      "title": "Happy World African Painted Dog Day!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 30,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-26T21:00:23Z",
-      "thumbnail": "https://i.ytimg.com/vi/hBrpUiVt9vo/hqdefault.jpg",
       "score": 0
     },
     {
@@ -1377,17 +1454,6 @@
       "score": 0
     },
     {
-      "id": "9HUJaZYFhJ4",
-      "title": "赤ちゃん用ベッドに座るとすぐ眠くなっちゃうはなちゃんが可愛すぎますw",
-      "channel": "Mochimaru",
-      "durationSeconds": 81,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-23T11:01:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/9HUJaZYFhJ4/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Zy5anvTuUiU",
       "title": "洗面台で水浴びするみりとチビまる。-Miri and Little Maru bathing in the wash sink.-",
       "channel": "I am Maru",
@@ -1561,17 +1627,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-19T22:12:16Z",
       "thumbnail": "https://i.ytimg.com/vi/rc2a2U9klF0/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "_jL50JVzu2Q",
-      "title": "Zoo Boo Season is Coming!",
-      "channel": "Houston Zoo",
-      "durationSeconds": 30,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-19T19:59:56Z",
-      "thumbnail": "https://i.ytimg.com/vi/_jL50JVzu2Q/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2180,17 +2235,6 @@
       "score": 0
     },
     {
-      "id": "9fSqcSNGicE",
-      "title": "2026-08-10 Micro: Tuckered Terry & Mega Maggie Blep",
-      "channel": "Kitten Academy",
-      "durationSeconds": 277,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-11T11:15:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/9fSqcSNGicE/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "F4RCWL0_OQc",
       "title": "ASMR Sounds of a DOG #dog #goldenretriever #doglife",
       "channel": "Sunday The Golden Retriever",
@@ -2243,17 +2287,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-10T13:00:13Z",
       "thumbnail": "https://i.ytimg.com/vi/iU03eq4G9D4/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "NusrZFpC7n8",
-      "title": "2026-08-08 Micro: Local Kitten Condo Association BANS Sharing Zippers",
-      "channel": "Kitten Academy",
-      "durationSeconds": 527,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-09T09:32:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/NusrZFpC7n8/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2609,28 +2642,6 @@
       "score": 0
     },
     {
-      "id": "XT153NhVoTg",
-      "title": "TRAPPED In a Fist-Sized Gap For 3 DAYS!| We Thought There Was No Hope ...",
-      "channel": "Wildlife Aid",
-      "durationSeconds": 267,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-31T16:30:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/XT153NhVoTg/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "vaf4Lf9cfSo",
-      "title": "We Thought There Was no Hope… 😰",
-      "channel": "Wildlife Aid",
-      "durationSeconds": 28,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-07-31T16:00:09Z",
-      "thumbnail": "https://i.ytimg.com/vi/vaf4Lf9cfSo/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "2E1QMm6vzz4",
       "title": "It's rare to see a hare drinking like this",
       "channel": "Robert E Fuller (Wildlife)",
@@ -2694,17 +2705,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-07-30T21:54:33Z",
       "thumbnail": "https://i.ytimg.com/vi/wGIIHl_WNOA/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "6nxi7jopc00",
-      "title": "For The First Time Ever, Rare Mazama Newts Hatch At Zoo",
-      "channel": "Oregon Zoo",
-      "durationSeconds": 63,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-30T19:14:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/6nxi7jopc00/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2947,6 +2947,17 @@
       "orientation": "landscape",
       "publishedAt": "2026-07-22T12:00:29Z",
       "thumbnail": "https://i.ytimg.com/vi/vvzPMiY_DS4/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "GU-s_doDPKw",
+      "title": "What’s the question zookeepers get asked the most? 👀",
+      "channel": "Houston Zoo",
+      "durationSeconds": 57,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-07-21T21:34:45Z",
+      "thumbnail": "https://i.ytimg.com/vi/GU-s_doDPKw/hqdefault.jpg",
       "score": 0
     },
     {
@@ -4179,17 +4190,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-02-14T22:14:38Z",
       "thumbnail": "https://i.ytimg.com/vi/FXSqPpi0lIY/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Nmn5cf6CBoo",
-      "title": "Goodnight Cleo 🕊️",
-      "channel": "Victoria Raechel (Rabbits)",
-      "durationSeconds": 103,
-      "bucket": "medium",
-      "orientation": "portrait",
-      "publishedAt": "2026-02-04T20:35:30Z",
-      "thumbnail": "https://i.ytimg.com/vi/Nmn5cf6CBoo/hqdefault.jpg",
       "score": 0
     },
     {
