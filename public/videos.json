@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-09-29T12:01:21.041Z",
+  "generatedAt": "2026-09-30T12:01:41.653Z",
   "videos": [
+    {
+      "id": "zBeg3EsW0gs",
+      "title": "雨続きでぐうたらはなみり。-Hana&Miri spends their time lazily because of the continuous rain.-",
+      "channel": "I am Maru",
+      "durationSeconds": 213,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-30T12:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/zBeg3EsW0gs/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "wV0usQw98AM",
+      "title": "仕事長引いたら待ちくたびれて寝ちゃったもち…",
+      "channel": "Mochimaru",
+      "durationSeconds": 82,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-30T11:01:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/wV0usQw98AM/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "rO7JpbHna3E",
+      "title": "おひさま香るレモンケーキ　260930　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #おひさま香るレモンケーキ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-30T11:00:02Z",
+      "thumbnail": "https://i.ytimg.com/vi/rO7JpbHna3E/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "l2xUM76zHJA",
+      "title": "竹林でかご入りちろ　260930",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 143,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-30T07:00:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/l2xUM76zHJA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "0FWd0wMiTcY",
+      "title": "ポートランドぶどう　のせ猫　260930　 #cat #のせ猫 #cute　 #どみちゃん #ねこ #じゃばさんぽ　 #ポートランドぶどう",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 31,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-30T05:00:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/0FWd0wMiTcY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "eUwLBxC9Loo",
+      "title": "カリッと！亀田の柿の種 ピーナッツなし ハッピーターン味　260930　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #柿の種",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-30T04:00:40Z",
+      "thumbnail": "https://i.ytimg.com/vi/eUwLBxC9Loo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "eRAG3_yewGY",
+      "title": "なす　のせ猫　260930",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 184,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-30T01:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/eRAG3_yewGY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "Cf5J2CvQLJk",
+      "title": "やわほまれサンド 生キャラメル　260930　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #やわほまれサンド",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-29T22:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/Cf5J2CvQLJk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "mSzcF7jBX90",
+      "title": "After effects of losing someone you love - suicide prevention",
+      "channel": "SaveAFox",
+      "durationSeconds": 179,
+      "bucket": "medium",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-29T17:25:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/mSzcF7jBX90/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "_J-ROqXYumE",
+      "title": "Zoo Boo Animal Spotlight: Houston Zoo Snakes",
+      "channel": "Houston Zoo",
+      "durationSeconds": 235,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-09-29T16:46:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/_J-ROqXYumE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "IJkGCkfGACw",
+      "title": "Bat-eared foxes have enormous ears that can grow up to five inches long.",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 13,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-09-29T13:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/IJkGCkfGACw/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "DZXTz8fbu04",
       "title": "今日も筋トレをジャマしに来た猫がこうなっちゃいましたw",
@@ -211,39 +332,6 @@
       "score": 0
     },
     {
-      "id": "cHnJrVRLc_4",
-      "title": "UFOズッキーニ　260928　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #UFOズッキーニ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 43,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-27T23:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/cHnJrVRLc_4/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "C6LjGpZjRKs",
-      "title": "ほぼ栗あんぱん　260928　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #ほぼ栗あんぱん",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-27T22:00:27Z",
-      "thumbnail": "https://i.ytimg.com/vi/C6LjGpZjRKs/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "lTR7IlYfAkw",
-      "title": "窓辺におすわり麦茶　260927",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 100,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-27T13:00:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/lTR7IlYfAkw/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "SNx4UtfXjnY",
       "title": "Lettuce introduce you to one of the coolest experiences at the Zoo!",
       "channel": "The Cincinnati Zoo & Botanical Garden",
@@ -263,28 +351,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-27T11:01:32Z",
       "thumbnail": "https://i.ytimg.com/vi/0cdv72bRigQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "8nkvoGrzke4",
-      "title": "汁なし鴨だしうどん　260927　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #汁なし鴨だしうどん",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-27T11:00:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/8nkvoGrzke4/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Y_2xb57j_ZI",
-      "title": "かごのじろぽんたろぽん　260927",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 138,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-27T07:00:11Z",
-      "thumbnail": "https://i.ytimg.com/vi/Y_2xb57j_ZI/hqdefault.jpg",
       "score": 0
     },
     {
@@ -475,14 +541,14 @@
       "score": 0
     },
     {
-      "id": "EXJgYfXqjFY",
-      "title": "麦ちゃん がライブ配信中！2026年9月29日",
+      "id": "1c0Fmo2j_D4",
+      "title": "のらこちゃん がライブ配信中！2026年9月30日",
       "channel": "Kagonekoshiro (Zen Cats)",
       "durationSeconds": 0,
       "bucket": "short",
       "orientation": "landscape",
-      "publishedAt": "2026-09-24T03:02:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/EXJgYfXqjFY/hqdefault_live.jpg",
+      "publishedAt": "2026-09-24T03:03:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/1c0Fmo2j_D4/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -1080,17 +1146,6 @@
       "score": 0
     },
     {
-      "id": "yIqvUIPdWoI",
-      "title": "Martini the fennec fox kit had a checkup. She remains off habitat as her leg continues to heal.",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 24,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-09-17T13:00:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/yIqvUIPdWoI/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Ev3zD_TIvlw",
       "title": "変なダンスを踊らされて不服な猫が可愛すぎましたwww",
       "channel": "Mochimaru",
@@ -1220,17 +1275,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-15T11:01:19Z",
       "thumbnail": "https://i.ytimg.com/vi/2FG1dhcKc_s/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "WdUYXZfEE1s",
-      "title": "Baby Badger cam",
-      "channel": "Wildlife Aid",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-15T09:14:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/WdUYXZfEE1s/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -1451,17 +1495,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-10T12:00:00Z",
       "thumbnail": "https://i.ytimg.com/vi/iu9SF5J2yUs/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "PnFxYyXp68k",
-      "title": "おもちゃに興奮しておかしくなっちゃった猫が可愛すぎましたw",
-      "channel": "Mochimaru",
-      "durationSeconds": 87,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-10T11:01:10Z",
-      "thumbnail": "https://i.ytimg.com/vi/PnFxYyXp68k/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2895,17 +2928,6 @@
       "score": 0
     },
     {
-      "id": "GBPZtkEj1Ag",
-      "title": "Houston Zoo's Gorilla Mike",
-      "channel": "Houston Zoo",
-      "durationSeconds": 15,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-07T18:16:58Z",
-      "thumbnail": "https://i.ytimg.com/vi/GBPZtkEj1Ag/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "PrXOenxlUUA",
       "title": "FOX CUB FALLS INTO A DANGEROUS SKIP - Watch the Rescue",
       "channel": "Wildlife Aid",
@@ -2914,6 +2936,17 @@
       "orientation": "landscape",
       "publishedAt": "2026-08-07T16:00:25Z",
       "thumbnail": "https://i.ytimg.com/vi/PrXOenxlUUA/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "0yAhPRh9EPM",
+      "title": "FOX CUB FALLS INTO A DANGEROUS SKIP 🦊",
+      "channel": "Wildlife Aid",
+      "durationSeconds": 30,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-08-07T14:56:43Z",
+      "thumbnail": "https://i.ytimg.com/vi/0yAhPRh9EPM/hqdefault.jpg",
       "score": 0
     },
     {
@@ -3189,17 +3222,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-07-22T18:45:16Z",
       "thumbnail": "https://i.ytimg.com/vi/-m9QVa8oAqk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "vvzPMiY_DS4",
-      "title": "成長し過ぎたキャットミントとはなみり。-Overgrown catmint and Hana&Miri.-",
-      "channel": "I am Maru",
-      "durationSeconds": 190,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-07-22T12:00:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/vvzPMiY_DS4/hqdefault.jpg",
       "score": 0
     },
     {
@@ -3882,17 +3904,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-04-09T12:11:56Z",
       "thumbnail": "https://i.ytimg.com/vi/OqeVGtdSVio/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "uCyoUuJLF9E",
-      "title": "Adorable foxes get Easter eggs! 🥚🐰",
-      "channel": "SaveAFox",
-      "durationSeconds": 161,
-      "bucket": "medium",
-      "orientation": "portrait",
-      "publishedAt": "2026-04-06T21:02:52Z",
-      "thumbnail": "https://i.ytimg.com/vi/uCyoUuJLF9E/hqdefault.jpg",
       "score": 0
     },
     {
