@@ -1,6 +1,127 @@
 {
-  "generatedAt": "2026-10-05T12:01:25.433Z",
+  "generatedAt": "2026-10-06T12:01:55.682Z",
   "videos": [
+    {
+      "id": "Oxs0s2jCOdM",
+      "title": "水飲みたくてキッチンに行列を作ってる猫たちが可愛すぎましたw",
+      "channel": "Mochimaru",
+      "durationSeconds": 95,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-06T11:01:04Z",
+      "thumbnail": "https://i.ytimg.com/vi/Oxs0s2jCOdM/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "t-cgH9rdDeo",
+      "title": "わかめラーメン　旨辛ユッケジャン味　261006　 #cat #のせ猫 #cute　 #わかめラーメン　旨辛ユッケジャン味 #ねこ  #猫のいる暮らし",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-06T11:00:06Z",
+      "thumbnail": "https://i.ytimg.com/vi/t-cgH9rdDeo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "CujRvoro-Zk",
+      "title": "ちゃぶ台でお食事麦茶　261006",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 203,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-06T07:00:20Z",
+      "thumbnail": "https://i.ytimg.com/vi/CujRvoro-Zk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "fIpMV0o2HD8",
+      "title": "ダイドーブレンド デミタス微糖　261006　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #ダイドーブレンド デミタス微糖",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-06T04:00:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/fIpMV0o2HD8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "JGmmkPMhgsU",
+      "title": "竹林のもふむぎ　261006",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 252,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-06T01:00:15Z",
+      "thumbnail": "https://i.ytimg.com/vi/JGmmkPMhgsU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "0iOu7WHw-pk",
+      "title": "カステラクリームサンド（チョコ）　261006　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #カステラクリームサンド",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-05T22:00:00Z",
+      "thumbnail": "https://i.ytimg.com/vi/0iOu7WHw-pk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "zlDjzqL1HMo",
+      "title": "またたびの実　のせ猫　261006",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 281,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-05T20:00:39Z",
+      "thumbnail": "https://i.ytimg.com/vi/zlDjzqL1HMo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "QmCp-M7hxzo",
+      "title": "Meet our Newest Flamingo Chick",
+      "channel": "Houston Zoo",
+      "durationSeconds": 28,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-05T17:40:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/QmCp-M7hxzo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "DsSlE154nF0",
+      "title": "Baby Reptiles of Houston Zoo",
+      "channel": "Houston Zoo",
+      "durationSeconds": 19,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-05T15:18:46Z",
+      "thumbnail": "https://i.ytimg.com/vi/DsSlE154nF0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "xxboYuJKp94",
+      "title": "うずむぎしょぼにおやつ　261005",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 246,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-05T13:00:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/xxboYuJKp94/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "MLCBs4s3pcM",
+      "title": "Red river hog, Sir Francis Bacon, checks in on the volunteer diver at Hippo Cove!",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 31,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-05T13:00:19Z",
+      "thumbnail": "https://i.ytimg.com/vi/MLCBs4s3pcM/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "004ZygnhxMc",
       "title": "庭で走るのが楽しすぎて「戻っておいで〜」と声をかけても止まらない猫たちが可愛すぎたwww",
@@ -200,28 +321,6 @@
       "score": 0
     },
     {
-      "id": "mvIAOS2lMtg",
-      "title": "軽トラのちろ　261004",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 165,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-04T07:00:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/mvIAOS2lMtg/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "m8gFTgvXHXs",
-      "title": "紅茶花伝 メープルティーラテ 440ml　261004　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #紅茶花伝 メープルティーラテ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-04T04:00:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/m8gFTgvXHXs/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "qBUTC66mohs",
       "title": "Adorable Baby Boy Plays With His Cat But Dog Has Other Ideas! (Cutest Ever!!)",
       "channel": "Life with Malamutes",
@@ -230,50 +329,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-10-04T02:15:05Z",
       "thumbnail": "https://i.ytimg.com/vi/qBUTC66mohs/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "9wbYPnQ6rHw",
-      "title": "スチューベン　ぶどう　のせ猫　261004",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 143,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-04T01:00:29Z",
-      "thumbnail": "https://i.ytimg.com/vi/9wbYPnQ6rHw/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "coQ5Wi9HoXk",
-      "title": "濃みつ 紅はるかのいもパイ　261004　　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #濃みつ 紅はるかのいもパイ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-03T22:00:12Z",
-      "thumbnail": "https://i.ytimg.com/vi/coQ5Wi9HoXk/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "N3qHokTLSpw",
-      "title": "うずまきLIVE配信？　放置？　朝まで？　2026年10月11日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-03T21:28:35Z",
-      "thumbnail": "https://i.ytimg.com/vi/N3qHokTLSpw/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
-      "id": "wyWucksg2BI",
-      "title": "うずまきLIVE配信？　放置？　　2026年10月11日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-03T21:27:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/wyWucksg2BI/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -329,6 +384,17 @@
       "orientation": "landscape",
       "publishedAt": "2026-10-03T11:01:06Z",
       "thumbnail": "https://i.ytimg.com/vi/QbfEhs2rEUY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "OZrhTx9A8w0",
+      "title": "しょぼちゃん がライブ配信中！　2026年10月6日",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 0,
+      "bucket": "short",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-03T06:35:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/OZrhTx9A8w0/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -1135,17 +1201,6 @@
       "score": 0
     },
     {
-      "id": "hEEb7FQRPj4",
-      "title": "Another Cincinnati Zoo Sihek (Guam kingfisher) Begins Journey to Palmyra Atoll",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 125,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-21T21:20:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/hEEb7FQRPj4/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "ZpF2LiNY2Z0",
       "title": "Sea Otter Conservation Center",
       "channel": "Monterey Bay Aquarium",
@@ -1506,17 +1561,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-09-16T12:00:37Z",
       "thumbnail": "https://i.ytimg.com/vi/po6UJKvh2Eo/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "fpNjn8tPwWA",
-      "title": "弟には意地でも負けられないもち兄！",
-      "channel": "Mochimaru",
-      "durationSeconds": 93,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-16T11:01:13Z",
-      "thumbnail": "https://i.ytimg.com/vi/fpNjn8tPwWA/hqdefault.jpg",
       "score": 0
     },
     {
@@ -3016,17 +3060,6 @@
       "score": 0
     },
     {
-      "id": "b7JIzJW9PdU",
-      "title": "Happy World Lion Day",
-      "channel": "Houston Zoo",
-      "durationSeconds": 40,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-08-10T17:21:53Z",
-      "thumbnail": "https://i.ytimg.com/vi/b7JIzJW9PdU/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "iU03eq4G9D4",
       "title": "This roe deer buck was thirsty 🦌",
       "channel": "Robert E Fuller (Wildlife)",
@@ -3068,17 +3101,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-07T20:36:16Z",
       "thumbnail": "https://i.ytimg.com/vi/oNrMY2TH7Bo/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "WhchTmgZADg",
-      "title": "Experience Brew at the Zoo at Houston Zoo",
-      "channel": "Houston Zoo",
-      "durationSeconds": 31,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-07T18:21:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/WhchTmgZADg/hqdefault.jpg",
       "score": 0
     },
     {
