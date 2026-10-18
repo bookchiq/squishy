@@ -1,6 +1,116 @@
 {
-  "generatedAt": "2026-10-17T12:01:29.062Z",
+  "generatedAt": "2026-10-18T12:01:19.313Z",
   "videos": [
+    {
+      "id": "yNJlAcbdArk",
+      "title": "大好きな友達が帰ろうとしたら猫がこうなっちゃいました…",
+      "channel": "Mochimaru",
+      "durationSeconds": 75,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-18T11:01:37Z",
+      "thumbnail": "https://i.ytimg.com/vi/yNJlAcbdArk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "C6DVOq8sV_4",
+      "title": "直営店の旨味 鰯ごぼう　261018　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #直営店の旨味 鰯ごぼう",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-18T11:00:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/C6DVOq8sV_4/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "sHsjeRizvwo",
+      "title": "2026-10-17 Micro: Princess Terry & Kitchen Clean Up Crew",
+      "channel": "Kitten Academy",
+      "durationSeconds": 248,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-18T08:54:03Z",
+      "thumbnail": "https://i.ytimg.com/vi/sHsjeRizvwo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "TzM2xFakWmU",
+      "title": "窓辺でおやすみちろチビクロ　261018",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 203,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-18T07:00:11Z",
+      "thumbnail": "https://i.ytimg.com/vi/TzM2xFakWmU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "wlTC0Sm-TeY",
+      "title": "ワンダ プレミアムゼロ 缶185g　261018　 #cat #のせ猫　#cute　 #ねこ　 #猫のいる暮らし　 #ワンダ プレミアムゼロ",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-18T04:00:33Z",
+      "thumbnail": "https://i.ytimg.com/vi/wlTC0Sm-TeY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ET9sauEiMaE",
+      "title": "ころころちろちょびさばじろう　261018",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 259,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-18T01:00:07Z",
+      "thumbnail": "https://i.ytimg.com/vi/ET9sauEiMaE/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ZT89rRE--nI",
+      "title": "Giant Elephant Squishes Giant Pumpkin",
+      "channel": "Oregon Zoo",
+      "durationSeconds": 97,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-17T22:35:10Z",
+      "thumbnail": "https://i.ytimg.com/vi/ZT89rRE--nI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "XSrAk7C4WZY",
+      "title": "豆パンロール 濃いミルク　261018　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #豆パンロール 濃いミルク",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 14,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-17T22:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/XSrAk7C4WZY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "aLT-IJ_NJ_0",
+      "title": "パプリカ星人　のせ猫　261018",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 111,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-10-17T20:00:08Z",
+      "thumbnail": "https://i.ytimg.com/vi/aLT-IJ_NJ_0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ivGW6fhFXUs",
+      "title": "Elle is subtly trying to get some attention. 🤣",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 5,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-10-17T13:00:28Z",
+      "thumbnail": "https://i.ytimg.com/vi/ivGW6fhFXUs/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "gXIP8MQm2ac",
       "title": "長雨後の久しぶりのお散歩はなみり。-Hana&Miri's first walk in a while after a long rain.-",
@@ -36,7 +146,7 @@
     },
     {
       "id": "hVRXEtyYebM",
-      "title": "2026-10-16 Micro: Panama & Snood Go Home (Today) Saturday!",
+      "title": "2026-10-16 Micro: Panama & Snood Are Getting Adopted Together!",
       "channel": "Kitten Academy",
       "durationSeconds": 728,
       "bucket": "long",
@@ -134,39 +244,6 @@
       "score": 0
     },
     {
-      "id": "dzAIp-Q4oks",
-      "title": "かご猫LIVE配信　2026年10月23日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-16T22:02:42Z",
-      "thumbnail": "https://i.ytimg.com/vi/dzAIp-Q4oks/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
-      "id": "-LaWOSyVH7E",
-      "title": "ジャムパンいちごジャム　261017　 #cat #のせ猫 #cute　 #ねこ　 #猫のいる暮らし　 #ジャムパンいちごジャム",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-16T22:00:22Z",
-      "thumbnail": "https://i.ytimg.com/vi/-LaWOSyVH7E/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "p2iuXiPk998",
-      "title": "デラウェア　ぶどう　のせ猫　 261017",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 118,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-16T20:00:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/p2iuXiPk998/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "r1IviregwEA",
       "title": "He Was Stuck 3-Storeys Up!",
       "channel": "Wildlife Aid",
@@ -255,17 +332,6 @@
       "score": 0
     },
     {
-      "id": "usv4mY_FB8A",
-      "title": "特選みそ漬大根　261016　 #cat #のせ猫 #cute　 #じゃばさんぽ　 #ねこ　 #猫のいる暮らし　 #特選みそ漬大根",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-16T11:00:40Z",
-      "thumbnail": "https://i.ytimg.com/vi/usv4mY_FB8A/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "rHwZzHZt0Es",
       "title": "I love how this Eurasian jay raises its crest as it bathes in my wildlife pond",
       "channel": "Robert E Fuller (Wildlife)",
@@ -274,39 +340,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-10-16T11:00:19Z",
       "thumbnail": "https://i.ytimg.com/vi/rHwZzHZt0Es/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "E8VWH-o0Nw8",
-      "title": "つりかご猫ちろとさばじろう　Cat in a hanging basket　261016",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 236,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-16T07:00:17Z",
-      "thumbnail": "https://i.ytimg.com/vi/E8VWH-o0Nw8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "mq1fPwwBOzQ",
-      "title": "いつでも新鮮 しぼりたて生しょうゆ 200ml　261016　 #cat #のせ猫#cute　 #ねこ　 #猫のいる暮らし　 #いつでも新鮮 しぼりたて生しょうゆ",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-16T04:00:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/mq1fPwwBOzQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "-_01hnAZdtw",
-      "title": "丸ズッキーニ　枕　261016",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 201,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-16T01:00:25Z",
-      "thumbnail": "https://i.ytimg.com/vi/-_01hnAZdtw/hqdefault.jpg",
       "score": 0
     },
     {
@@ -574,17 +607,6 @@
       "score": 0
     },
     {
-      "id": "mbODHhRUJzM",
-      "title": "のらこちゃん Blog がライブ配信中！2026年10月17日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-13T09:22:32Z",
-      "thumbnail": "https://i.ytimg.com/vi/mbODHhRUJzM/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
       "id": "ZZROzPc9rIg",
       "title": "Giant Dog Tries To Tell Me Something!",
       "channel": "Life with Malamutes",
@@ -648,17 +670,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-10-12T16:18:22Z",
       "thumbnail": "https://i.ytimg.com/vi/Zi9fTj0fmUw/hqdefault_live.jpg",
-      "score": 0
-    },
-    {
-      "id": "Hh4XNA0Ea9A",
-      "title": "Cincinnati Zoo Giraffe Birth Watch - Indoor",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-12T16:16:59Z",
-      "thumbnail": "https://i.ytimg.com/vi/Hh4XNA0Ea9A/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -816,14 +827,14 @@
       "score": 0
     },
     {
-      "id": "iq0xI8IOk3g",
-      "title": "かご猫LIVE配信　2026年10月17日",
+      "id": "2PgqR_qR5yY",
+      "title": "うずまきLIVE配信？　放置？　朝まで　2026年10月18日",
       "channel": "Kagonekoshiro (Zen Cats)",
       "durationSeconds": 0,
       "bucket": "short",
       "orientation": "landscape",
-      "publishedAt": "2026-10-09T21:40:05Z",
-      "thumbnail": "https://i.ytimg.com/vi/iq0xI8IOk3g/hqdefault_live.jpg",
+      "publishedAt": "2026-10-09T21:41:27Z",
+      "thumbnail": "https://i.ytimg.com/vi/2PgqR_qR5yY/hqdefault_live.jpg",
       "score": 0
     },
     {
@@ -1542,17 +1553,6 @@
       "score": 0
     },
     {
-      "id": "ArHhLv484jE",
-      "title": "休日にゴロゴロしながらネットフリックス見てたら…",
-      "channel": "Mochimaru",
-      "durationSeconds": 72,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-28T11:01:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/ArHhLv484jE/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "qd2iIuYsU8A",
       "title": "2026-09-27 Micro: Tech Support Agent Anita Lends A Paw",
       "channel": "Kitten Academy",
@@ -2224,17 +2224,6 @@
       "score": 0
     },
     {
-      "id": "04Sf_zWeEkw",
-      "title": "2026-09-13 Micro: Shameless Pet Requests & Shark Hunting",
-      "channel": "Kitten Academy",
-      "durationSeconds": 596,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-14T06:22:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/04Sf_zWeEkw/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "ws7n_ePJHCo",
       "title": "The sweetest Crow purrs, just one day after life-saving surgery! 🐾❤️‍🩹",
       "channel": "TinyKittens HQ",
@@ -2573,17 +2562,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-31T20:08:42Z",
       "thumbnail": "https://i.ytimg.com/vi/HDQzT0nV9Gs/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "-8j4vuaf_90",
-      "title": "Listen To A Cute Porcupine Make Little Grunts On A Hike",
-      "channel": "Oregon Zoo",
-      "durationSeconds": 58,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-31T16:35:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/-8j4vuaf_90/hqdefault.jpg",
       "score": 0
     },
     {
