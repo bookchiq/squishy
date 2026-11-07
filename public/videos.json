@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-11-06T12:01:27.799Z",
+  "generatedAt": "2026-11-07T12:01:36.263Z",
   "videos": [
+    {
+      "id": "gOKvcVUJ5Mk",
+      "title": "まるさんの思い出１２。-Memories of Maru 12.-",
+      "channel": "I am Maru",
+      "durationSeconds": 535,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T12:00:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/gOKvcVUJ5Mk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "ngB_ImtQAGw",
+      "title": "兄にお気に入りのボールを取られちゃった猫がまさかの行動に…",
+      "channel": "Mochimaru",
+      "durationSeconds": 110,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T11:01:01Z",
+      "thumbnail": "https://i.ytimg.com/vi/ngB_ImtQAGw/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "QiOeVxw7jHk",
+      "title": "ショッパーズプライス　しょうゆヌードル　261107　 #cat #しょうゆヌードル #cute　 #猫　　 #猫のいる暮らし　 #ネコ　 #cutecat",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-07T11:00:38Z",
+      "thumbnail": "https://i.ytimg.com/vi/QiOeVxw7jHk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "_ZiT_mThg1c",
+      "title": "さばじろうのしっぽを枕にするちゃちゃ　261107",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 143,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T07:00:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/_ZiT_mThg1c/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "1sNNYBR6OM0",
+      "title": "ピュアセレクト マヨネーズ 400g　261107　 #cat　 #cute　 #ピュアセレクト マヨネーズ　 #猫　　 #猫のいる暮らし　 #ネコ　 #cutecat　 #のせ猫",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 19,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-07T04:00:25Z",
+      "thumbnail": "https://i.ytimg.com/vi/1sNNYBR6OM0/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "cSk2i2FYLkg",
+      "title": "草であそぶちろとさばず　261107",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 189,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T01:00:35Z",
+      "thumbnail": "https://i.ytimg.com/vi/cSk2i2FYLkg/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "Dv1CrTiiaxk",
+      "title": "Giraffe Birth Watch: Your Biggest Questions Answered (Part 2)",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 710,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T00:33:44Z",
+      "thumbnail": "https://i.ytimg.com/vi/Dv1CrTiiaxk/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "Y7GgubV7dLU",
+      "title": "Giraffe Birth Watch: Your Biggest Questions Answered (Part 1)",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 626,
+      "bucket": "long",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-07T00:32:54Z",
+      "thumbnail": "https://i.ytimg.com/vi/Y7GgubV7dLU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "jXpwWY_CTlo",
+      "title": "Our Jaguar Rojo's 2nd Birthday!",
+      "channel": "Houston Zoo",
+      "durationSeconds": 25,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-06T23:30:34Z",
+      "thumbnail": "https://i.ytimg.com/vi/jXpwWY_CTlo/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "1GpR1ZG9ARU",
+      "title": "トロンボーンチーノ　261107　 #cat #トロンボーンチーノ　ヤ #cute　 #猫　　 #のせ猫　 #猫のいる暮らし　 #cutecat",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 30,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-06T23:00:24Z",
+      "thumbnail": "https://i.ytimg.com/vi/1GpR1ZG9ARU/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "vprtllmaEzQ",
+      "title": "フタバ食品 練乳入り あずき氷145ml　261107　 #cat #練乳入り あずき氷 #cute　 #猫　　 #猫のいる暮らし　 #ネコ　 #cutecat",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 21,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-06T22:00:17Z",
+      "thumbnail": "https://i.ytimg.com/vi/vprtllmaEzQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "qdtkLFJXwzY",
+      "title": "二十世紀　梨　のせ猫　261107",
+      "channel": "Kagonekoshiro (Zen Cats)",
+      "durationSeconds": 184,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-06T20:00:30Z",
+      "thumbnail": "https://i.ytimg.com/vi/qdtkLFJXwzY/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "YRhK3_cytmQ",
+      "title": "Giraffe Birth Watch | Tessa's Belly & Udder Check",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 150,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-06T18:38:26Z",
+      "thumbnail": "https://i.ytimg.com/vi/YRhK3_cytmQ/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "RxW21mddIN8",
+      "title": "Young Hornbill \"Helps\" Zoo Keeper With Cleaning",
+      "channel": "Oregon Zoo",
+      "durationSeconds": 70,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-06T17:49:32Z",
+      "thumbnail": "https://i.ytimg.com/vi/RxW21mddIN8/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "tglQEYEwkUI",
+      "title": "Inside Wolf Woods | Mexican Wolf Habitat Construction Complete",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 199,
+      "bucket": "medium",
+      "orientation": "landscape",
+      "publishedAt": "2026-11-06T14:00:13Z",
+      "thumbnail": "https://i.ytimg.com/vi/tglQEYEwkUI/hqdefault.jpg",
+      "score": 0
+    },
+    {
+      "id": "SAzhJ95LdfU",
+      "title": "Visit playful Martini, the baby fennec fox in Night Hunters!",
+      "channel": "The Cincinnati Zoo & Botanical Garden",
+      "durationSeconds": 26,
+      "bucket": "short",
+      "orientation": "portrait",
+      "publishedAt": "2026-11-06T14:00:05Z",
+      "thumbnail": "https://i.ytimg.com/vi/SAzhJ95LdfU/hqdefault.jpg",
+      "score": 0
+    },
     {
       "id": "RT4skNnuf6g",
       "title": "ブラッシングするよ〜と呼ぶと大喜びでくるもちとはな笑",
@@ -167,28 +343,6 @@
       "score": 0
     },
     {
-      "id": "v98JZdDX5ac",
-      "title": "しらたまちゃん がライブ配信中！2026年11月7日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-11-05T06:15:18Z",
-      "thumbnail": "https://i.ytimg.com/vi/v98JZdDX5ac/hqdefault.jpg?v=6aec1f32",
-      "score": 0
-    },
-    {
-      "id": "dW9q7FhRlMw",
-      "title": "Cook Do 豚肉の黒酢炒め用　261105　 #cat #Cook Do 豚肉の黒酢炒め用 #cute　 #のせ猫　 #猫　　 #猫のいる暮らし　 #cutecat",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 22,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-11-05T04:00:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/dW9q7FhRlMw/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "6SddrX0gCLo",
       "title": "Happy 18th Birthday to Kuvua the Okapi!",
       "channel": "The Cincinnati Zoo & Botanical Garden",
@@ -200,39 +354,6 @@
       "score": 0
     },
     {
-      "id": "ThB5SuLzKFU",
-      "title": "ちろぴょん　261105　 #cat　 #cute　 #猫　　 #かご猫　 #猫のいる暮らし　 #かご入りねこ #cutecat",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-11-05T03:00:28Z",
-      "thumbnail": "https://i.ytimg.com/vi/ThB5SuLzKFU/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "wZGfIVkZMl8",
-      "title": "ちろさんぽ　261105",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 348,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-11-05T01:00:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/wZGfIVkZMl8/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "-VMB74nF-ps",
-      "title": "ヤマザキ　メロンパン　261105　 #cat #メロンパン　#cute　 #のせ猫　 #猫のいる暮らし　 #ネコ　 #cutecat",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 21,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-11-04T22:00:21Z",
-      "thumbnail": "https://i.ytimg.com/vi/-VMB74nF-ps/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "wrkwxPAOkiY",
       "title": "Meet the Herd: Zuli  | San Diego Zoo Safari Park",
       "channel": "San Diego Zoo",
@@ -241,17 +362,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-11-04T20:57:40Z",
       "thumbnail": "https://i.ytimg.com/vi/wrkwxPAOkiY/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "nulFeD0YIhY",
-      "title": "つがるりんご　のせ猫　261105",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 236,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-11-04T20:00:16Z",
-      "thumbnail": "https://i.ytimg.com/vi/nulFeD0YIhY/hqdefault.jpg",
       "score": 0
     },
     {
@@ -321,17 +431,6 @@
       "score": 0
     },
     {
-      "id": "WcYxHbORkOk",
-      "title": "ちょびちろころころへ　261104",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 136,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-11-04T13:00:36Z",
-      "thumbnail": "https://i.ytimg.com/vi/WcYxHbORkOk/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "wsA0sY7Hcmw",
       "title": "もしかして、コキアはまるさんのイメージ！？-By any chance, is the kochia similar to the image of Maru!?-",
       "channel": "I am Maru",
@@ -351,28 +450,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-11-04T11:01:14Z",
       "thumbnail": "https://i.ytimg.com/vi/X5qfv1UYTTw/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "qLVUcvjjEVA",
-      "title": "クノール サクサクdeコパン 北海道産スーパースイートコーンの濃厚コーンポタージュ　26110　 #cat  #cute　 #のせ猫　 #クノール 　 #猫のいる暮らし　 #cutecat",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 18,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-11-04T11:00:01Z",
-      "thumbnail": "https://i.ytimg.com/vi/qLVUcvjjEVA/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "Fsw36JYlk_U",
-      "title": "ちゃぶ台の上の鯵の開き　261104",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 198,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-11-04T07:00:20Z",
-      "thumbnail": "https://i.ytimg.com/vi/Fsw36JYlk_U/hqdefault.jpg",
       "score": 0
     },
     {
@@ -651,14 +728,14 @@
       "score": 0
     },
     {
-      "id": "tJ8Vy0wssno",
-      "title": "かご猫LIVE配信　2026年11月6日",
+      "id": "cnt_BQkGRSM",
+      "title": "かご猫LIVE配信　2026年11月7日",
       "channel": "Kagonekoshiro (Zen Cats)",
       "durationSeconds": 0,
       "bucket": "short",
       "orientation": "landscape",
-      "publishedAt": "2026-10-30T22:12:45Z",
-      "thumbnail": "https://i.ytimg.com/vi/tJ8Vy0wssno/hqdefault.jpg?v=6ae5165f",
+      "publishedAt": "2026-10-30T22:13:31Z",
+      "thumbnail": "https://i.ytimg.com/vi/cnt_BQkGRSM/hqdefault.jpg?v=6ae5168e",
       "score": 0
     },
     {
@@ -714,17 +791,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-10-30T11:01:17Z",
       "thumbnail": "https://i.ytimg.com/vi/Gdt8KAEQ0Rw/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "VC1nBA0w_go",
-      "title": "茶太郎 がライブ配信中！2026年11月6日",
-      "channel": "Kagonekoshiro (Zen Cats)",
-      "durationSeconds": 0,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-30T06:37:46Z",
-      "thumbnail": "https://i.ytimg.com/vi/VC1nBA0w_go/hqdefault.jpg?v=6aec1ef0",
       "score": 0
     },
     {
@@ -827,17 +893,6 @@
       "score": 0
     },
     {
-      "id": "u-b8usIopBQ",
-      "title": "Looks like Elle is going to be a lion for Halloween!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 20,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-28T13:00:26Z",
-      "thumbnail": "https://i.ytimg.com/vi/u-b8usIopBQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "zGGfzXya-Ss",
       "title": "鈴の位置を微調整するはな。-Hana finely adjusts the position of the bell.-",
       "channel": "I am Maru",
@@ -893,17 +948,6 @@
       "score": 0
     },
     {
-      "id": "pCWswzN86QY",
-      "title": "Tippi the crow is Scary Smart!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 19,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-27T13:00:19Z",
-      "thumbnail": "https://i.ytimg.com/vi/pCWswzN86QY/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "e9PflbkuNsk",
       "title": "大嫌いな爪切り中に大好きなトムとジェリーを見せたら猫の反応が可愛すぎましたwww",
       "channel": "Mochimaru",
@@ -934,28 +978,6 @@
       "orientation": "landscape",
       "publishedAt": "2026-10-26T16:14:49Z",
       "thumbnail": "https://i.ytimg.com/vi/W6TpthWOekM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "NiR6pFmOV_Q",
-      "title": "Happy National Pumpkin Day! 🎃",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 22,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-26T16:00:34Z",
-      "thumbnail": "https://i.ytimg.com/vi/NiR6pFmOV_Q/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "finY5r5Ovic",
-      "title": "Happy 1st Birthday to Teddy the serval!",
-      "channel": "The Cincinnati Zoo & Botanical Garden",
-      "durationSeconds": 43,
-      "bucket": "short",
-      "orientation": "portrait",
-      "publishedAt": "2026-10-26T13:00:02Z",
-      "thumbnail": "https://i.ytimg.com/vi/finY5r5Ovic/hqdefault.jpg",
       "score": 0
     },
     {
@@ -1352,17 +1374,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-10-18T15:30:31Z",
       "thumbnail": "https://i.ytimg.com/vi/_v9OFWClBuM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "yNJlAcbdArk",
-      "title": "大好きな友達が帰ろうとしたら猫がこうなっちゃいました…",
-      "channel": "Mochimaru",
-      "durationSeconds": 75,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-10-18T11:01:37Z",
-      "thumbnail": "https://i.ytimg.com/vi/yNJlAcbdArk/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2433,17 +2444,6 @@
       "score": 0
     },
     {
-      "id": "O-KTd65JhtU",
-      "title": "Step into a Spirited Night of Spooky Fun",
-      "channel": "Houston Zoo",
-      "durationSeconds": 17,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-23T14:25:57Z",
-      "thumbnail": "https://i.ytimg.com/vi/O-KTd65JhtU/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "Kye8lDy-7hA",
       "title": "A new way to holiday is coming to Georgia Aquarium!🎁✨ Experience WinterTide!",
       "channel": "Georgia Aquarium",
@@ -2595,17 +2595,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-09-18T17:57:59Z",
       "thumbnail": "https://i.ytimg.com/vi/FYUk9bJDCQc/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "4ymjpg3xDns",
-      "title": "Cute Red Panda Pals Share A Snack",
-      "channel": "Oregon Zoo",
-      "durationSeconds": 48,
-      "bucket": "short",
-      "orientation": "landscape",
-      "publishedAt": "2026-09-18T16:42:41Z",
-      "thumbnail": "https://i.ytimg.com/vi/4ymjpg3xDns/hqdefault.jpg",
       "score": 0
     },
     {
@@ -2983,17 +2972,6 @@
       "score": 0
     },
     {
-      "id": "_IcB8h7irEQ",
-      "title": "She Woke Up With a FOX In Her Bedroom!| How Did It Get In?!",
-      "channel": "Wildlife Aid",
-      "durationSeconds": 163,
-      "bucket": "medium",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-28T15:40:14Z",
-      "thumbnail": "https://i.ytimg.com/vi/_IcB8h7irEQ/hqdefault.jpg",
-      "score": 0
-    },
-    {
       "id": "drhi73dDgtw",
       "title": "MY DOG would be GREAT at these JOBS! In honor of DOLLY PARTON - the icon, the legend, the Queen 👑",
       "channel": "Sunday The Golden Retriever",
@@ -3013,17 +2991,6 @@
       "orientation": "portrait",
       "publishedAt": "2026-08-26T20:56:42Z",
       "thumbnail": "https://i.ytimg.com/vi/MODtlBSFRtM/hqdefault.jpg",
-      "score": 0
-    },
-    {
-      "id": "gPWSLUP5kwU",
-      "title": "夏の庭とはなみり。-Summer garden and Hana&Miri.-",
-      "channel": "I am Maru",
-      "durationSeconds": 274,
-      "bucket": "long",
-      "orientation": "landscape",
-      "publishedAt": "2026-08-26T12:00:03Z",
-      "thumbnail": "https://i.ytimg.com/vi/gPWSLUP5kwU/hqdefault.jpg",
       "score": 0
     },
     {
